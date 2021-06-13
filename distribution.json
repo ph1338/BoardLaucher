@@ -1,18 +1,18 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "clientId": "",
+        "smallImageText": "",
+        "smallImageKey": ""
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://westeroscraft.com/articles/index.rss",
+    "rss": "https://rpgboard.com.br",
     "servers": [
         {
-            "id": "WesterosCraft-1.12.2",
-            "name": "WesterosCraft 1.12.2 Production Server",
+            "id": "BoardNetwork-1.12.2",
+            "name": "Board Network - 1.12.2",
             "description": "New 1.12.2 production server.",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
             "version": "4.6.4",
