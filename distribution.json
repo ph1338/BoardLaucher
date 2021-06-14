@@ -14,7 +14,7 @@
             "id": "BoardNetwork-1.12.2",
             "name": "Board Network - 1.12.2",
             "description": "Servidor RPG com texturas e mods.",
-            "icon": "https://github.com/ph1338/BoardLaucher/blob/5234741c1250d60e27f6e6c59614ed6ecf8c671e/logo.png",
+            "icon": "https://imgur.com/a/gFGlL33",
             "version": "1.0.0",
             "address": "boardmc.com.br:25565",
             "minecraftVersion": "1.12.2",
@@ -23,7 +23,7 @@
                 "largeImageText": "",
                 "largeImageKey": ""
             },
-            "mainServer": true,
+            "mainServer": false,
             "autoconnect": true,
             "modules": [
                 {
