@@ -14,16 +14,16 @@
             "id": "BoardNetwork-1.12.2",
             "name": "Board Network - 1.12.2",
             "description": "Servidor RPG com texturas e mods.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "4.6.4",
-            "address": "mc.westeroscraft.com:25565",
+            "icon": "https://github.com/ph1338/BoardLaucher/blob/5234741c1250d60e27f6e6c59614ed6ecf8c671e/logo.png",
+            "version": "1.0.0",
+            "address": "boardmc.com.br:25565",
             "minecraftVersion": "1.12.2",
             "discord": {
-                "shortId": "1.12.2 Production Server",
-                "largeImageText": "WesterosCraft 1.12.2 Production Server",
-                "largeImageKey": "server-prod"
+                "shortId": "",
+                "largeImageText": "",
+                "largeImageKey": ""
             },
-            "mainServer": false,
+            "mainServer": true,
             "autoconnect": true,
             "modules": [
                 {
