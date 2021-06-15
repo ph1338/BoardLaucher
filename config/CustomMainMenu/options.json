@@ -1,0 +1,212 @@
+{
+	"buttons": {
+		"back": {
+		  "text": "Voltar ao menu principal",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": -50,
+		  "posY": -90,
+		  "width": 100,
+		  "height": 20,
+		  "action": {
+			"type": "openGui",
+			"gui": "custom.mainmenu"
+		  },
+		  "alignment": "bottom_center"
+		},
+		"video": {
+		  "text": "Gráficos",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": 25,
+		  "posY": 20,
+		  "width": 100,
+		  "height": 20,
+		  "action": {
+			"type": "openGui",
+			"gui": "options.video"
+		  },
+		  "alignment": "top_left"
+		},
+		"resourcepacks": {
+		  "text": "Texturas",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": 150,
+		  "posY": 20,
+		  "width": 100,
+		  "height": 20,
+		  "action": {
+			"type": "openGui",
+			"gui": "custom.reswarn"
+		  },
+		  "alignment": "top_left"
+		},
+		"mods": {
+		  "text": "Opções de mods",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": 275,
+		  "posY": -40,
+		  "width": 100,
+		  "height": 20,
+		  "alignment": "bottom_left",
+		  "action": {
+			"type": "openGui",
+			"gui": "mods"
+		  }
+		},
+		"audio": {
+		  "text": "Música e sons",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": -250,
+		  "posY": 20,
+		  "width": 100,
+		  "height": 20,
+		  "alignment": "top_right",
+		  "action": {
+			"type": "openGui",
+			"gui": "options.sounds"
+		  }
+		},
+		"controls": {
+		  "text": "Controles",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": -125,
+		  "posY": 20,
+		  "width": 100,
+		  "height": 20,
+		  "alignment": "top_right",
+		  "action": {
+			"type": "openGui",
+			"gui": "options.controls"
+		  }
+		},
+		"saves": {
+		  "text": "Meus mundos",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": -375,
+		  "posY": -40,
+		  "width": 100,
+		  "height": 20,
+		  "alignment": "bottom_right",
+		  "action": {
+			"type": "openFolder",
+			"folderName": "saves"
+		  }
+		},
+		"shaderpacks": {
+		  "text": "Trocar Shaders",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": -250,
+		  "posY": -40,
+		  "width": 100,
+		  "height": 20,
+		  "alignment": "bottom_right",
+		  "action": {
+			"type": "openFolder",
+			"folderName": "shaderpacks"
+		  }
+		},
+		"screenshots": {
+		  "text": "Mostrar prints",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": -125,
+		  "posY": -40,
+		  "width": 100,
+		  "height": 20,
+		  "alignment": "bottom_right",
+		  "action": {
+			"type": "openFolder",
+			"folderName": "screenshots"
+		  }
+		},
+		"mpsettings": {
+		  "text": "Conf. de multiplayer",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": 150,
+		  "posY": -40,
+		  "width": 100,
+		  "height": 20,
+		  "action": {
+			"type": "openGui",
+			"gui": "options.multiplayer"
+		  },
+		  "alignment": "bottom_left"
+		},
+		"language": {
+		  "text": "Linguagem",
+		  "texture": "annocraft:textures/button.png",
+		  "posX": 25,
+		  "posY": -40,
+		  "width": 100,
+		  "height": 20,
+		  "action": {
+			"type": "openGui",
+			"gui": "languages"
+		  },
+		  "alignment": "bottom_left"
+		}
+	},
+	"labels": {
+		"title": {
+			"text": "Options",
+			"posX": 0,
+			"posY": 20,
+			"color": -1,
+			"alignment": "top_center",
+			"anchor": "middle",
+			"fontSize": 2
+		},
+		"version": {
+			"text": "Board Modpack \nMCP #mcpversion# \nForge #forgeversion#",
+			"posX": 3,
+			"posY": -90,
+			"color": -1,
+			"alignment": "bottom_left"
+		}
+	},
+	"images": {
+			"bg": {
+			  "image": "annocraft:textures/panel_top.png",
+			  "posX": 0,
+			  "posY": 0,
+			  "width": 1800,
+			  "height": 64,
+			  "alignment": "top_left"
+			},
+			"bg2": {
+			  "image": "annocraft:textures/panel_bottom.png",
+			  "posX": 0,
+			  "posY": -64,
+			  "width": 1800,
+			  "height": 64,
+			  "alignment": "bottom_left"
+			}
+	  },
+  "other": {
+    "background": {
+      "image": "",
+      "slideshow": {
+        "images": [
+          "annocraft:textures/13.jpg",
+          "annocraft:textures/11.jpg",
+          "annocraft:textures/17.jpg",
+          "annocraft:textures/3.jpg",
+          "annocraft:textures/8.jpg",
+          "annocraft:textures/24.jpg",
+          "annocraft:textures/25.png",
+          "annocraft:textures/18.jpg",
+          "annocraft:textures/1.jpg",
+          "annocraft:textures/2.jpg",
+          "annocraft:textures/12.jpg",
+          "annocraft:textures/6.jpg",
+          "annocraft:textures/4.jpg",
+          "annocraft:textures/19.jpg",
+          "annocraft:textures/20.jpg",
+          "annocraft:textures/9.jpg",
+          "annocraft:textures/10.jpg"
+        ],
+        "displayDuration": 250,
+        "fadeDuration": 50,
+        "mode": "fill"
+      }
+    }
+  }
+}
