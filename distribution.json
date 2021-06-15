@@ -239,6 +239,41 @@
                     ]
                 },
                 {
+                    "id": "com.mumfrey:macrokeybindmod:1.12.2-2.0.3.204",
+                    "name": "Macro/Keybind Mod",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 87274,
+                        "MD5": "07577bfcc7acea868d56ad058b4b793e",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/MacroKey_Keybinding.jar"
+                    }
+                },
+                {
+                    "id": "com.sonicether:seus-renewed:1.0.0",
+                    "name": "Sonic Ether's Unbelievable Shaders Renewed",
+                    "type": "File",
+                    "artifact": {
+                        "size": 7062491,
+                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
+                        "path": "shaderpacks/SEUS-Renewed.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/shaderpacks/SEUS-Renewed.zip"
+                    }
+                },
+                {
+                    "id": "options.txt",
+                    "name": "Default Client Options",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1973,
+                        "path": "options.txt",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.12.2.txt" 
+                    }
+                },
+                {
                     "id": "servers.dat",
                     "name": "Saved Client Servers",
                     "type": "File",
