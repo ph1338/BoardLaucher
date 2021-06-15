@@ -229,40 +229,14 @@
                     ]
                 },
                 {
-                    "id": "org.blockartistry:dynsurround:1.12.2-3.6.1.0",
-                    "name": "DynamicSurroundings",
+                    "id": "com.westeroscraft:westerosblocks:4.2.0-106",
+                    "name": "WesterosBlocks",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
-                        "size": 15929762,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 22179,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/config/dsurround/dsurround.cfg"
-                            }
-                        },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/config/dsurround/westeros.json"
-                            }
-                        }
-                    ]
+                        "size": 18287745,
+                         "MD5": "482dc28327bff6b76efacd003df845f5",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/WesterosBlocks.jar"
+                    }
                 },
                 {
                     "id": "servers.dat",
