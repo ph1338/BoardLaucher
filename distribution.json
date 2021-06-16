@@ -229,13 +229,53 @@
                     ]
                 },
                 {
-                    "id": "com.custombackgrounds:custombackgrounds:4.2.0-106",
+                    "id": "com.custombackgrounds:custombackgrounds:1.1.1",
                     "name": "Custom Backgrounds",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 4140,
                          "MD5": "482dc28327bff6b76efacd003df845f5",
                         "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.customloadingscreen:customloadingscreen:1.12.2-1.4.1",
+                    "name": "Custom Loading Screen",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 521135,
+                         "MD5": "482dc28327bff6b76efacd003df845f5",
+                        "url": "https://www.dropbox.com/s/4hz1xbca9ffgg88/CustomLoadingScreen-1.12.2-1.4.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.resourceloader:resourceloader:1.5.3",
+                    "name": "Resource Loader",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16612,
+                         "MD5": "482dc28327bff6b76efacd003df845f5",
+                        "url": "https://www.dropbox.com/s/uzzz13qco9ly59i/ResourceLoader-MC1.12.1-1.5.3.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.vanillafix:vanillafix:1.0.10-150",
+                    "name": "VanillaFix",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1025896,
+                         "MD5": "482dc28327bff6b76efacd003df845f5",
+                        "url": "https://www.dropbox.com/s/8owv2lhzsys9h2y/VanillaFix-1.0.10-150.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "net.optifine:optifine:1.12.2_HD_U_G6_pre1",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2668221,
+                        "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
+                        "url": "https://www.dropbox.com/s/0jqh9mqcbnq23oi/preview_OptiFine_1.12.2_HD_U_G6_pre1.jar?dl=1"
                     }
                 },
                 {
