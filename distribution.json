@@ -279,6 +279,19 @@
                     }
                 },
                 {
+                    "id": "org.blockartistry:dynsurround:1.12.2-3.6.1.0",
+                    "name": "DynamicSurroundings",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 15929762,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/DynamicSurroundings.jar"
+                    }
+                },
+                {
                     "id": "servers.dat",
                     "name": "Saved Client Servers",
                     "type": "File",
