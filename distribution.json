@@ -229,7 +229,7 @@
                     ]
                 },
                 {
-                    "id": "custombackgrounds",
+                    "id": "com.custombackgrounds:custombackgrounds:4.2.0-106",
                     "name": "Custom Backgrounds",
                     "type": "ForgeMod",
                     "artifact": {
