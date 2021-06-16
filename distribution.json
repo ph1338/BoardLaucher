@@ -279,16 +279,185 @@
                     }
                 },
                 {
-                    "id": "org.blockartistry:dynsurround:1.12.2-3.6.1.0",
-                    "name": "DynamicSurroundings",
+                    "id": "com.ambientenvironment:ambientenvironment:1.0.2",
+                    "name": "Ambient Environment",
                     "type": "ForgeMod",
                     "required": {
-                        "value": true
+                        "value": false,
+                        "def": true
                     },
                     "artifact": {
-                        "size": 15929762,
+                        "size": 25707,
                         "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/DynamicSurroundings.jar"
+                        "url": "https://www.dropbox.com/s/0h61xcdpc2gp4iq/AmbientEnvironment-1.0.2.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.betterfoliage:betterfoliage:2.3.1",
+                    "name": "Better Foliage",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 937680,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/sqq270nzihl26sy/BetterFoliage-MC1.12-2.3.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.betterfps:betterfps:1.4.8",
+                    "name": "BetterFps",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 155196,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/r18dpj6rofk8zs9/BetterFps-1.4.8.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.consolehud:consolehud:1.4.1",
+                    "name": "Console HUD",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 90859,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/dbm4n0ctukt3om6/ConsoleHUD-v1.4.1-1.12.2.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.controlling:controlling:3.0.9",
+                    "name": "Controlling",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 29057,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/wqiva84bqpi5ocl/Controlling-3.0.9.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.forgelin:forgelin:1.8.4",
+                    "name": "Shadowfacts' Forgelin",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 6278399,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/095ve31r6ple5ot/Forgelin-1.8.4%20%281%29.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.itemphysic:itemphysic:1.3",
+                    "name": "ItemPhysic",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 471292,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/i21xjnz498rgoks/ItemPhysic%2BLite%2B1.3.7%2Bmc1.12.2.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.macrokey:macrokey:1.12-2.0.3.202",
+                    "name": "MacroKey Keybinding",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 87273,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/1sdf36wff7hewp7/MacroKey%2BKeybinding-1.12-2.0.3.202.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.nomoreglowingpots:nomoreglowingpots:1.1",
+                    "name": "NoMoreGlowingPots",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 12519,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/6kkght6am94p7og/nomoreglowingpots-1.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.scoreboardtweaks:scoreboardtweaks:1.1",
+                    "name": "Scoreboard Tweaks",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 10728,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/wssedrcy315ob3z/scoreboardtweaks-1.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.soundfilters:soundfilters:0.12",
+                    "name": "Sound Filters",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 43161,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/s5te8qubihxi5m6/SoundFilters-0.12_for_1.12.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.vanillafix:vanillafix:1.0.10-150",
+                    "name": "VanillaFix",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1025896,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/dznfr53yyqxpnn8/VanillaFix-1.0.10-150.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.xaerominimap:xaerominimap:21.3.0",
+                    "name": "Xaero's Minimap",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 641242,
+                        "MD5": "1a0d50a34941865ff091a492e0612502",
+                        "url": "https://www.dropbox.com/s/j4hrsih33o9tt1r/Xaeros_Minimap_21.3.0.2_Forge_1.12.jar?dl=1"
                     }
                 },
                 {
