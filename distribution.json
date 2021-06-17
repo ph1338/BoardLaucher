@@ -1,39 +1,867 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "",
-        "smallImageText": "",
-        "smallImageKey": ""
+        "clientId": "385581240906022916",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://rpgboard.com.br",
+    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
-            "id": "BoardNetwork-1.12.2",
-            "name": "Board Network - 1.12.2",
-            "description": "Servidor RPG com texturas e mods.",
-            "icon": "https://i.ibb.co/RpRWGC4/logo.png",
-            "version": "1.0.0",
-            "address": "boardmc.com.br:25565",
-            "minecraftVersion": "1.12.2",
+            "id": "WesterosCraft-1.11.2",
+            "name": "WesterosCraft Production Server",
+            "description": "Main WesterosCraft server. Connect to enter the Realm.",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
+            "version": "3.9.4",
+            "address": "mc.westeroscraft.com",
+            "minecraftVersion": "1.11.2",
             "discord": {
-                "shortId": "",
-                "largeImageText": "",
-                "largeImageKey": ""
+                "shortId": "Production",
+                "largeImageText": "WesterosCraft Production Server",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4450992,
+                        "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.0.3",
+                            "name": "Mojang (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 241639,
+                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1474672,
+                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 3076920,
+                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 21324,
+                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 7956,
+                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 46140,
+                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 85568,
+                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1070312,
+                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-swing)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 736795,
+                                "MD5": "1d360289e697022a3f57abaad344b28f",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-xml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 217812,
+                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+                            "name": "Minecraft Forge (akka-actor)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 746612,
+                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/akka-actor_2.11-2.3.3.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+                            "name": "Minecraft Forge (typesafe-config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 56636,
+                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1",
+                            "name": "Mojang (LZMA)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5762,
+                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2523218,
+                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:4.6",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 62477,
+                                "MD5": "13560a58a79b46b82057686543e8d727",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/jopt-simple-4.6.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:MercuriusUpdater:1.11.2",
+                            "name": "MercuriusUpdater",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 15146,
+                                "MD5": "7556d06064ebbfa3b334a15092d725d0",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/MercuriusUpdater-1.11.2.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
+                    "name": "WesterosBlocks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 17376788,
+                         "MD5": "370f4f1804c93f498f31af8dac509605",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
+                    }
+                },
+                {
+                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
+                    "name": "WesterosCraft Resource Pack",
+                    "type": "File",
+                    "artifact": {
+                        "size": 46999843,
+                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
+                        "path": "resourcepacks/WesterosCraft.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/resourcepacks/WesterosCraft.zip"
+                    }
+                },
+                {
+                    "id": "net.optifine:optifine:1.11.2_HD_U_C7",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2254712,
+                        "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/OptiFine.jar"
+                    }
+                },
+                {
+                    "id": "mezz:jei:1.11.2-4.5.0.290",
+                    "name": "JustEnoughItems",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 538740,
+                        "MD5": "f4d931f6db6210621a86fa1e7eae8016",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/jei.jar"
+                    }
+                },
+                {
+                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
+                    "name": "DynamicSurroundings",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 22291385,
+                        "MD5": "65403c66d8b3655b372f58047941d206",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/DynamicSurroundings.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "dsurround.cfg",
+                            "name": "DynamicSurroundings General Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 20258,
+                                "path": "/config/dsurround/dsurround.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/dsurround.cfg"
+                            }
+                        },
+                        {
+                            "id": "westeros.json",
+                            "name": "DynamicSurroundings WesterosCraft Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 608,
+                                "MD5": "44eab112ff24d0bd29974c270de868ba",
+                                "path": "/config/dsurround/westeros.json",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/westeros.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "octarine-noise:betterfoliage:1.11.2-2.1.10",
+                    "name": "BetterFoliage",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 4675903,
+                        "MD5": "522fdf73b6e4343cb6243872fb7b4b6c",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/BetterFoliage.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "betterfoliage.cfg",
+                            "name": "BetterFoliage Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 7878,
+                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
+                                "path": "/config/betterfoliage.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/betterfoliage.cfg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "techbrew:journeymap:1.11.2-5.4.7",
+                    "name": "JourneyMap",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 1735525,
+                        "MD5": "1c3380502eb7b9a495581b2402d144df",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/journeymap.jar"
+                    }
+                },
+                {
+                    "id": "com.github.hexomod:worldeditcuife2:2.1.1-mf-1.11.2-13.20.0.2228",
+                    "name": "WorldEditCUI",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 461691,
+                        "MD5": "439f82b69f3464969163c188818c677b",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/worldeditcuife.jar"
+                    }
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2",
+                    "name": "Waila",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/Waila.jar"
+                    }
+                },
+                {
+                    "id": "com.mumfrey:liteloader:1.11.2",
+                    "name": "Liteloader",
+                    "type": "LiteLoader",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 1685422,
+                        "MD5": "3a98b5ed95810bf164e71c1a53be568d",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/liteloader.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "com.mumfrey:macrokeybindmod:0.14.4-1.11.2@litemod",
+                            "name": "Macro/Keybind Mod",
+                            "type": "LiteMod",
+                            "required": {
+                                "value": false,
+                                "def": false
+                            },
+                            "artifact": {
+                                "size": 1670811,
+                                "MD5": "16080785577b391d426c62c8d3138558",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/macrokeybindmod.litemod"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.sonicether:seus:11.0",
+                    "name": "Sonic Ether's Unbelievable Shaders",
+                    "type": "File",
+                    "artifact": {
+                        "size": 175159,
+                        "MD5": "bfa8c31d1da8131b59917bb2460205b1",
+                        "path": "shaderpacks/SEUS v11.0.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/shaderpacks/SEUS.zip"
+                    }
+                },
+                {
+                    "id": "options.txt",
+                    "name": "Default Client Options",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1973,
+                        "path": "options.txt",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.11.2.txt" 
+                    }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "Saved Client Servers",
+                    "type": "File",
+                    "artifact": {
+                        "size": 84,
+                        "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
+                        "path": "servers.dat",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/servers.dat" 
+                    }
+                }
+            ]
+        },
+        {
+            "id": "WesterosCraftTest-1.11.2",
+            "name": "WesterosCraft Test Server",
+            "description": "Main testing server. Experimental changes are live here.",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
+            "version": "3.9.4",
+            "address": "mc.westeroscraft.com:4444",
+            "minecraftVersion": "1.11.2",
+            "discord": {
+                "shortId": "Test Server",
+                "largeImageText": "WesterosCraft Test Server",
+                "largeImageKey": "server-test"
             },
             "mainServer": false,
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847",
+                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2476",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 4884700,
-                        "MD5": "90734a5a713e24902d24c45c15caa42c",
-                        "url": "https://github.com/ph1338/BoardLaucher/blob/3203ab8dc9d99d6cf84a142b423b134f3331ccf2/CustomBackgrounds-MC1.12-1.1.1.jar?raw=true"
+                        "size": 4455536,
+                        "MD5": "7cef816cc01d53a04a180f0214d2982a",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/forge-1.11.2-13.20.1.2476-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.0.3",
+                            "name": "Mojang (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 241639,
+                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1474672,
+                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 3076920,
+                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 21324,
+                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 7956,
+                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 46140,
+                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 85568,
+                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1070312,
+                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-swing)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 736795,
+                                "MD5": "1d360289e697022a3f57abaad344b28f",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-xml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 217812,
+                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+                            "name": "Minecraft Forge (akka-actor)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 746612,
+                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/akka-actor_2.11-2.3.3.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+                            "name": "Minecraft Forge (typesafe-config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 56636,
+                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1",
+                            "name": "Mojang (LZMA)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5762,
+                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2523218,
+                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:4.6",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 62477,
+                                "MD5": "13560a58a79b46b82057686543e8d727",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/jopt-simple-4.6.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:MercuriusUpdater:1.11.2",
+                            "name": "MercuriusUpdater",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 15146,
+                                "MD5": "7556d06064ebbfa3b334a15092d725d0",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/MercuriusUpdater-1.11.2.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
+                    "name": "WesterosBlocks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 17376788,
+                         "MD5": "370f4f1804c93f498f31af8dac509605",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/WesterosBlocks.jar"
+                    }
+                },
+                {
+                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
+                    "name": "WesterosCraft Resource Pack",
+                    "type": "File",
+                    "artifact": {
+                        "size": 46999843,
+                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
+                        "path": "resourcepacks/WesterosCraft.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/resourcepacks/WesterosCraft.zip"
+                    }
+                },
+                {
+                    "id": "net.optifine:optifine:1.11.2_HD_U_C7",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2254712,
+                        "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/OptiFine.jar"
+                    }
+                },
+                {
+                    "id": "mezz:jei:1.11.2-4.5.1.296",
+                    "name": "JustEnoughItems",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542399,
+                        "MD5": "584b3099d34c9a1b8649385b90831b34",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/jei.jar"
+                    }
+                },
+                {
+                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
+                    "name": "DynamicSurroundings",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 22291385,
+                        "MD5": "65403c66d8b3655b372f58047941d206",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/DynamicSurroundings.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "dsurround.cfg",
+                            "name": "DynamicSurroundings General Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 20849,
+                                "path": "/config/dsurround/dsurround.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/dsurround/dsurround.cfg"
+                            }
+                        },
+                        {
+                            "id": "westeros.json",
+                            "name": "DynamicSurroundings WesterosCraft Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 608,
+                                "MD5": "44eab112ff24d0bd29974c270de868ba",
+                                "path": "/config/dsurround/westeros.json",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/dsurround/westeros.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "octarine-noise:betterfoliage:1.11.2-2.1.10",
+                    "name": "BetterFoliage",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 4675903,
+                        "MD5": "522fdf73b6e4343cb6243872fb7b4b6c",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/BetterFoliage.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "betterfoliage.cfg",
+                            "name": "BetterFoliage Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 7878,
+                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
+                                "path": "/config/betterfoliage.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/betterfoliage.cfg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "techbrew:journeymap:1.11.2-5.5.2",
+                    "name": "JourneyMap",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 1799560,
+                        "MD5": "4315e9939bf64bfa963c8674cb13e838",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/journeymap.jar"
+                    }
+                },
+                {
+                    "id": "com.github.hexomod:worldeditcuife2:2.1.2-mf-1.11.2-13.20.0.2228",
+                    "name": "WorldEditCUI",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 461696,
+                        "MD5": "53f6eef360af5329d9e52b5351657908",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/worldeditcuife.jar"
+                    }
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2",
+                    "name": "Waila",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/Waila.jar"
+                    }
+                },
+                {
+                    "id": "com.mumfrey:liteloader:1.11.2",
+                    "name": "Liteloader",
+                    "type": "LiteLoader",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 1685422,
+                        "MD5": "3a98b5ed95810bf164e71c1a53be568d",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/liteloader.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "com.mumfrey:macrokeybindmod:0.14.4-1.11.2@litemod",
+                            "name": "Macro/Keybind Mod",
+                            "type": "LiteMod",
+                            "required": {
+                                "value": false,
+                                "def": false
+                            },
+                            "artifact": {
+                                "size": 1670811,
+                                "MD5": "16080785577b391d426c62c8d3138558",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/macrokeybindmod.litemod"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.sonicether:seus:11.0",
+                    "name": "Sonic Ether's Unbelievable Shaders",
+                    "type": "File",
+                    "artifact": {
+                        "size": 175159,
+                        "MD5": "bfa8c31d1da8131b59917bb2460205b1",
+                        "path": "shaderpacks/SEUS v11.0.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/shaderpacks/SEUS.zip"
+                    }
+                },
+                {
+                    "id": "options.txt",
+                    "name": "Default Client Options",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1973,
+                        "path": "options.txt",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.11.2.txt" 
+                    }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "Saved Client Servers",
+                    "type": "File",
+                    "artifact": {
+                        "size": 87,
+                        "MD5": "594de6063df993b5fde31c7290226ee4",
+                        "path": "servers.dat",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/servers.dat" 
+                    }
+                }
+            ]
+        },
+        {
+            "id": "WesterosCraftTest-1.12.2",
+            "name": "WesterosCraft 1.12.2 Test Server",
+            "description": "Tests for our version change to 1.12.2 are live here.",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
+            "version": "4.2.1",
+            "address": "mc.westeroscraft.com:4445",
+            "minecraftVersion": "1.12.2",
+            "discord": {
+                "shortId": "1.12.2 Test Server",
+                "largeImageText": "WesterosCraft 1.12.2 Test Server",
+                "largeImageKey": "server-test"
+            },
+            "mainServer": false,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2797",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4937218,
+                        "MD5": "5320593704af58b3906e7106d27e41c8",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2797-universal.jar"
                     },
                     "subModules": [
                         {
@@ -225,1751 +1053,207 @@
                                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
                             }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.custombackgrounds:custombackgrounds:1.1.1",
-                    "name": "Custom Backgrounds",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 4140,
-                         "MD5": "482dc28327bff6b76efacd003df845f5",
-                        "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1"
-                    },
-                    "subModules": [
-                        {
-                            "id": "custombackgrounds.cfg",
-                            "name": "Custom Backgrounds Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 269,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/custombackgrounds.cfg",
-                                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/custombackgrounds.cfg"
-                            }
                         },
                         {
-                            "id": "mainmenu.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
+                            "id": "net.minecraftforge:MercuriusUpdater:1.12.2",
+                            "name": "MercuriusUpdater",
+                            "type": "Library",
                             "artifact": {
-                                "size": 396,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/mainmenu.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/mainmenu.json"
-                            }
-                        },
-                        {
-                            "id": "mainmenu_auto.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
-                            "artifact": {
-                                "size": 516,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/mainmenu_auto.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/mainmenu_auto.json"
-                            }
-                        },
-                        {
-                            "id": "options.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
-                            "artifact": {
-                                "size": 466,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/options.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options.json"
-                            }
-                        },
-                        {
-                            "id": "options_auto.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
-                            "artifact": {
-                                "size": 467,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/options_auto.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options_auto.json"
-                            }
-                        },
-                        {
-                            "id": "options_large.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
-                            "artifact": {
-                                "size": 467,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/options_large.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options_large.json"
-                            }
-                        },
-                        {
-                            "id": "reswarn.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
-                            "artifact": {
-                                "size": 138,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/reswarn.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/reswarn.json"
-                            }
-                        },
-                        {
-                            "id": "reswarn_auto.json",
-                            "name": "Custom Backgrounds Menu Config",
-                            "type": "File",
-                            "artifact": {
-                                "size": 149,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/CustomMainMenu/reswarn_auto.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/reswarn_auto.json"
+                                "size": 15098,
+                                "MD5": "6eb9e61097bee3103a2fdc42746b76a4",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
                             }
                         }
                     ]
                 },
                 {
-                    "id": "com.customloadingscreen:customloadingscreen:1.12.2-1.4.1",
-                    "name": "Custom Loading Screen",
+                    "id": "com.westeroscraft:westerosblocks:4.0.0-beta-1-66",
+                    "name": "WesterosBlocks",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 521135,
-                         "MD5": "482dc28327bff6b76efacd003df845f5",
-                        "url": "https://www.dropbox.com/s/4hz1xbca9ffgg88/CustomLoadingScreen-1.12.2-1.4.1.jar?dl=1"
-                    },
-                    "subModules": [
-                        {
-                            "id": "customloadingscreen.cfg",
-                            "name": "Custom Loading Screen Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 544,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/customloadingscreen.cfg",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/customloadingscreen.cfg"
-                            }
-                        },
-                        {
-                            "id": "ship_bell.ogg",
-                            "name": "Custom Loading Screen Sounds File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 192,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/sounds/ship_bell.ogg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/sounds/ship_bell.ogg?raw=true"
-                            }
-                        },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        {
-                            "id": "1.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 242,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/1.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/1.jpg?raw=true"
-                            }
-                        },
-                        
-                        {
-                            "id": "10.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 537,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/10.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/10.jpg?raw=true"
-                            }
-                        },
-                        
-                        {
-                            "id": "11.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 259,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/11.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/11.jpg?raw=true"
-                            }
-                        },
-                        
-                        {
-                            "id": "12.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 318,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/12.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/12.jpg?raw=true"
-                            }
-                        },
-                        
-                        {
-                            "id": "13.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 389,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/13.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/13.jpg?raw=true"
-                            }
-                        },
-                        
-                        {
-                            "id": "14.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 732,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/14.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/14.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "15.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 535,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/15.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/15.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "16.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 622,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/16.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/16.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "17.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 622,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/17.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/17.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "18.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 362,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/18.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/18.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "19.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 375,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/19.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/19.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "2.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 141,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/2.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/2.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "20.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 462,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/20.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/20.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "21.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 813,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/21.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/21.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "22.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 482,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/22.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/22.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "23.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 799,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/23.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/23.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "24.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 508,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/24.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/24.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "25.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 187,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/25.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/25.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "26.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 202,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/26.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/26.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "27.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 919,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/27.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/27.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "28.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 447,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/28.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/28.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "3.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 216,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/3.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/3.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "4.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 553,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/4.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/4.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "5.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 458,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/5.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/5.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "6.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 751,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/6.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/6.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "7.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 451,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/7.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/7.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "8.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 479,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/8.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/8.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "9.jpg",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 404,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/9.jpg",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/9.jpg?raw=true"
-                            }
-                        },
-                        {
-                            "id": "annocraft1602online.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 189,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/annocraft1602online.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/annocraft1602online.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "annocraft1602online.psd",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 213,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/annocraft1602online.psd",
-                                "url": "https://github-render.s3.amazonaws.com/prod/177c3935d4305dae0ae2f90adaa7ee698f28dee56ba1b5366f887e535b3da8a0-render.png?X-Amz-Expires=65&X-Amz-Date=20210616T041132Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJILR36AMCOMBK3MQ%2F20210616%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=d3b07a57b0f064d837cc05288737bde444708976ed4136bdc775ee476d1bd61d"
-                            }
-                        },
-                        {
-                            "id": "beta.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 104,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/beta.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/beta.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "button.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 402,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/button.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/button.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "discordbg.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 957,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/discordbg.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/discordbg.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "icon.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 792,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/icon.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/icon.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "klein_logo.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 118,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/klein_logo.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/klein_logo.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "langbg.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 852,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/langbg.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/langbg.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "loadingbar.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 222,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/loadingbar.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/loadingbar.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "map.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 778,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/map.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/map.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "modsbg.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 747,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/modsbg.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/modsbg.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "namebg.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 566,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/namebg.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/namebg.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "optionsbg.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 937,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/optionsbg.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/optionsbg.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "panel.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 339,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/panel.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panel.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "panel_bottom.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 263,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/panel_bottom.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panel_bottom.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "panel_top.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 180,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/panel_top.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panel_top.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "panelh.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 808,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/panelh.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panelh.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "panelhb.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 858,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/panelhb.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panelhb.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "title.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 746,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/title.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "title_left.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 143,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/title_left.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title_left.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "title_new.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 140,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/title_new.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title_new.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "title_right.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 143,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/title_right.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title_right.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "titletext.png",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 731,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/annocraft/textures/titletext.png",
-                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/titletext.png?raw=true"
-                            }
-                        },
-                        {
-                            "id": "annocraft1602.json",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 224,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/config/annocraft1602.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/config/annocraft1602.json"
-                            }
-                        },
-                        {
-                            "id": "sound_at_end.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 140,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/action/sound_at_end.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/action/sound_at_end.json"
-                            }
-                        },
-                        {
-                            "id": "default.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 325,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/default.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/default.json"
-                            }
-                        },
-                        {
-                            "id": "forge_duplicate.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 108,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/forge_duplicate.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/forge_duplicate.json"
-                            }
-                        },
-                        {
-                            "id": "generic_error.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 165,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/generic_error.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/generic_error.json"
-                            }
-                        },
-                        {
-                            "id": "rotating_cakes.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 424,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/rotating_cakes.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/rotating_cakes.json"
-                            }
-                        },
-                        {
-                            "id": "scrolling.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 172,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/scrolling.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/scrolling.json"
-                            }
-                        },
-                        {
-                            "id": "scrolling_detailed.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 249,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/scrolling_detailed.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/scrolling_detailed.json"
-                            }
-                        },
-                        {
-                            "id": "white.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 294,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/white.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/white.json"
-                            }
-                        },
-                        {
-                            "id": "worldload.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 137,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/config/worldload.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/worldload.json"
-                            }
-                        },
-                        {
-                            "id": "interpolate.json",
-                            "name": "Custom Loading Screen Function File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 272,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/function/interpolate.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/function/interpolate.json"
-                            }
-                        },
-                        {
-                            "id": "item_rotation.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 56,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/function/item_rotation.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/function/item_rotation.json"
-                            }
-                        },
-                        {
-                            "id": "rotating_cake_bottom_left.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 100,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_left.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_left.json"
-                            }
-                        },
-                        {
-                            "id": "rotating_cake_bottom_right.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 106,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_right.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_right.json"
-                            }
-                        },
-                        {
-                            "id": "rotating_cake_top_left.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 97,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_left.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_left.json"
-                            }
-                        },
-                        {
-                            "id": "rotating_cake_top_right.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 103,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_right.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_right.json"
-                            }
-                        },
-                        {
-                            "id": "item_rotate_anti_clockwise.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 91,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/instruction/item_rotate_anti_clockwise.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/instruction/item_rotate_anti_clockwise.json"
-                            }
-                        },
-                        {
-                            "id": "item_rotate_clockwise.json",
-                            "name": "Custom Loading Screen Resources File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 90,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json"
-                            }
-                        },
-                        {
-                            "id": "background.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 267,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/background.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/background.json"
-                            }
-                        },
-                        {
-                            "id": "block_4_wide.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 260,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/block_4_wide.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_4_wide.json"
-                            }
-                        },
-                        {
-                            "id": "block_4_wide_percentage.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 175,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/block_4_wide_percentage.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_4_wide_percentage.json"
-                            }
-                        },
-                        {
-                            "id": "block_cake_inner_4_wide.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 91,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/block_cake_inner_4_wide.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_cake_inner_4_wide.json"
-                            }
-                        },
-                        {
-                            "id": "block_cake_side_4_wide.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 79,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/block_cake_side_4_wide.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_cake_side_4_wide.json"
-                            }
-                        },
-                        {
-                            "id": "bottom_bar.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 379,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/bottom_bar.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/bottom_bar.json"
-                            }
-                        },
-                        {
-                            "id": "cake.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 158,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/cake.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake.json"
-                            }
-                        },
-                        {
-                            "id": "cake_bottom_left.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 86,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/cake_bottom_left.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_bottom_left.json"
-                            }
-                        },
-                        {
-                            "id": "cake_bottom_right.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 87,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/cake_bottom_right.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_bottom_right.json"
-                            }
-                        },
-                        {
-                            "id": "cake_top_left.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 83,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/cake_top_left.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_top_left.json"
-                            }
-                        },
-                        {
-                            "id": "cake_top_right.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 84,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/cake_top_right.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_top_right.json"
-                            }
-                        },
-                        {
-                            "id": "horizontal_stripe.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 354,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/horizontal_stripe.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/horizontal_stripe.json"
-                            }
-                        },
-                        {
-                            "id": "item.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 157,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/item.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/item.json"
-                            }
-                        },
-                        {
-                            "id": "loading_bar_bevel.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 187,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loading_bar_bevel.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_bevel.json"
-                            }
-                        },
-                        {
-                            "id": "loading_bar_bevel_percentage.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 214,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loading_bar_bevel_percentage.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_bevel_percentage.json"
-                            }
-                        },
-                        {
-                            "id": "loading_bar_boss.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 87,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loading_bar_boss.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_boss.json"
-                            }
-                        },
-                        {
-                            "id": "loading_bar_boss_percentage.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 97,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loading_bar_boss_percentage.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_boss_percentage.json"
-                            }
-                        },
-                        {
-                            "id": "loading_bar_standard_percentage.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 392,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loading_bar_standard_percentage.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_standard_percentage.json"
-                            }
-                        },
-                        {
-                            "id": "loadingbar.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 268,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loadingbar.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loadingbar.json"
-                            }
-                        },
-                        {
-                            "id": "loading_bar_standard.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 337,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loading_bar_standard.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_standard.json"
-                            }
-                        },
-                        {
-                            "id": "loadingbarpercentage.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 372,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/loadingbarpercentage.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loadingbarpercentage.json"
-                            }
-                        },
-                        {
-                            "id": "panel_bottom.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 272,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/panel_bottom.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panel_bottom.json"
-                            }
-                        },
-                        {
-                            "id": "panel_top.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 263,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/panel_top.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panel_top.json"
-                            }
-                        },
-                        {
-                            "id": "panorama.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 93,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/panorama.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panorama.json"
-                            }
-                        },
-                        {
-                            "id": "text_generic_error.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 227,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_generic_error.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_generic_error.json"
-                            }
-                        },
-                        {
-                            "id": "text_percentage.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 295,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_percentage.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage.json"
-                            }
-                        },
-                        {
-                            "id": "text_percentage_scrolling.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 184,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_percentage_scrolling.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage_scrolling.json"
-                            }
-                        },
-                        {
-                            "id": "text_percentage_white.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 102,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_percentage_white.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage_white.json"
-                            }
-                        },
-                        {
-                            "id": "text_status.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 304,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_status.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_status.json"
-                            }
-                        },
-                        {
-                            "id": "text_status_white.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 102,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_status_white.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_status_white.json"
-                            }
-                        },
-                        {
-                            "id": "text_sub_status_white.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 104,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/text_sub_status_white.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_sub_status_white.json"
-                            }
-                        },
-                        {
-                            "id": "title.json",
-                            "name": "Custom Loading Screen Images File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 263,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/resources/customloadingscreen/sample/image/title.json",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/title.json"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.resourceloader:resourceloader:1.5.3",
-                    "name": "Resource Loader",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 16612,
-                         "MD5": "482dc28327bff6b76efacd003df845f5",
-                        "url": "https://www.dropbox.com/s/uzzz13qco9ly59i/ResourceLoader-MC1.12.1-1.5.3.jar?dl=1"
-                    },
-                    "subModules": [
-                        {
-                            "id": "foamfix.cfg",
-                            "name": "Foam Fix configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 68,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/foamfix.cfg",
-                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/foamfix.cfg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.vanillafix:vanillafix:1.0.10-150",
-                    "name": "VanillaFix",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 1025896,
-                         "MD5": "482dc28327bff6b76efacd003df845f5",
-                        "url": "https://www.dropbox.com/s/8owv2lhzsys9h2y/VanillaFix-1.0.10-150.jar?dl=1"
+                        "size": 17286330,
+                         "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/WesterosBlocks.jar"
                     }
                 },
                 {
-                    "id": "net.optifine:optifine:1.12.2_HD_U_G6_pre1",
+                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
+                    "name": "WesterosCraft Resource Pack",
+                    "type": "File",
+                    "artifact": {
+                        "size": 47002312,
+                        "MD5": "86b169611ca0e51fdc47384d8423c402",
+                        "path": "resourcepacks/WesterosCraft.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/resourcepacks/WesterosCraft.zip"
+                    }
+                },
+                {
+                    "id": "net.optifine:optifine:1.12.2_HD_U_E3",
                     "name": "Optifine",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2668221,
-                        "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-                        "url": "https://www.dropbox.com/s/0jqh9mqcbnq23oi/preview_OptiFine_1.12.2_HD_U_G6_pre1.jar?dl=1"
+                        "size": 2444057,
+                        "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/OptiFine.jar"
                     }
                 },
                 {
-                    "id": "com.ambientenvironment:ambientenvironment:1.0.2",
-                    "name": "Ambient Environment",
+                    "id": "mezz:jei:1.12.2-4.14.3.242",
+                    "name": "JustEnoughItems",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 620682,
+                        "MD5": "ae6d0e6e873ef6c20f41097dc7fee8c6",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/jei.jar"
+                    }
+                },
+                {
+                    "id": "org.blockartistry:dynsurround:1.12.2-3.4.10.5",
+                    "name": "DynamicSurroundings",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": true
+                        "value": false
                     },
                     "artifact": {
-                        "size": 25707,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/0h61xcdpc2gp4iq/AmbientEnvironment-1.0.2.jar?dl=1"
-                    }
+                        "size": 22507134,
+                        "MD5": "3d75602c66b7ccfc23c342e8d5e07469",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/DynamicSurroundings.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "dsurround.cfg",
+                            "name": "DynamicSurroundings General Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 22179,
+                                "path": "/config/dsurround/dsurround.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/dsurround/dsurround.cfg"
+                            }
+                        },
+                        {
+                            "id": "westeros.json",
+                            "name": "DynamicSurroundings WesterosCraft Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 608,
+                                "MD5": "44eab112ff24d0bd29974c270de868ba",
+                                "path": "/config/dsurround/westeros.json",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/dsurround/westeros.json"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "id": "com.betterfoliage:betterfoliage:2.3.1",
-                    "name": "Better Foliage",
+                    "id": "octarine-noise:betterfoliage:1.12-2.2.0",
+                    "name": "BetterFoliage",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": true
+                        "value": false
                     },
                     "artifact": {
-                        "size": 937680,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/sqq270nzihl26sy/BetterFoliage-MC1.12-2.3.1.jar?dl=1"
+                        "size": 926081,
+                        "MD5": "e05a720c5900b9bac4e01179abe8eef6",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/BetterFoliage.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "betterfoliage.cfg",
+                            "name": "BetterFoliage Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 7878,
+                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
+                                "path": "/config/betterfoliage.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/betterfoliage.cfg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "forgelin:forgelin:1.8.2",
+                    "name": "Forgelin",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5124663,
+                        "MD5": "59035365f7af35f599d1c4baade64d8b",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/Forgelin.jar"
                     }
                 },
                 {
-                    "id": "com.betterfps:betterfps:1.4.8",
-                    "name": "BetterFps",
+                    "id": "techbrew:journeymap:1.12.2-5.5.3",
+                    "name": "JourneyMap",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": true
+                        "value": false
                     },
                     "artifact": {
-                        "size": 155196,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/r18dpj6rofk8zs9/BetterFps-1.4.8.jar?dl=1"
+                        "size": 1831161,
+                        "MD5": "d3b5a672d2393f9fe63903598d50c769",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/journeymap.jar"
                     }
                 },
                 {
-                    "id": "com.consolehud:consolehud:1.4.1",
-                    "name": "Console HUD",
+                    "id": "com.github.hexomod:worldeditcuife2:2.2.0-mf-1.12.2-14.23.5.2768",
+                    "name": "WorldEditCUI",
                     "type": "ForgeMod",
                     "required": {
-                        "value": false,
-                        "def": true
+                        "value": false
                     },
                     "artifact": {
-                        "size": 90859,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/dbm4n0ctukt3om6/ConsoleHUD-v1.4.1-1.12.2.jar?dl=1"
+                        "size": 459294,
+                        "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/worldeditcuife.jar"
                     }
                 },
                 {
-                    "id": "com.controlling:controlling:3.0.9",
-                    "name": "Controlling",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 29057,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/wqiva84bqpi5ocl/Controlling-3.0.9.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.forgelin:forgelin:1.8.4",
-                    "name": "Shadowfacts' Forgelin",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 6278399,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/095ve31r6ple5ot/Forgelin-1.8.4%20%281%29.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.itemphysic:itemphysic:1.3",
-                    "name": "ItemPhysic",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 471292,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/i21xjnz498rgoks/ItemPhysic%2BLite%2B1.3.7%2Bmc1.12.2.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.macrokey:macrokey:1.12-2.0.3.202",
-                    "name": "MacroKey Keybinding",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 87273,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/1sdf36wff7hewp7/MacroKey%2BKeybinding-1.12-2.0.3.202.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.nomoreglowingpots:nomoreglowingpots:1.1",
-                    "name": "NoMoreGlowingPots",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 12519,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/6kkght6am94p7og/nomoreglowingpots-1.1.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.scoreboardtweaks:scoreboardtweaks:1.1",
-                    "name": "Scoreboard Tweaks",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 10728,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/wssedrcy315ob3z/scoreboardtweaks-1.1.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.soundfilters:soundfilters:0.12",
-                    "name": "Sound Filters",
-                    "type": "ForgeMod",
+                    "id": "com.mumfrey:liteloader:1.12.2",
+                    "name": "Liteloader",
+                    "type": "LiteLoader",
                     "required": {
                         "value": false,
                         "def": false
                     },
                     "artifact": {
-                        "size": 43161,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/s5te8qubihxi5m6/SoundFilters-0.12_for_1.12.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "com.vanillafix:vanillafix:1.0.10-150",
-                    "name": "VanillaFix",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
+                        "size": 1680383,
+                        "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/liteloader.jar"
                     },
-                    "artifact": {
-                        "size": 1025896,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/dznfr53yyqxpnn8/VanillaFix-1.0.10-150.jar?dl=1"
-                    }
+                    "subModules": [
+                        {
+                            "id": "com.mumfrey:macrokeybindmod:0.15.4-1.12.1@litemod",
+                            "name": "Macro/Keybind Mod",
+                            "type": "LiteMod",
+                            "required": {
+                                "value": false,
+                                "def": false
+                            },
+                            "artifact": {
+                                "size": 1726452,
+                                "MD5": "9ba3ed960bbb676743a3b6c2e1efc484",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/macrokeybindmod.litemod"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "id": "com.xaerominimap:xaerominimap:21.3.0",
-                    "name": "Xaero's Minimap",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 641242,
-                        "MD5": "1a0d50a34941865ff091a492e0612502",
-                        "url": "https://www.dropbox.com/s/j4hrsih33o9tt1r/Xaeros_Minimap_21.3.0.2_Forge_1.12.jar?dl=1"
-                    }
-                },
-                {
-                    "id": "forge.cfg",
-                    "name": "Forge CFG configuration File",
+                    "id": "com.sonicether:seus-renewed:1.0.0",
+                    "name": "Sonic Ether's Unbelievable Shaders Renewed",
                     "type": "File",
                     "artifact": {
-                        "size": 386,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/forge.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forge.cfg"
-                    }
-                },
-                {
-                    "id": "forgeChunkLoading.cfg",
-                    "name": "forgeChunkLoading configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 215,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/forgeChunkLoading.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forgeChunkLoading.cfg"
-                    }
-                },
-                {
-                    "id": "itemphysic.cfg",
-                    "name": "Item physic configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 132,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/itemphysic.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/itemphysic.cfg"
-                    }
-                },
-                {
-                    "id": "journeymap_ModInfo.cfg",
-                    "name": "Journey Map configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 371,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/journeymap_ModInfo.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_ModInfo.cfg"
-                    }
-                },
-                {
-                    "id": "journeymap_server.cfg",
-                    "name": "Journey Server configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 633,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/journeymap_server.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_server.cfg"
-                    }
-                },
-                {
-                    "id": "librarianlib.cfg",
-                    "name": "Librarian Lib configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 187,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/librarianlib.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/librarianlib.cfg"
-                    }
-                },
-                {
-                    "id": "lunatriuscore.cfg",
-                    "name": "Lunatriuscore configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 116,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/lunatriuscore.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/lunatriuscore.cfg"
-                    }
-                },
-                {
-                    "id": "mobends.cfg",
-                    "name": "Mobends configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 667,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/mobends.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/mobends.cfg"
-                    }
-                },
-                {
-                    "id": "nomoreglowingpots.cfg",
-                    "name": "No more glow configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 122,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/nomoreglowingpots.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/nomoreglowingpots.cfg"
-                    }
-                },
-                {
-                    "id": "scoreboardtweaks.cfg",
-                    "name": "Score Board Tweaks configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 110,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/scoreboardtweaks.cfg",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/scoreboardtweaks.cfg"
-                    }
-                },
-                {
-                    "id": "xaerominimap.txt",
-                    "name": "Xaeromini map configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 244,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/xaerominimap.txt",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaerominimap.txt"
-                    }
-                },
-                {
-                    "id": "xaeropatreon.txt",
-                    "name": "Xaeromini map configuration File",
-                    "type": "File",
-                    "artifact": {
-                        "size": 17,
-                        "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                        "path": "/config/xaeropatreon.txt",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaeropatreon.txt"
-                    }
-                },
-                {
-                    "id": "com.boardnetwork:boardnetwork:1.12.2",
-                    "name": "BoardNetwork Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 146526965,
-                        "MD5": "d26483bfc73b71af57499f4ac8932e7c",
-                        "path": "resourcepacks/RPG VER 108.zip",
-                        "url": "https://www.dropbox.com/s/eqahntbncbtcuno/RPG%20VER%20108.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.boardnetwork:boardnetwork:1.12.2",
-                    "name": "BoardNetwork 2 Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 63593327,
-                        "MD5": "d26483bfc73b71af57499f4ac8932e7c",
-                        "path": "resourcepacks/Board Network V13.7.zip",
-                        "url": "https://www.dropbox.com/s/x50wr4buv6ua5j1/Board%20Network%20V13.7.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.sildursemissive:sildursemissive:1.12.2",
-                    "name": "Sildurs Emissive | Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 93260,
+                        "size": 7062491,
                         "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/d591zttl148pynr/Sildurs%20Emissive%20%21%20Board%20Edit.zip?dl=1"
+                        "path": "shaderpacks/SEUS-Renewed.zip",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/shaderpacks/SEUS-Renewed.zip"
                     }
                 },
                 {
-                    "id": "com.luma:luma:1.12.2",
-                    "name": "Luma ! Board Edit",
+                    "id": "options.txt",
+                    "name": "Default Client Options",
                     "type": "File",
                     "artifact": {
-                        "size": 18277106,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/Luma ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/zvkxy1ruc05ftjv/Luma%20%21%20Board%20Edit.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.chocapic:chocapic:1.12.2",
-                    "name": "Chocapic ! Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 102721,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/Chocapic ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/8d63ov2okzx7163/Chocapic%20%21%20Board%20Edit.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.sildursemissive:sildursemissive:1.12.2",
-                    "name": "Sildurs Emissive | Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 93260,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/d591zttl148pynr/Sildurs%20Emissive%20%21%20Board%20Edit.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.BSLedit:BSLedit:1.12.2",
-                    "name": "BSL ! Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 913178,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/BSL ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/8ymbl3ia50qsj46/BSL%20%21%20Board%20Edit.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.builder:builder:1.12.2",
-                    "name": "Builder's QOL ! Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1195604,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/Builder's QOL ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/bg33dckmoi64pdj/Builder%27s%20QOL%20%21%20Board%20Edit.zip?dl=1"
-                    }
-                },
-                {
-                    "id": "com.!bsledit:!bsledit:1.12.2",
-                    "name": "BSL Emissive",
-                    "type": "File",
-                    "artifact": {
-                        "size": 150,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/!BSL Emissive.zip",
-                        "url": "https://www.dropbox.com/s/ibultwz2gfm8br3/%21BSL%20Emissive.zip.txt?dl=1"
-                    }
-                },
-                {
-                    "id": "com.builderqol:builderqol:1.12.2",
-                    "name": "Builder's QOL ! Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 313,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/Builder's QOL ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/fiifou4ha7cfl6z/Builder%27s%20QOL%20%21%20Board%20Edit.zip.txt?dl=1"
-                    }
-                },
-                {
-                    "id": "com.bslboard:bslboard:1.12.2",
-                    "name": "BSL ! Board Edit",
-                    "type": "File",
-                    "artifact": {
-                        "size": 96,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/BSL ! Board Edit.zip",
-                        "url": "https://www.dropbox.com/s/35tbhfawridu3d2/BSL%20%21%20Board%20Edit.zip.txt?dl=1"
+                        "size": 1973,
+                        "path": "options.txt",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.12.2.txt" 
                     }
                 },
                 {
@@ -1977,10 +1261,321 @@
                     "name": "Saved Client Servers",
                     "type": "File",
                     "artifact": {
-                        "size": 78,
-                        "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
+                        "size": 87,
+                        "MD5": "64dc1db90935997f07dfac422206f1de",
                         "path": "servers.dat",
-                        "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/servers.dat" 
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/servers.dat" 
+                    }
+                }
+            ]
+        },
+        {
+            "id": "WesterosCraftTest-1.13.2",
+            "name": "WesterosCraft 1.13.2 Test Server",
+            "description": "Tests for our version change to 1.13.2 are live here.",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
+            "version": "5.0.0",
+            "address": "mc.westeroscraft.com:4445",
+            "minecraftVersion": "1.13.2",
+            "discord": {
+                "shortId": "1.13.2 Test Server",
+                "largeImageText": "WesterosCraft 1.13.2 Test Server",
+                "largeImageKey": "server-test"
+            },
+            "mainServer": false,
+            "autoconnect": false,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.13.2-25.0.219",
+                    "name": "Minecraft Forge (base jar)",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 159918,
+                        "MD5": "c5a9c40711feb2b4ab0329c48256e30d",
+                        "url": ""
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraftforge:forge:1.13.2-25.0.219:universal",
+                            "name": "Minecraft Forge (universal jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2343272 ,
+                                "MD5": "338c495d266da44ac1955caf91cc14c4",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:forge:1.13.2-25.0.219:client",
+                            "name": "Minecraft Forge (client jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 3065519,
+                                "MD5": "df63f7288a8118c9b8836a3e53827aac",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraft:client:1.13.2:extra",
+                            "name": "Minecraft Forge (client extra)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 9622361,
+                                "MD5": "dc66e2219e3de6e7ca05847fd3c7746d",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraft:client:1.13.2-20190213.203750:srg",
+                            "name": "Minecraft Forge (client srg)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 8198877,
+                                "MD5": "80f355cffe270d2c2943301b96d98fa6",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "1.13.2-forge-25.0.219",
+                            "name": "Minecraft Forge (version.json)",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 11511,
+                                "MD5": "f13f9e20324d0a55c646d5fb8876b2bb",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "com.paulscode:soundsystem:201809301515",
+                            "name": "Minecraft Forge (Paul's Code Soundsystem)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 66607,
+                                "MD5": "bf43e7b9f628534614b3fc5e4e69d209",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:6.2",
+                            "name": "Minecraft Forge (asm)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 111214,
+                                "MD5": "7abdce94068615d690495f45eb6eb980",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:6.2",
+                            "name": "Minecraft Forge (asm-commons)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78919,
+                                "MD5": "a031c9a32770c02c2f91d2bcbeceabcd",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:6.2",
+                            "name": "Minecraft Forge (asm-tree)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 50370,
+                                "MD5": "e7279981c6764dcd73a99705acf5c9a6",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "cpw.mods:modlauncher:2.1.1",
+                            "name": "Minecraft Forge (modlauncher)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 101586,
+                                "MD5": "089ae3cf5afe10e96bb930b70dd99402",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "cpw.mods:grossjava9hacks:1.1.0",
+                            "name": "Minecraft Forge (Gross Java 9 Hacks)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1759,
+                                "MD5": "1adde27730734a786f461ed048d440a0",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:accesstransformers:0.16.0-shadowed",
+                            "name": "Minecraft Forge (Access Transformers)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 444428,
+                                "MD5": "dbe346d662c7bdff0988f941342932e6",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:eventbus:0.9.2-service",
+                            "name": "Minecraft Forge (EventBus)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 38908,
+                                "MD5": "77c6c079914a8369a185e11ae1a7a878",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:forgespi:0.13.0",
+                            "name": "Minecraft Forge (Forge SPI)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 16607,
+                                "MD5": "5634ba7001f8501a2b553430e2068751",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:coremods:0.5.0",
+                            "name": "Minecraft Forge (coremods)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 12284,
+                                "MD5": "d3da5879965cf6f37413d6d1a80d92a7",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:unsafe:0.2.0",
+                            "name": "Minecraft Forge (unsafe)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2834,
+                                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "com.electronwill.night-config:core:3.6.0",
+                            "name": "Minecraft Forge (night-config core)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 199763,
+                                "MD5": "841adeca8f5e5e092c7bafb412dcb615",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "com.electronwill.night-config:toml:3.6.0",
+                            "name": "Minecraft Forge (night-config toml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 31256,
+                                "MD5": "2d1d5f1fa4735b4e654613b493512432",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.jline:jline:3.9.0",
+                            "name": "Minecraft Forge (jline)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 707273,
+                                "MD5": "2db9aae140f810a72fc4a5cb5aa5cf9b",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.apache.maven:maven-artifact:3.6.0",
+                            "name": "Minecraft Forge (maven-artifact)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 55051,
+                                "MD5": "89e95013b11f347e48c0525965600404",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.jodah:typetools:0.6.0",
+                            "name": "Minecraft Forge (typetools)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 14734,
+                                "MD5": "9f65b6e90eb986fe25afc39b8ed3f43b",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Minecraft Forge (vecmath)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+                            "name": "Minecraft Forge (log4j-api)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 266283,
+                                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+                            "name": "Minecraft Forge (log4j-core)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1629585,
+                                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.minecrell:terminalconsoleappender:1.1.1",
+                            "name": "Minecraft Forge (terminalconsoleappender)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 15240,
+                                "MD5": "a190e88073a41dfa1b1d47854c41230b",
+                                "url": ""
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+                            "name": "Minecraft Forge (jopt-simple)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78146,
+                                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                                "url": ""
+                            }
+                        }
+                        
+                    ]
+                },
+                {
+                    "id": "squeek:appleskin:1.0.11",
+                    "name": "AppleSkin (test mod)",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 27382,
+                         "MD5": "a1c0cfed77b2cb7b6699e59ba0252a50",
+                        "url": ""
+                    }
+                },
+                {
+                    "id": "com.blamejared:controlling:4.0.1",
+                    "name": "Controlling (Test Mod)",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 34914,
+                         "MD5": "b4dc10b9039518ce00845ca962e6a136",
+                        "url": ""
                     }
                 }
             ]
