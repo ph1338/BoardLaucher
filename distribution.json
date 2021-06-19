@@ -31,7 +31,7 @@
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 4884700,
+                        "size": 4140,
                         "MD5": "90734a5a713e24902d24c45c15caa42c",
                         "url": "https://github.com/ph1338/BoardLaucher/blob/3203ab8dc9d99d6cf84a142b423b134f3331ccf2/CustomBackgrounds-MC1.12-1.1.1.jar?raw=true"
                     },
