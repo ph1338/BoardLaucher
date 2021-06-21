@@ -1,4 +1,4 @@
-{
+{{
     "version": "1.0.0",
     "discord": {
         "clientId": "",
@@ -43,6 +43,1951 @@
                             "artifact": {
                                 "size": 32999,
                                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.2",
+                            "name": "Mojang (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 247787,
+                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/asm-all-5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "jline:jline:2.13",
+                            "name": "Mojang (jline)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 248566,
+                                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jline-2.13.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1474672,
+                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 3076920,
+                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-actors-migration)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 21324,
+                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 7956,
+                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-plugin)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 46140,
+                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-parser-combinators)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 85568,
+                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1070312,
+                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                            "name": "Minecraft Forge (scala-swing)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 736795,
+                                "MD5": "1d360289e697022a3f57abaad344b28f",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-xml)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 217812,
+                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+                            "name": "Minecraft Forge (akka-actor)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 746612,
+                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+                            "name": "Minecraft Forge (typesafe-config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 56636,
+                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1",
+                            "name": "Mojang (LZMA)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5762,
+                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2523218,
+                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78175,
+                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jopt-simple-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.maven:maven-artifact:3.5.3",
+                            "name": "maven-artifact",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 54961,
+                                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.custombackgrounds:custombackgrounds:1.1.1",
+                    "name": "Custom Backgrounds",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4140,
+                         "MD5": "ea65e8a675d58ce8bf2a606f2572a3af",
+                        "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1"
+                    },
+                    "subModules": [
+                        {
+                            "id": "custombackgrounds.cfg",
+                            "name": "Custom Backgrounds Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 269,
+                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
+                                "path": "/config/custombackgrounds.cfg",
+                                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/custombackgrounds.cfg"
+                            }
+                        },
+                        {
+                            "id": "mainmenu.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4056,
+                                "MD5": "389093b3e88175a99c9bc8b8c31e8ef5",
+                                "path": "/config/CustomMainMenu/mainmenu.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/mainmenu.json"
+                            }
+                        },
+                        {
+                            "id": "mainmenu_auto.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 5283,
+                                "MD5": "7b9b1830a39216908baa1c983c1e14b7",
+                                "path": "/config/CustomMainMenu/mainmenu_auto.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/mainmenu_auto.json"
+                            }
+                        },
+                        {
+                            "id": "options.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4774,
+                                "MD5": "b973fcccbba66f64e0016fcf5dbca9eb",
+                                "path": "/config/CustomMainMenu/options.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options.json"
+                            }
+                        },
+                        {
+                            "id": "options_auto.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4787,
+                                "MD5": "7060491c7850dd8cec64d1552316ddc0",
+                                "path": "/config/CustomMainMenu/options_auto.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options_auto.json"
+                            }
+                        },
+                        {
+                            "id": "options_large.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4785,
+                                "MD5": "42ca6698687a9374d2e8410800b61006",
+                                "path": "/config/CustomMainMenu/options_large.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options_large.json"
+                            }
+                        },
+                        {
+                            "id": "reswarn.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1415,
+                                "MD5": "2f18bb1c09e654f359d613b5d3b30cfb",
+                                "path": "/config/CustomMainMenu/reswarn.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/reswarn.json"
+                            }
+                        },
+                        {
+                            "id": "reswarn_auto.json",
+                            "name": "Custom Backgrounds Menu Config",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1524,
+                                "MD5": "d8dd91f3c857fc3165651520676d95eb",
+                                "path": "/config/CustomMainMenu/reswarn_auto.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/reswarn_auto.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.customloadingscreen:customloadingscreen:1.12.2-1.4.1",
+                    "name": "Custom Loading Screen",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 521135,
+                         "MD5": "5c8464f261b9e44c2b810aa4d04d9912",
+                        "url": "https://www.dropbox.com/s/4hz1xbca9ffgg88/CustomLoadingScreen-1.12.2-1.4.1.jar?dl=1"
+                    },
+                    "subModules": [
+                        {
+                            "id": "customloadingscreen.cfg",
+                            "name": "Custom Loading Screen Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 544,
+                                "MD5": "bd7a1cd8d44d3f0b25f26b41dfa18e4b",
+                                "path": "/config/customloadingscreen.cfg",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/customloadingscreen.cfg"
+                            }
+                        },
+                        {
+                            "id": "ship_bell.ogg",
+                            "name": "Custom Loading Screen Sounds File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 19621,
+                                "MD5": "3e1291e74d394956bf81596d0ab69e2d",
+                                "path": "/resources/annocraft/sounds/ship_bell.ogg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/sounds/ship_bell.ogg?raw=true"
+                            }
+                        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {
+                            "id": "1.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 2535995,
+                                "MD5": "af17c0401141565045d3763d6e3a3889",
+                                "path": "/resources/annocraft/textures/1.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/1.jpg?raw=true"
+                            }
+                        },
+                        
+                        {
+                            "id": "10.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 549620,
+                                "MD5": "1cd85a8fb1b58858b94efd2a51087c96",
+                                "path": "/resources/annocraft/textures/10.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/10.jpg?raw=true"
+                            }
+                        },
+                        
+                        {
+                            "id": "11.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 264859,
+                                "MD5": "3d8b17f945efe54f990811bf2b9e228b",
+                                "path": "/resources/annocraft/textures/11.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/11.jpg?raw=true"
+                            }
+                        },
+                        
+                        {
+                            "id": "12.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 325612,
+                                "MD5": "08a51c2d0b367eb4452452a1007fd2aa",
+                                "path": "/resources/annocraft/textures/12.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/12.jpg?raw=true"
+                            }
+                        },
+                        
+                        {
+                            "id": "13.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 398836,
+                                "MD5": "e77acc3225da9fa71fcfad25cf8e863a",
+                                "path": "/resources/annocraft/textures/13.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/13.jpg?raw=true"
+                            }
+                        },
+                        
+                        {
+                            "id": "14.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 74926,
+                                "MD5": "d99ad427b2fdcc3432043e0a6d006161",
+                                "path": "/resources/annocraft/textures/14.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/14.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "15.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 547355,
+                                "MD5": "cdf18961c78ec6d0af07128407c23c92",
+                                "path": "/resources/annocraft/textures/15.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/15.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "16.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1505039,
+                                "MD5": "a771e5d1c13324312290d71ae70ebdf8",
+                                "path": "/resources/annocraft/textures/16.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/16.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "17.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 636721,
+                                "MD5": "d620be73a1558c8e8258b76cf9127af1",
+                                "path": "/resources/annocraft/textures/17.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/17.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "18.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 371132,
+                                "MD5": "3053b6914dd8be368dfc7ceaae3be031",
+                                "path": "/resources/annocraft/textures/18.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/18.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "19.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 384120,
+                                "MD5": "6d7bde0e881ce149cf5b8e1c2d7d1e08",
+                                "path": "/resources/annocraft/textures/19.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/19.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "2.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 144245,
+                                "MD5": "6611c43623aa68755f425798bc08733d",
+                                "path": "/resources/annocraft/textures/2.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/2.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "20.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 472706,
+                                "MD5": "4d5fe82f577b7f31356989bd97433640",
+                                "path": "/resources/annocraft/textures/20.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/20.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "21.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 832127,
+                                "MD5": "9a5a78e779a2a2e09444a0dc369e90a6",
+                                "path": "/resources/annocraft/textures/21.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/21.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "22.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 493971,
+                                "MD5": "16534cc6780be95b10a2cdc8c85965d8",
+                                "path": "/resources/annocraft/textures/22.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/22.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "23.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 818611,
+                                "MD5": "da8f59e675a4cb34b92cbb1ac8ae576a",
+                                "path": "/resources/annocraft/textures/23.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/23.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "24.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 519788,
+                                "MD5": "0fe4021a7351d889984d9ee855244230",
+                                "path": "/resources/annocraft/textures/24.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/24.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "25.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1956625,
+                                "MD5": "f026b545dfe923dfa35dbc73db502dfb",
+                                "path": "/resources/annocraft/textures/25.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/25.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "26.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 2123154,
+                                "MD5": "ef8e874e9c0ab6c260932139679f6b7f",
+                                "path": "/resources/annocraft/textures/26.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/26.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "27.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 940919,
+                                "MD5": "a8c963a189a572caa419ddcc71064139",
+                                "path": "/resources/annocraft/textures/27.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/27.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "28.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4688077,
+                                "MD5": "1342c4db30bf5e7e6293fe607ffcfd11",
+                                "path": "/resources/annocraft/textures/28.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/28.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "3.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 221280,
+                                "MD5": "f3ef332d813d56a097afb662c32c7905",
+                                "path": "/resources/annocraft/textures/3.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/3.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "4.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 566766,
+                                "MD5": "0b17a3526920562c3219f71b0761b388",
+                                "path": "/resources/annocraft/textures/4.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/4.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "5.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4806097,
+                                "MD5": "249ac2af05e81fd040c73ae9c61ef616",
+                                "path": "/resources/annocraft/textures/5.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/5.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "6.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 769422,
+                                "MD5": "381075451ddee14da423c0cf3e7a14e8",
+                                "path": "/resources/annocraft/textures/6.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/6.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "7.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 461760,
+                                "MD5": "4c7c5683c571a37ac91f6fc0b18aa047",
+                                "path": "/resources/annocraft/textures/7.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/7.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "8.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 490711,
+                                "MD5": "ecc934a03eaa1e5f1338ce684605198e",
+                                "path": "/resources/annocraft/textures/8.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/8.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "9.jpg",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 413702,
+                                "MD5": "e3a047887b9f3080b1b0c36c72749a3d",
+                                "path": "/resources/annocraft/textures/9.jpg",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/9.jpg?raw=true"
+                            }
+                        },
+                        {
+                            "id": "annocraft1602online.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 19370,
+                                "MD5": "5916baa2384b4d2ea7eb308b083d33a1",
+                                "path": "/resources/annocraft/textures/annocraft1602online.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/annocraft1602online.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "annocraft1602online.psd",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 213,
+                                "MD5": "a3a6b69526407b50a4d4adad57be2b88",
+                                "path": "/resources/annocraft/textures/annocraft1602online.psd",
+                                "url": "https://github-render.s3.amazonaws.com/prod/c4f0bf71532f9dc338adfe5c89763a94b1905f4f2c738c5cb6e85e606c1e1185-render.png?X-Amz-Expires=65&X-Amz-Date=20210620T233000Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJILR36AMCOMBK3MQ%2F20210620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=69e6b3d0e16075c425c73061d43d3ed7ef12c0c30db0de9e1112d7b7b17d4a02"
+                            }
+                        },
+                        {
+                            "id": "beta.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 10630,
+                                "MD5": "bd41279ad71440b8091d44e1641a4802",
+                                "path": "/resources/annocraft/textures/beta.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/beta.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "button.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 4119,
+                                "MD5": "4d22712333fb05bc496c0a1bf900de51",
+                                "path": "/resources/annocraft/textures/button.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/button.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "discordbg.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 9795,
+                                "MD5": "03fc8d6bfa1e9b3d2bdfa6165247528e",
+                                "path": "/resources/annocraft/textures/discordbg.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/discordbg.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "icon.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 8109,
+                                "MD5": "e085d7118e6461c948b9bc23aa83e45a",
+                                "path": "/resources/annocraft/textures/icon.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/icon.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "klein_logo.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1212,
+                                "MD5": "fbbc74f50580441662befa927e1ad203",
+                                "path": "/resources/annocraft/textures/klein_logo.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/klein_logo.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "langbg.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 8724,
+                                "MD5": "f0eb6297c0377287717aab16bb1512d6",
+                                "path": "/resources/annocraft/textures/langbg.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/langbg.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "loadingbar.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 2274,
+                                "MD5": "c49fbeea6d962aadb7d515b15051208e",
+                                "path": "/resources/annocraft/textures/loadingbar.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/loadingbar.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "map.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 7964,
+                                "MD5": "45929e54a759605004c8ce44224a5304",
+                                "path": "/resources/annocraft/textures/map.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/map.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "modsbg.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 7647,
+                                "MD5": "0fb9fc23a1c52cebd2cc00e961dd2ff3",
+                                "path": "/resources/annocraft/textures/modsbg.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/modsbg.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "namebg.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 566,
+                                "MD5": "79decbfaeb3d3740f1fb7a361707f28b",
+                                "path": "/resources/annocraft/textures/namebg.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/namebg.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "optionsbg.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 9598,
+                                "MD5": "f4593e043a5c8072cb50248aad3001e8",
+                                "path": "/resources/annocraft/textures/optionsbg.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/optionsbg.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "panel.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 347613,
+                                "MD5": "480e096952456b20f9dfba903f37d52f",
+                                "path": "/resources/annocraft/textures/panel.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panel.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "panel_bottom.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 269421,
+                                "MD5": "c44f83d600504803502ad5823d63ca47",
+                                "path": "/resources/annocraft/textures/panel_bottom.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panel_bottom.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "panel_top.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 184793,
+                                "MD5": "c9ed1dd742168c63b26fd77505861de4",
+                                "path": "/resources/annocraft/textures/panel_top.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panel_top.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "panelh.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 808,
+                                "MD5": "360c2b430bc6f02dedcc6796f52f2397",
+                                "path": "/resources/annocraft/textures/panelh.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panelh.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "panelhb.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 858,
+                                "MD5": "61bb6d2734f55a2580ed764e5323de09",
+                                "path": "/resources/annocraft/textures/panelhb.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/panelhb.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "title.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 76365,
+                                "MD5": "50e79844ccc9fddbc9f3bdccb7ffc7fb",
+                                "path": "/resources/annocraft/textures/title.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "title_left.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 146772,
+                                "MD5": "71ac604ffe390ce65bb7c10d2c177f3d",
+                                "path": "/resources/annocraft/textures/title_left.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title_left.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "title_new.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 143824,
+                                "MD5": "b0689433623183b9d04d5eb13ec22626",
+                                "path": "/resources/annocraft/textures/title_new.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title_new.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "title_right.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 146418,
+                                "MD5": "c9b91d1be861b88f2e379c70bdff1947",
+                                "path": "/resources/annocraft/textures/title_right.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/title_right.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "titletext.png",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 74863,
+                                "MD5": "067926f957430933014d951db75eec5c",
+                                "path": "/resources/annocraft/textures/titletext.png",
+                                "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/annocraft/textures/titletext.png?raw=true"
+                            }
+                        },
+                        {
+                            "id": "annocraft1602.json",
+                            "name": "Custom Loading Screen Textures File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 2289,
+                                "MD5": "47d0c40cfe7be08e5f21f452492d5d64",
+                                "path": "/resources/customloadingscreen/config/annocraft1602.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/config/annocraft1602.json"
+                            }
+                        },
+                        {
+                            "id": "sound_at_end.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 140,
+                                "MD5": "46e05e50b4b716e44b06f2d9deb4c1bd",
+                                "path": "/resources/customloadingscreen/sample/action/sound_at_end.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/action/sound_at_end.json"
+                            }
+                        },
+                        {
+                            "id": "default.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 325,
+                                "MD5": "c7eb3b218765d7f1594e3aacec205216",
+                                "path": "/resources/customloadingscreen/sample/config/default.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/default.json"
+                            }
+                        },
+                        {
+                            "id": "forge_duplicate.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1107,
+                                "MD5": "61636916b44b6349eb734e5dab50d9ac",
+                                "path": "/resources/customloadingscreen/sample/config/forge_duplicate.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/forge_duplicate.json"
+                            }
+                        },
+                        {
+                            "id": "generic_error.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 165,
+                                "MD5": "dc655e10870ffb094b9dd27347bcfb23",
+                                "path": "/resources/customloadingscreen/sample/config/generic_error.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/generic_error.json"
+                            }
+                        },
+                        {
+                            "id": "rotating_cakes.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 424,
+                                "MD5": "5493c6e0bffd2922d84f8cb91c3935c4",
+                                "path": "/resources/customloadingscreen/sample/config/rotating_cakes.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/rotating_cakes.json"
+                            }
+                        },
+                        {
+                            "id": "scrolling.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1763,
+                                "MD5": "3efcc3a4f3f14cd600dc8c5ebdaa7483",
+                                "path": "/resources/customloadingscreen/sample/config/scrolling.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/scrolling.json"
+                            }
+                        },
+                        {
+                            "id": "scrolling_detailed.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 2550,
+                                "MD5": "1534035d5e0510021479c4f5ef1ab2de",
+                                "path": "/resources/customloadingscreen/sample/config/scrolling_detailed.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/scrolling_detailed.json"
+                            }
+                        },
+                        {
+                            "id": "white.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 294,
+                                "MD5": "98670a9f4dea3b8dd9fc65b11152fe64",
+                                "path": "/resources/customloadingscreen/sample/config/white.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/white.json"
+                            }
+                        },
+                        {
+                            "id": "worldload.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 1402,
+                                "MD5": "c721055a1ba9109941622fe992a1e345",
+                                "path": "/resources/customloadingscreen/sample/config/worldload.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/worldload.json"
+                            }
+                        },
+                        {
+                            "id": "interpolate.json",
+                            "name": "Custom Loading Screen Function File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 272,
+                                "MD5": "60abc63e42947c5153197cf87b2e6943",
+                                "path": "/resources/customloadingscreen/sample/function/interpolate.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/function/interpolate.json"
+                            }
+                        },
+                        {
+                            "id": "item_rotation.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 56,
+                                "MD5": "cece622879bf05cedac8db73e7d1935d",
+                                "path": "/resources/customloadingscreen/sample/function/item_rotation.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/function/item_rotation.json"
+                            }
+                        },
+                        {
+                            "id": "rotating_cake_bottom_left.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 100,
+                                "MD5": "03a5851fe9e60e296ce3c36dbb554125",
+                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_left.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_left.json"
+                            }
+                        },
+                        {
+                            "id": "rotating_cake_bottom_right.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 106,
+                                "MD5": "736cce37728b4a33e5b76326747117f1",
+                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_right.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_right.json"
+                            }
+                        },
+                        {
+                            "id": "rotating_cake_top_left.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 97,
+                                "MD5": "0700fb66143ccbc7fb5b9091d2dd05f0",
+                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_left.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_left.json"
+                            }
+                        },
+                        {
+                            "id": "rotating_cake_top_right.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 103,
+                                "MD5": "8c144a66b8d4eb8f154b8b410f7a27df",
+                                "path": "/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_right.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_right.json"
+                            }
+                        },
+                        {
+                            "id": "item_rotate_anti_clockwise.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 91,
+                                "MD5": "f2e0f8108f160be6c8afdd451d30a112",
+                                "path": "/resources/customloadingscreen/sample/instruction/item_rotate_anti_clockwise.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/instruction/item_rotate_anti_clockwise.json"
+                            }
+                        },
+                        {
+                            "id": "item_rotate_clockwise.json",
+                            "name": "Custom Loading Screen Resources File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 90,
+                                "MD5": "3906bfada5c4b10140707f8b086c2e55",
+                                "path": "/resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json"
+                            }
+                        },
+                        {
+                            "id": "background.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 267,
+                                "MD5": "f38c81a765259f79fea63f29a77ad633",
+                                "path": "/resources/customloadingscreen/sample/image/background.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/background.json"
+                            }
+                        },
+                        {
+                            "id": "block_4_wide.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 260,
+                                "MD5": "522ce492adb077fc0a861910d08b611f",
+                                "path": "/resources/customloadingscreen/sample/image/block_4_wide.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_4_wide.json"
+                            }
+                        },
+                        {
+                            "id": "block_4_wide_percentage.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 175,
+                                "MD5": "da0286398d65af4146766cefca167b4d",
+                                "path": "/resources/customloadingscreen/sample/image/block_4_wide_percentage.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_4_wide_percentage.json"
+                            }
+                        },
+                        {
+                            "id": "block_cake_inner_4_wide.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 91,
+                                "MD5": "25692bda1bffc504e29775292f82d962",
+                                "path": "/resources/customloadingscreen/sample/image/block_cake_inner_4_wide.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_cake_inner_4_wide.json"
+                            }
+                        },
+                        {
+                            "id": "block_cake_side_4_wide.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 79,
+                                "MD5": "671226b5939134fb667dae65b9519a3e",
+                                "path": "/resources/customloadingscreen/sample/image/block_cake_side_4_wide.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_cake_side_4_wide.json"
+                            }
+                        },
+                        {
+                            "id": "bottom_bar.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 379,
+                                "MD5": "0c114a701529ced02c24ea9172e80b55",
+                                "path": "/resources/customloadingscreen/sample/image/bottom_bar.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/bottom_bar.json"
+                            }
+                        },
+                        {
+                            "id": "cake.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 158,
+                                "MD5": "2ebaf5888d9c78e71c6a7fba869a3a63",
+                                "path": "/resources/customloadingscreen/sample/image/cake.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake.json"
+                            }
+                        },
+                        {
+                            "id": "cake_bottom_left.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 86,
+                                "MD5": "97e1a8f6f127c08289f8fe63a97cb280",
+                                "path": "/resources/customloadingscreen/sample/image/cake_bottom_left.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_bottom_left.json"
+                            }
+                        },
+                        {
+                            "id": "cake_bottom_right.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 87,
+                                "MD5": "3c9b9a7ff9b77eace701c64e8d1fa366",
+                                "path": "/resources/customloadingscreen/sample/image/cake_bottom_right.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_bottom_right.json"
+                            }
+                        },
+                        {
+                            "id": "cake_top_left.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 83,
+                                "MD5": "3c2d22f8d1bdce58b98551796f6f8b82",
+                                "path": "/resources/customloadingscreen/sample/image/cake_top_left.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_top_left.json"
+                            }
+                        },
+                        {
+                            "id": "cake_top_right.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 84,
+                                "MD5": "369c8fcf1305e4b7dc2d656675729049",
+                                "path": "/resources/customloadingscreen/sample/image/cake_top_right.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_top_right.json"
+                            }
+                        },
+                        {
+                            "id": "horizontal_stripe.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 354,
+                                "MD5": "603c04432aaf61e207fd75c4c4e04457",
+                                "path": "/resources/customloadingscreen/sample/image/horizontal_stripe.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/horizontal_stripe.json"
+                            }
+                        },
+                        {
+                            "id": "item.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 157,
+                                "MD5": "8293e9bfc9a7b071deeafbb3f9fadd5f",
+                                "path": "/resources/customloadingscreen/sample/image/item.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/item.json"
+                            }
+                        },
+                        {
+                            "id": "loading_bar_bevel.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 187,
+                                "MD5": "2f0f88bc84cc7c7077d55786f0842c27",
+                                "path": "/resources/customloadingscreen/sample/image/loading_bar_bevel.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_bevel.json"
+                            }
+                        },
+                        {
+                            "id": "loading_bar_bevel_percentage.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 214,
+                                "MD5": "1346484bd962c5d658aa7215cb83ec8f",
+                                "path": "/resources/customloadingscreen/sample/image/loading_bar_bevel_percentage.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_bevel_percentage.json"
+                            }
+                        },
+                        {
+                            "id": "loading_bar_boss.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 87,
+                                "MD5": "61e60bed770762208ad1acf5808b7df9",
+                                "path": "/resources/customloadingscreen/sample/image/loading_bar_boss.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_boss.json"
+                            }
+                        },
+                        {
+                            "id": "loading_bar_boss_percentage.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 97,
+                                "MD5": "e9d2caf20abd193dce840f392a73fc36",
+                                "path": "/resources/customloadingscreen/sample/image/loading_bar_boss_percentage.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_boss_percentage.json"
+                            }
+                        },
+                        {
+                            "id": "loading_bar_standard_percentage.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 392,
+                                "MD5": "e18db82fff800bbe72e7ffa1086f60f4",
+                                "path": "/resources/customloadingscreen/sample/image/loading_bar_standard_percentage.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_standard_percentage.json"
+                            }
+                        },
+                        {
+                            "id": "loadingbar.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 268,
+                                "MD5": "fa9e0fec5d3d9e3038a7978c53e81345",
+                                "path": "/resources/customloadingscreen/sample/image/loadingbar.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loadingbar.json"
+                            }
+                        },
+                        {
+                            "id": "loading_bar_standard.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 337,
+                                "MD5": "b6690f23558c3dff3cd6f727c71161b7",
+                                "path": "/resources/customloadingscreen/sample/image/loading_bar_standard.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_standard.json"
+                            }
+                        },
+                        {
+                            "id": "loadingbarpercentage.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 372,
+                                "MD5": "9f91221b9d5d16a976435eb8671d3bf4",
+                                "path": "/resources/customloadingscreen/sample/image/loadingbarpercentage.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loadingbarpercentage.json"
+                            }
+                        },
+                        {
+                            "id": "panel_bottom.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 272,
+                                "MD5": "ad2758625249b5560422f05cd7183ccc",
+                                "path": "/resources/customloadingscreen/sample/image/panel_bottom.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panel_bottom.json"
+                            }
+                        },
+                        {
+                            "id": "panel_top.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 263,
+                                "MD5": "1294ac1741f2bf3d83183a7077d4a6fb",
+                                "path": "/resources/customloadingscreen/sample/image/panel_top.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panel_top.json"
+                            }
+                        },
+                        {
+                            "id": "panorama.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 93,
+                                "MD5": "856a7e712e38b1d1411c06d26911228a",
+                                "path": "/resources/customloadingscreen/sample/image/panorama.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panorama.json"
+                            }
+                        },
+                        {
+                            "id": "text_generic_error.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 227,
+                                "MD5": "e256a9260e857cfda3c4a820d9614aff",
+                                "path": "/resources/customloadingscreen/sample/image/text_generic_error.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_generic_error.json"
+                            }
+                        },
+                        {
+                            "id": "text_percentage.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 295,
+                                "MD5": "3a914a9f1c1944d844d2386768482a42",
+                                "path": "/resources/customloadingscreen/sample/image/text_percentage.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage.json"
+                            }
+                        },
+                        {
+                            "id": "text_percentage_scrolling.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 184,
+                                "MD5": "35f97ea7ecd940e88fa8ea00d681b722",
+                                "path": "/resources/customloadingscreen/sample/image/text_percentage_scrolling.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage_scrolling.json"
+                            }
+                        },
+                        {
+                            "id": "text_percentage_white.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 102,
+                                "MD5": "75b88df94a9ae3dd2b4dcdbeba50648a",
+                                "path": "/resources/customloadingscreen/sample/image/text_percentage_white.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage_white.json"
+                            }
+                        },
+                        {
+                            "id": "text_status.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 304,
+                                "MD5": "a257cd2bcdf382967e0d7d49c1aac4f4",
+                                "path": "/resources/customloadingscreen/sample/image/text_status.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_status.json"
+                            }
+                        },
+                        {
+                            "id": "text_status_white.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 102,
+                                "MD5": "f1b552152dc4fe5de532f6a035d25dfb",
+                                "path": "/resources/customloadingscreen/sample/image/text_status_white.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_status_white.json"
+                            }
+                        },
+                        {
+                            "id": "text_sub_status_white.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 104,
+                                "MD5": "604b06eddf92ad627d6b7ca128b6b58f",
+                                "path": "/resources/customloadingscreen/sample/image/text_sub_status_white.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_sub_status_white.json"
+                            }
+                        },
+                        {
+                            "id": "title.json",
+                            "name": "Custom Loading Screen Images File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 263,
+                                "MD5": "54ccb58e2cf876bc2b8e72dfd9125d48",
+                                "path": "/resources/customloadingscreen/sample/image/title.json",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/title.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.resourceloader:resourceloader:1.5.3",
+                    "name": "Resource Loader",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16612,
+                         "MD5": "435a70c8f84039b599af857080f7da0c",
+                        "url": "https://www.dropbox.com/s/uzzz13qco9ly59i/ResourceLoader-MC1.12.1-1.5.3.jar?dl=1"
+                    },
+                    "subModules": [
+                        {
+                            "id": "foamfix.cfg",
+                            "name": "Foam Fix configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 6966,
+                                "MD5": "17596d2d4f751d0f4e69eb5e93581879",
+                                "path": "/config/foamfix.cfg",
+                                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/foamfix.cfg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "com.vanillafix:vanillafix:1.0.10-150",
+                    "name": "VanillaFix",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1025896,
+                         "MD5": "b144e592fd10372eaea80c40d8e32965",
+                        "url": "https://www.dropbox.com/s/8owv2lhzsys9h2y/VanillaFix-1.0.10-150.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "net.optifine:optifine:1.12.2_HD_U_G6_pre1",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2668221,
+                        "MD5": "191695d823711748c67ca977e128bfbb",
+                        "url": "https://www.dropbox.com/s/0jqh9mqcbnq23oi/preview_OptiFine_1.12.2_HD_U_G6_pre1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.ambientenvironment:ambientenvironment:1.0.2",
+                    "name": "Ambient Environment",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 25707,
+                        "MD5": "a912bbe3cf04f14cec32bb4f4627f5a5",
+                        "url": "https://www.dropbox.com/s/0h61xcdpc2gp4iq/AmbientEnvironment-1.0.2.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.betterfoliage:betterfoliage:2.3.1",
+                    "name": "Better Foliage",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 937680,
+                        "MD5": "f3865a15becc6f406b22873bbda0d2f1",
+                        "url": "https://www.dropbox.com/s/sqq270nzihl26sy/BetterFoliage-MC1.12-2.3.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.betterfps:betterfps:1.4.8",
+                    "name": "BetterFps",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 155196,
+                        "MD5": "1d17196a9c8793fa11c0e93e019846cf",
+                        "url": "https://www.dropbox.com/s/r18dpj6rofk8zs9/BetterFps-1.4.8.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.consolehud:consolehud:1.4.1",
+                    "name": "Console HUD",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 90859,
+                        "MD5": "d2272e83e67d19589d09f5059ee439db",
+                        "url": "https://www.dropbox.com/s/dbm4n0ctukt3om6/ConsoleHUD-v1.4.1-1.12.2.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.controlling:controlling:3.0.9",
+                    "name": "Controlling",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 29057,
+                        "MD5": "33a1b2158e9d9cf0be8dba5652c845dd",
+                        "url": "https://www.dropbox.com/s/wqiva84bqpi5ocl/Controlling-3.0.9.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.forgelin:forgelin:1.8.4",
+                    "name": "Shadowfacts' Forgelin",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 6278399,
+                        "MD5": "55d81d8221971c002bbbec5c541d0aa4",
+                        "url": "https://www.dropbox.com/s/095ve31r6ple5ot/Forgelin-1.8.4%20%281%29.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.itemphysic:itemphysic:1.3",
+                    "name": "ItemPhysic",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 471292,
+                        "MD5": "81c5754fd28a9bbce8d7af6083a11ac6",
+                        "url": "https://www.dropbox.com/s/i21xjnz498rgoks/ItemPhysic%2BLite%2B1.3.7%2Bmc1.12.2.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.macrokey:macrokey:1.12-2.0.3.202",
+                    "name": "MacroKey Keybinding",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 87273,
+                        "MD5": "36c1c4d7162b855e2f269aa2e9de23c0",
+                        "url": "https://www.dropbox.com/s/1sdf36wff7hewp7/MacroKey%2BKeybinding-1.12-2.0.3.202.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.nomoreglowingpots:nomoreglowingpots:1.1",
+                    "name": "NoMoreGlowingPots",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 12519,
+                        "MD5": "c23344c4ad8701c162ba525e2ed0b83d",
+                        "url": "https://www.dropbox.com/s/6kkght6am94p7og/nomoreglowingpots-1.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.scoreboardtweaks:scoreboardtweaks:1.1",
+                    "name": "Scoreboard Tweaks",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 10728,
+                        "MD5": "646045b8016198bf2b3445637e2f1d50",
+                        "url": "https://www.dropbox.com/s/wssedrcy315ob3z/scoreboardtweaks-1.1.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.soundfilters:soundfilters:0.12",
+                    "name": "Sound Filters",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 43161,
+                        "MD5": "b453e8f7d9576a1045fb5c72c2c8a03d",
+                        "url": "https://www.dropbox.com/s/s5te8qubihxi5m6/SoundFilters-0.12_for_1.12.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.vanillafix:vanillafix:1.0.10-150",
+                    "name": "VanillaFix",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1025896,
+                        "MD5": "6456d346afb998c50f09af321ae81e11",
+                        "url": "https://www.dropbox.com/s/dznfr53yyqxpnn8/VanillaFix-1.0.10-150.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "com.xaerominimap:xaerominimap:21.3.0",
+                    "name": "Xaero's Minimap",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 641242,
+                        "MD5": "86166509aee9c7d9dddd935f81a2d670",
+                        "url": "https://www.dropbox.com/s/j4hrsih33o9tt1r/Xaeros_Minimap_21.3.0.2_Forge_1.12.jar?dl=1"
+                    }
+                },
+                {
+                    "id": "forge.cfg",
+                    "name": "Forge CFG configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3955,
+                        "MD5": "4970ad26a5428035426199b6f6e4550c",
+                        "path": "/config/forge.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forge.cfg"
+                    }
+                },
+                {
+                    "id": "forgeChunkLoading.cfg",
+                    "name": "forgeChunkLoading configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2206,
+                        "MD5": "8758c72eece3248dd719e8fd38f5abb1",
+                        "path": "/config/forgeChunkLoading.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forgeChunkLoading.cfg"
+                    }
+                },
+                {
+                    "id": "itemphysic.cfg",
+                    "name": "Item physic configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 132,
+                        "MD5": "b6426f0a731c1ceb0bad9ebac993191a",
+                        "path": "/config/itemphysic.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/itemphysic.cfg"
+                    }
+                },
+                {
+                    "id": "journeymap_ModInfo.cfg",
+                    "name": "Journey Map configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 371,
+                        "MD5": "c156144356789d237ffacd2bfa2c65db",
+                        "path": "/config/journeymap_ModInfo.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_ModInfo.cfg"
+                    }
+                },
+                {
+                    "id": "journeymap_server.cfg",
+                    "name": "Journey Server configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 633,
+                        "MD5": "96f654f613dbfed7076568882e8b6a3e",
+                        "path": "/config/journeymap_server.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_server.cfg"
+                    }
+                },
+                {
+                    "id": "librarianlib.cfg",
+                    "name": "Librarian Lib configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1910,
+                        "MD5": "3beb8eb7c4d14f8032fcdcfae982e84a",
+                        "path": "/config/librarianlib.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/librarianlib.cfg"
+                    }
+                },
+                {
+                    "id": "lunatriuscore.cfg",
+                    "name": "Lunatriuscore configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 116,
+                        "MD5": "1ed8085273476ab588f41cb1411eb601",
+                        "path": "/config/lunatriuscore.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/lunatriuscore.cfg"
+                    }
+                },
+                {
+                    "id": "mobends.cfg",
+                    "name": "Mobends configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 667,
+                        "MD5": "d8e45eff893f6ac764b062e5eb094b80",
+                        "path": "/config/mobends.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/mobends.cfg"
+                    }
+                },
+                {
+                    "id": "nomoreglowingpots.cfg",
+                    "name": "No more glow configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 122,
+                        "MD5": "b544325dc263672c76105c313a19c86b",
+                        "path": "/config/nomoreglowingpots.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/nomoreglowingpots.cfg"
+                    }
+                },
+                {
+                    "id": "scoreboardtweaks.cfg",
+                    "name": "Score Board Tweaks configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 110,
+                        "MD5": "6bc822abed84c20677f085ed6a5cf8c2",
+                        "path": "/config/scoreboardtweaks.cfg",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/scoreboardtweaks.cfg"
+                    }
+                },
+                {
+                    "id": "xaerominimap.txt",
+                    "name": "Xaeromini map configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2456,
+                        "MD5": "4ab2f4150d4100a6628edb9925918d8e",
+                        "path": "/config/xaerominimap.txt",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaerominimap.txt"
+                    }
+                },
+                {
+                    "id": "xaeropatreon.txt",
+                    "name": "Xaeromini map configuration File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 17,
+                        "MD5": "f81bc4a195c6ce970364c47cc710489b",
+                        "path": "/config/xaeropatreon.txt",
+                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaeropatreon.txt"
+                    }
+                },
+                {
+                    "id": "com.boardnetwork:boardnetwork:1.12.2",
+                    "name": "BoardNetwork Resource Pack",
+                    "type": "File",
+                    "artifact": {
+                        "size": 146526965,
+                        "MD5": "0d4f89832e75ab3b9f4e27f1e5c88131",
+                        "path": "resourcepacks/RPG VER 108.zip",
+                        "url": "https://www.dropbox.com/s/eqahntbncbtcuno/RPG%20VER%20108.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.boardnetwork:boardnetwork:1.12.2",
+                    "name": "BoardNetwork 2 Resource Pack",
+                    "type": "File",
+                    "artifact": {
+                        "size": 63593327,
+                        "MD5": "077e5ee82567c17e5ef6ee419f7ffd07",
+                        "path": "resourcepacks/Board Network V13.7.zip",
+                        "url": "https://www.dropbox.com/s/x50wr4buv6ua5j1/Board%20Network%20V13.7.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.sildursemissive:sildursemissive:1.12.2",
+                    "name": "Sildurs Emissive | Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 93260,
+                        "MD5": "e7623561f2d0b00c7ba0a2f94fd92c80",
+                        "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/d591zttl148pynr/Sildurs%20Emissive%20%21%20Board%20Edit.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.luma:luma:1.12.2",
+                    "name": "Luma ! Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 18277106,
+                        "MD5": "3838898f1477c266b5aa83659cd81edb",
+                        "path": "shaderpacks/Luma ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/zvkxy1ruc05ftjv/Luma%20%21%20Board%20Edit.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.chocapic:chocapic:1.12.2",
+                    "name": "Chocapic ! Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 102721,
+                        "MD5": "4d490c90cb17b70bafd6410a563aa30b",
+                        "path": "shaderpacks/Chocapic ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/8d63ov2okzx7163/Chocapic%20%21%20Board%20Edit.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.sildursemissive:sildursemissive:1.12.2",
+                    "name": "Sildurs Emissive | Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 93260,
+                        "MD5": "d499b96d2833a65e33592b5a626419df",
+                        "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/d591zttl148pynr/Sildurs%20Emissive%20%21%20Board%20Edit.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.BSLedit:BSLedit:1.12.2",
+                    "name": "BSL ! Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 913178,
+                        "MD5": "d601f44350764e532eaec82dd1d1bc87",
+                        "path": "shaderpacks/BSL ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/8ymbl3ia50qsj46/BSL%20%21%20Board%20Edit.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.builder:builder:1.12.2",
+                    "name": "Builder's QOL ! Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1195604,
+                        "MD5": "5b85ef28d118456ca38a8f2fa64fcdbd",
+                        "path": "shaderpacks/Builder's QOL ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/bg33dckmoi64pdj/Builder%27s%20QOL%20%21%20Board%20Edit.zip?dl=1"
+                    }
+                },
+                {
+                    "id": "com.!bsledit:!bsledit:1.12.2",
+                    "name": "BSL Emissive",
+                    "type": "File",
+                    "artifact": {
+                        "size": 150,
+                        "MD5": "c70d6837f595eeaef2317caec329dad0",
+                        "path": "shaderpacks/!BSL Emissive.zip",
+                        "url": "https://www.dropbox.com/s/ibultwz2gfm8br3/%21BSL%20Emissive.zip.txt?dl=1"
+                    }
+                },
+                {
+                    "id": "com.builderqol:builderqol:1.12.2",
+                    "name": "Builder's QOL ! Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 313,
+                        "MD5": "9c9bc374b23704a136c07c5b6f728e5e",
+                        "path": "shaderpacks/Builder's QOL ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/fiifou4ha7cfl6z/Builder%27s%20QOL%20%21%20Board%20Edit.zip.txt?dl=1"
+                    }
+                },
+                {
+                    "id": "com.bslboard:bslboard:1.12.2",
+                    "name": "BSL ! Board Edit",
+                    "type": "File",
+                    "artifact": {
+                        "size": 96,
+                        "MD5": "d663cbe009de6179dc37ac710841c3bb",
+                        "path": "shaderpacks/BSL ! Board Edit.zip",
+                        "url": "https://www.dropbox.com/s/35tbhfawridu3d2/BSL%20%21%20Board%20Edit.zip.txt?dl=1"
+                    }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "Saved Client Servers",
+                    "type": "File",
+                    "artifact": {
+                        "size": 78,
+                        "MD5": "a43c2e05d989dbae5ef2985d27e3af8a",
+                        "path": "servers.dat",
+                        "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/servers.dat" 
+                    }
+                }
+            ]
+        }
+    ]
+}
+
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
                             }
                         },
