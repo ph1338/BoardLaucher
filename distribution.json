@@ -1960,17 +1960,6 @@
                         "path": "shaderpacks/BSL ! Board Edit.zip",
                         "url": "https://www.dropbox.com/s/35tbhfawridu3d2/BSL%20%21%20Board%20Edit.zip.txt?dl=1"
                     }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 78,
-                        "MD5": "a43c2e05d989dbae5ef2985d27e3af8a",
-                        "path": "servers.dat",
-                        "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/servers.dat" 
-                    }
                 }
             ]
         }
