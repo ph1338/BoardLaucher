@@ -27,13 +27,13 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "com.custombackgrounds:custombackgrounds:1.1.1",
-                    "name": "Custom Backgrounds",
+                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 4140,
+                        "size": 4450992,
                         "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1"
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
                     },
                     "subModules": [
                         {
