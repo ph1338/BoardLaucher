@@ -696,17 +696,6 @@
                             }
                         },
                         {
-                            "id": "annocraft1602online.psd",
-                            "name": "Custom Loading Screen Textures File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 213,
-                                "MD5": "a3a6b69526407b50a4d4adad57be2b88",
-                                "path": "/resources/annocraft/textures/annocraft1602online.psd",
-                                "url": "https://github-render.s3.amazonaws.com/prod/c4f0bf71532f9dc338adfe5c89763a94b1905f4f2c738c5cb6e85e606c1e1185-render.png?X-Amz-Expires=65&X-Amz-Date=20210620T233000Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJILR36AMCOMBK3MQ%2F20210620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=69e6b3d0e16075c425c73061d43d3ed7ef12c0c30db0de9e1112d7b7b17d4a02"
-                            }
-                        },
-                        {
                             "id": "beta.png",
                             "name": "Custom Loading Screen Textures File",
                             "type": "File",
