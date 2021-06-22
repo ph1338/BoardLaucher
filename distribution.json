@@ -219,13 +219,13 @@
                     ]
                 },
                 {
-                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-                    "name": "WesterosBlocks",
+                    "id": "com.custombackgrounds:custombackgrounds:1.1.1",
+                    "name": "Custom Backgrounds",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 17376788,
+                        "size": 4140,
                          "MD5": "370f4f1804c93f498f31af8dac509605",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
+                        "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1"
                     }
                 },
                 {
