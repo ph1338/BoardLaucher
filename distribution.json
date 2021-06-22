@@ -1,20 +1,23 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "12334567890123456789",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "clientId": "",
+        "smallImageText": "",
+        "smallImageKey": ""
     },
-    "rss": "https://westeroscraft.com/articles/index.rss",
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://rpgboard.com.br",
     "servers": [
         {
-            "id": "Example_Server",
-            "name": "WesterosCraft Example Client",
-            "description": "Example WesterosCraft server. Connect for fun!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
-            "version": "0.0.1",
-            "address": "mc.westeroscraft.com:1337",
-            "minecraftVersion": "1.11.2",
+            "id": "BoardNetwork-1.12.2",
+            "name": "Board Network - 1.12.2",
+            "description": "Servidor RPG com texturas e mods.",
+            "icon": "https://i.ibb.co/RpRWGC4/logo.png",
+            "version": "1.0.0",
+            "address": "boardmc.com.br:25565",
+            "minecraftVersion": "1.12.2",
             "mainServer": false,
             "autoconnect": true,
             "modules": [
@@ -25,7 +28,7 @@
                     "artifact": {
                         "size": 4140,
                         "MD5": "905734a5a713e24902d24c45c15caa42c",
-                        "url": "https://github.com/ph1338/BoardLaucher/blob/3203ab8dc9d99d6cf84a142b423b134f3331ccf2/CustomBackgrounds-MC1.12-1.1.1.jar?raw=true"
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
                     },
                     "subModules": [
                         {
