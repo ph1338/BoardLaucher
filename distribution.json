@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 58018,
                 "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar?raw=true"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 13449765,
                 "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar?raw=true"
               }
             },
             {
@@ -110,7 +110,7 @@
               "artifact": {
                 "size": 25365,
                 "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar?raw=true"
               }
             },
             {
@@ -120,7 +120,7 @@
               "artifact": {
                 "size": 206575,
                 "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar?raw=true"
               }
             },
             {
@@ -130,7 +130,7 @@
               "artifact": {
                 "size": 5538130,
                 "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar?raw=true"
               }
             },
             {
@@ -140,7 +140,7 @@
               "artifact": {
                 "size": 419701,
                 "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar?raw=true"
               }
             },
             {
@@ -150,7 +150,7 @@
               "artifact": {
                 "size": 4372892,
                 "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar?raw=true"
               }
             },
             {
@@ -160,7 +160,7 @@
               "artifact": {
                 "size": 726500,
                 "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar?raw=true"
               }
             },
             {
@@ -170,7 +170,7 @@
               "artifact": {
                 "size": 648679,
                 "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar?raw=true"
               }
             },
             {
@@ -180,7 +180,7 @@
               "artifact": {
                 "size": 5762,
                 "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar?raw=true"
               }
             },
             {
@@ -190,7 +190,7 @@
               "artifact": {
                 "size": 318956,
                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar?raw=true"
               }
             },
             {
@@ -200,7 +200,7 @@
               "artifact": {
                 "size": 2523218,
                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar?raw=true"
               }
             },
             {
@@ -210,7 +210,7 @@
               "artifact": {
                 "size": 54961,
                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar?raw=true"
               }
             },
             {
@@ -220,7 +220,7 @@
               "artifact": {
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar?raw=true"
               }
             }
           ]
