@@ -1934,7 +1934,7 @@
           "name": "Saved Client Servers",
           "type": "File",
           "artifact": {
-              "size": 90,
+              "size": 90271,
               "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/servers.dat",
               "MD5": "a43c2e05d989dbae5ef2985d27e3af8a",
               "path": "servers.dat"
