@@ -1930,6 +1930,16 @@
           }
         },
         {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomMainMenu-MC1.12.2-2.0.9.1.jar?raw=true",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "Saved Client Servers",
           "type": "File",
