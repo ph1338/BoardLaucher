@@ -441,7 +441,7 @@
             "size": 150,
             "url": "https://www.dropbox.com/s/ibultwz2gfm8br3/%21BSL%20Emissive.zip.txt?dl=1",
             "MD5": "7c9179b4496f2f806ac433f5f2c7c3a3",
-            "path": "!BSL Emissive.zip.txt"
+            "path": "shaderpacks/!BSL Emissive.zip.txt"
           }
         },
         {
@@ -452,7 +452,7 @@
             "size": 913178,
             "url": "https://www.dropbox.com/s/8ymbl3ia50qsj46/BSL%20%21%20Board%20Edit.zip?dl=1",
             "MD5": "a8642c23d633a235ebfa5af60a410948",
-            "path": "BSL ! Board Edit.zip"
+            "path": "shaderpacks/BSL ! Board Edit.zip"
           }
         },
         {
@@ -463,7 +463,7 @@
             "size": 96,
             "url": "https://www.dropbox.com/s/35tbhfawridu3d2/BSL%20%21%20Board%20Edit.zip.txt?dl=1",
             "MD5": "f8a6be2aff655fe461500641300cc5a3",
-            "path": "BSL ! Board Edit.zip.txt"
+            "path": "shaderpacks/BSL ! Board Edit.zip.txt"
           }
         },
         {
@@ -474,7 +474,7 @@
             "size": 63593327,
             "url": "https://www.dropbox.com/s/x50wr4buv6ua5j1/Board%20Network%20V13.7.zip?dl=1",
             "MD5": "688bc4a55a69d24946f3c298ca6f5be4",
-            "path": "Board Network V13.7.zip"
+            "path": "resourcepacks/Board Network V13.7.zip"
           }
         },
         {
@@ -485,7 +485,7 @@
             "size": 1195604,
             "url": "https://www.dropbox.com/s/bg33dckmoi64pdj/Builder%27s%20QOL%20%21%20Board%20Edit.zip?dl=1",
             "MD5": "6de46ce9ed88d34ee473917979b82026",
-            "path": "Builder's QOL ! Board Edit.zip"
+            "path": "shaderpacks/Builder's QOL ! Board Edit.zip"
           }
         },
         {
@@ -496,7 +496,7 @@
             "size": 313,
             "url": "https://www.dropbox.com/s/fiifou4ha7cfl6z/Builder%27s%20QOL%20%21%20Board%20Edit.zip.txt?dl=1",
             "MD5": "0850631cb29275f22778438a8812794a",
-            "path": "Builder's QOL ! Board Edit.zip.txt"
+            "path": "shaderpacks/Builder's QOL ! Board Edit.zip.txt"
           }
         },
         {
@@ -507,7 +507,7 @@
             "size": 102721,
             "url": "https://www.dropbox.com/s/8d63ov2okzx7163/Chocapic%20%21%20Board%20Edit.zip?dl=1",
             "MD5": "cf1552f2939be23a2cc6cfa284f6f582",
-            "path": "Chocapic ! Board Edit.zip"
+            "path": "shaderpacks/Chocapic ! Board Edit.zip"
           }
         },
         {
@@ -518,7 +518,7 @@
             "size": 18277106,
             "url": "https://www.dropbox.com/s/zvkxy1ruc05ftjv/Luma%20%21%20Board%20Edit.zip?dl=1",
             "MD5": "6553a95e93841d6416d4ac280e3a3eb6",
-            "path": "Luma ! Board Edit.zip"
+            "path": "shaderpacks/Luma ! Board Edit.zip"
           }
         },
         {
@@ -529,7 +529,7 @@
             "size": 146526965,
             "url": "https://www.dropbox.com/s/eqahntbncbtcuno/RPG%20VER%20108.zip?dl=1",
             "MD5": "4fc29cb63bfa1996739d2823b25ed82d",
-            "path": "RPG VER 108.zip"
+            "path": "resourcepacks/RPG VER 108.zip"
           }
         },
         {
@@ -540,7 +540,7 @@
             "size": 93260,
             "url": "https://www.dropbox.com/s/d591zttl148pynr/Sildurs%20Emissive%20%21%20Board%20Edit.zip?dl=1",
             "MD5": "b69116ec7524707c902d70bc803eeb14",
-            "path": "Sildurs Emissive ! Board Edit.zip"
+            "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip"
           }
         },
         {
@@ -1928,7 +1928,18 @@
             "MD5": "e23873efbdb8d75db2afab037702da52",
             "path": "resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json"
           }
-        }
+        },
+        {
+          "id": "servers.dat",
+          "name": "Saved Client Servers",
+          "type": "File",
+          "artifact": {
+              "size": 78,
+              "MD5": "a43c2e05d989dbae5ef2985d27e3af8a",
+              "path": "servers.dat",
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/servers.dat" 
+          }
+      }
       ]
     }
   ]
