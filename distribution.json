@@ -1940,6 +1940,16 @@
           }
         },
         {
+          "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210423,
+            "url": "https://github.com/ph1338/BoardLaucher/blob/main/foamfix-0.10.11-1.12.2.jar?raw=true",
+            "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "Saved Client Servers",
           "type": "File",
