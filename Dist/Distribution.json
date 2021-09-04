@@ -1,0 +1,1999 @@
+{
+  "version": "1.0.0",
+  "rss": "https://rpgboard.com.br",
+  "servers": [
+    {
+      "id": "Board Network-1.12.2",
+      "name": "Board Network - 1.12.2",
+      "description": "Servidor RPG com texturas e mods.",
+      "icon": "https://i.ibb.co/RpRWGC4/logo.png",
+      "version": "1.0.0",
+      "address": "boardmc.com.br:25565",
+      "minecraftVersion": "1.12.2",
+      "mainServer": false,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464068,
+            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+            "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar?raw=true"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2854",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "814f52398b6ebf70d22571307d2298eb",
+                "url": "https://github.com/ph1338/BoardLaucher/raw/main/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar?raw=true"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar?raw=true"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar?raw=true"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar?raw=true"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar?raw=true"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 1474672,
+                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 3076920,
+                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+              "name": "Minecraft Forge (scala-actors-migration)",
+              "type": "Library",
+              "artifact": {
+                "size": 21324,
+                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+              "name": "Minecraft Forge (scala-continuations-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 7956,
+                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+              "name": "Minecraft Forge (scala-continuations-plugin)",
+              "type": "Library",
+              "artifact": {
+                "size": 46140,
+                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-parser-combinators)",
+              "type": "Library",
+              "artifact": {
+                "size": 85568,
+                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 1070312,
+                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+              "name": "Minecraft Forge (scala-swing)",
+              "type": "Library",
+              "artifact": {
+                "size": 736795,
+                "MD5": "1d360289e697022a3f57abaad344b28f",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+              "name": "Minecraft Forge (scala-xml)",
+              "type": "Library",
+              "artifact": {
+                "size": 217812,
+                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar?raw=true"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar?raw=true"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar?raw=true"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar?raw=true"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar?raw=true"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.blamejared:ambientenvironment:1.0.2@jar",
+          "name": "Ambient Environment",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25707,
+            "url": "https://www.dropbox.com/s/0h61xcdpc2gp4iq/AmbientEnvironment-1.0.2.jar?dl=1",
+            "MD5": "b4b80455cd51785cb551406c679763ac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mods.betterfoliage:betterfoliage:2.3.1@jar",
+          "name": "Better Foliage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 937680,
+            "url": "https://www.dropbox.com/s/sqq270nzihl26sy/BetterFoliage-MC1.12-2.3.1.jar?dl=1",
+            "MD5": "fe8b72e0045c06136ca64f736090ac7a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155196,
+            "url": "https://www.dropbox.com/s/r18dpj6rofk8zs9/BetterFps-1.4.8.jar?dl=1",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.fuzs:consolehud:1.4.1@jar",
+          "name": "Console HUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90859,
+            "url": "https://www.dropbox.com/s/dbm4n0ctukt3om6/ConsoleHUD-v1.4.1-1.12.2.jar?dl=1",
+            "MD5": "3c38a5386c1e4a31f0dbb29f7bbcb7f3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "us.getfluxed.controlsearch:controlling:3.0.9@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29057,
+            "url": "https://www.dropbox.com/s/wqiva84bqpi5ocl/Controlling-3.0.9.jar?dl=1",
+            "MD5": "1ad468d60a3e7501e25ca7cb666c62bc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lumien.custombackgrounds:custombackgrounds:1.1.1@jar",
+          "name": "Custom Backgrounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4140,
+            "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1",
+            "MD5": "b0f20b60bba201bbcf63a6d18cd191db"
+          }
+        },
+        {
+          "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.4.1@jar",
+          "name": "Custom Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521135,
+            "url": "https://www.dropbox.com/s/4hz1xbca9ffgg88/CustomLoadingScreen-1.12.2-1.4.1.jar?dl=1",
+            "MD5": "e79a12518adfc989431413a20ddf3059"
+          }
+        },
+        {
+          "id": "net.shadowfacts:forgelin:1.8.4@jar",
+          "name": "Shadowfacts' Forgelin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6278399,
+            "url": "https://www.dropbox.com/s/095ve31r6ple5ot/Forgelin-1.8.4%20%281%29.jar?dl=1",
+            "MD5": "2da79fce72265eab0541e565636d389d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.creativemd.itemphysic:itemphysic:1.3@jar",
+          "name": "ItemPhysic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 471292,
+            "url": "https://www.dropbox.com/s/i21xjnz498rgoks/ItemPhysic%2BLite%2B1.3.7%2Bmc1.12.2.jar?dl=1",
+            "MD5": "1f4474187b22bc1112f2bd6b6fb6bc1e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mattsmeets:macrokey:1.12-2.0.3.202@jar",
+          "name": "MacroKey Keybinding",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87273,
+            "url": "https://www.dropbox.com/s/1sdf36wff7hewp7/MacroKey%2BKeybinding-1.12-2.0.3.202.jar?dl=1",
+            "MD5": "e9c3e5480f2a16f7a40165854bce8277"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "zabi.minecraft:nomoreglowingpots:1.1@jar",
+          "name": "NoMoreGlowingPots",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12519,
+            "url": "https://www.dropbox.com/s/6kkght6am94p7og/nomoreglowingpots-1.1.jar?dl=1",
+            "MD5": "de78a7e32ba9ecfe4f9910cb1c94a6c2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G6_pre1@jar",
+          "name": "OptiFine 1.12.2_HD_U_G6_pre1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2668221,
+            "url": "https://www.dropbox.com/s/0jqh9mqcbnq23oi/preview_OptiFine_1.12.2_HD_U_G6_pre1.jar?dl=1",
+            "MD5": "9ee4100b8d430f8c8aa82e6f3b13b87e"
+          }
+        },
+        {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "https://www.dropbox.com/s/uzzz13qco9ly59i/ResourceLoader-MC1.12.1-1.5.3.jar?dl=1",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "tfar.scoreboardtweaks:scoreboardtweaks:1.1@jar",
+          "name": "Scoreboard Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10728,
+            "url": "https://www.dropbox.com/s/wssedrcy315ob3z/scoreboardtweaks-1.1.jar?dl=1",
+            "MD5": "ed5c51189e23f3f65d96e08ef4365270"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.tmtravlr:soundfilters:0.12_for_1.12@jar",
+          "name": "Sound Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43161,
+            "url": "https://www.dropbox.com/s/s5te8qubihxi5m6/SoundFilters-0.12_for_1.12.jar?dl=1",
+            "MD5": "afbdb448f432b5f7fff4967a1163d858"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "org.dimdev:vanillafix:1.0.10-150@jar",
+          "name": "VanillaFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1025896,
+            "url": "https://www.dropbox.com/s/dznfr53yyqxpnn8/VanillaFix-1.0.10-150.jar?dl=1",
+            "MD5": "c2ea7c94b8ffce9262d92f481ede660c"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:21.3.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 641242,
+            "url": "https://www.dropbox.com/s/j4hrsih33o9tt1r/Xaeros_Minimap_21.3.0.2_Forge_1.12.jar?dl=1",
+            "MD5": "f77e9d8516f530a20e941525da4f2613"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "!BSL Emissive.zip.txt",
+          "name": "!BSL Emissive.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 150,
+            "url": "https://www.dropbox.com/s/ibultwz2gfm8br3/%21BSL%20Emissive.zip.txt?dl=1",
+            "MD5": "7c9179b4496f2f806ac433f5f2c7c3a3",
+            "path": "shaderpacks/!BSL Emissive.zip.txt"
+          }
+        },
+        {
+          "id": "BSL ! Board Edit.zip",
+          "name": "BSL ! Board Edit.zip",
+          "type": "File",
+          "artifact": {
+            "size": 913178,
+            "url": "https://www.dropbox.com/s/8ymbl3ia50qsj46/BSL%20%21%20Board%20Edit.zip?dl=1",
+            "MD5": "a8642c23d633a235ebfa5af60a410948",
+            "path": "shaderpacks/BSL ! Board Edit.zip"
+          }
+        },
+        {
+          "id": "BSL ! Board Edit.zip.txt",
+          "name": "BSL ! Board Edit.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 96,
+            "url": "https://www.dropbox.com/s/35tbhfawridu3d2/BSL%20%21%20Board%20Edit.zip.txt?dl=1",
+            "MD5": "f8a6be2aff655fe461500641300cc5a3",
+            "path": "shaderpacks/BSL ! Board Edit.zip.txt"
+          }
+        },
+        {
+          "id": "Board Network V13.7.zip",
+          "name": "Board Network V13.7.zip",
+          "type": "File",
+          "artifact": {
+            "size": 63593327,
+            "url": "https://www.dropbox.com/s/x50wr4buv6ua5j1/Board%20Network%20V13.7.zip?dl=1",
+            "MD5": "688bc4a55a69d24946f3c298ca6f5be4",
+            "path": "resourcepacks/Board Network V13.7.zip"
+          }
+        },
+        {
+          "id": "Builder's QOL ! Board Edit.zip",
+          "name": "Builder's QOL ! Board Edit.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1195604,
+            "url": "https://www.dropbox.com/s/bg33dckmoi64pdj/Builder%27s%20QOL%20%21%20Board%20Edit.zip?dl=1",
+            "MD5": "6de46ce9ed88d34ee473917979b82026",
+            "path": "shaderpacks/Builder's QOL ! Board Edit.zip"
+          }
+        },
+        {
+          "id": "Builder's QOL ! Board Edit.zip.txt",
+          "name": "Builder's QOL ! Board Edit.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://www.dropbox.com/s/fiifou4ha7cfl6z/Builder%27s%20QOL%20%21%20Board%20Edit.zip.txt?dl=1",
+            "MD5": "0850631cb29275f22778438a8812794a",
+            "path": "shaderpacks/Builder's QOL ! Board Edit.zip.txt"
+          }
+        },
+        {
+          "id": "Chocapic ! Board Edit.zip",
+          "name": "Chocapic ! Board Edit.zip",
+          "type": "File",
+          "artifact": {
+            "size": 102721,
+            "url": "https://www.dropbox.com/s/8d63ov2okzx7163/Chocapic%20%21%20Board%20Edit.zip?dl=1",
+            "MD5": "cf1552f2939be23a2cc6cfa284f6f582",
+            "path": "shaderpacks/Chocapic ! Board Edit.zip"
+          }
+        },
+        {
+          "id": "Luma ! Board Edit.zip",
+          "name": "Luma ! Board Edit.zip",
+          "type": "File",
+          "artifact": {
+            "size": 18277106,
+            "url": "https://www.dropbox.com/s/zvkxy1ruc05ftjv/Luma%20%21%20Board%20Edit.zip?dl=1",
+            "MD5": "6553a95e93841d6416d4ac280e3a3eb6",
+            "path": "shaderpacks/Luma ! Board Edit.zip"
+          }
+        },
+        {
+          "id": "RPG VER 108.zip",
+          "name": "RPG VER 108.zip",
+          "type": "File",
+          "artifact": {
+            "size": 146526965,
+            "url": "https://www.dropbox.com/s/eqahntbncbtcuno/RPG%20VER%20108.zip?dl=1",
+            "MD5": "4fc29cb63bfa1996739d2823b25ed82d",
+            "path": "resourcepacks/RPG VER 108.zip"
+          }
+        },
+        {
+          "id": "Sildurs Emissive ! Board Edit.zip",
+          "name": "Sildurs Emissive ! Board Edit.zip",
+          "type": "File",
+          "artifact": {
+            "size": 93260,
+            "url": "https://www.dropbox.com/s/d591zttl148pynr/Sildurs%20Emissive%20%21%20Board%20Edit.zip?dl=1",
+            "MD5": "b69116ec7524707c902d70bc803eeb14",
+            "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 4056,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/mainmenu.json",
+            "MD5": "7ff7e3cf124657a435a564bba1a55d3c",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "mainmenu_auto.json",
+          "name": "mainmenu_auto.json",
+          "type": "File",
+          "artifact": {
+            "size": 5283,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/mainmenu_auto.json",
+            "MD5": "34f88ff030d4e16b882fb55df9bbae95",
+            "path": "config/CustomMainMenu/mainmenu_auto.json"
+          }
+        },
+        {
+          "id": "options.json",
+          "name": "options.json",
+          "type": "File",
+          "artifact": {
+            "size": 4774,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options.json",
+            "MD5": "85bde06a53bc5249cb8fcf1a8576fccd",
+            "path": "config/CustomMainMenu/options.json"
+          }
+        },
+        {
+          "id": "options_auto.json",
+          "name": "options_auto.json",
+          "type": "File",
+          "artifact": {
+            "size": 4787,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options_auto.json",
+            "MD5": "e28b4c4ba17194036f8c590e2848ed37",
+            "path": "config/CustomMainMenu/options_auto.json"
+          }
+        },
+        {
+          "id": "options_large.json",
+          "name": "options_large.json",
+          "type": "File",
+          "artifact": {
+            "size": 4785,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/options_large.json",
+            "MD5": "4bb6aaa7d0ee2858c13d0748b319c628",
+            "path": "config/CustomMainMenu/options_large.json"
+          }
+        },
+        {
+          "id": "reswarn.json",
+          "name": "reswarn.json",
+          "type": "File",
+          "artifact": {
+            "size": 1415,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/reswarn.json",
+            "MD5": "ef7a7bf164ebd909fdf9d92bd196a887",
+            "path": "config/CustomMainMenu/reswarn.json"
+          }
+        },
+        {
+          "id": "reswarn_auto.json",
+          "name": "reswarn_auto.json",
+          "type": "File",
+          "artifact": {
+            "size": 1524,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/CustomMainMenu/reswarn_auto.json",
+            "MD5": "e6e6fda0841e9ae1d06255be8ee637f5",
+            "path": "config/CustomMainMenu/reswarn_auto.json"
+          }
+        },
+        {
+          "id": "custombackgrounds.cfg",
+          "name": "custombackgrounds.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/custombackgrounds.cfg",
+            "MD5": "9426c6c4018744dac50512d849dbc6aa",
+            "path": "config/custombackgrounds.cfg"
+          }
+        },
+        {
+          "id": "customloadingscreen.cfg",
+          "name": "customloadingscreen.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 544,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/customloadingscreen.cfg",
+            "MD5": "07f9e09d4ad321d9fe496a5b7c05dc7f",
+            "path": "config/customloadingscreen.cfg"
+          }
+        },
+        {
+          "id": "foamfix.cfg",
+          "name": "foamfix.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 6966,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/foamfix.cfg",
+            "MD5": "1be88420e24d1d9033ecbe0fee490195",
+            "path": "config/foamfix.cfg"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3955,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forge.cfg",
+            "MD5": "bee77d51b82699b95bf5c02788f654fb",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2206,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forgeChunkLoading.cfg",
+            "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "itemphysic.cfg",
+          "name": "itemphysic.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 132,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/itemphysic.cfg",
+            "MD5": "547da0f55201cf3e8913e6fccea92c49",
+            "path": "config/itemphysic.cfg"
+          }
+        },
+        {
+          "id": "journeymap_ModInfo.cfg",
+          "name": "journeymap_ModInfo.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 371,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_ModInfo.cfg",
+            "MD5": "2ebcead283ff24369828bb69c9067075",
+            "path": "config/journeymap_ModInfo.cfg"
+          }
+        },
+        {
+          "id": "journeymap_server.cfg",
+          "name": "journeymap_server.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 633,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_server.cfg",
+            "MD5": "ec1f450ddbf068d578328b97f5e50d1b",
+            "path": "config/journeymap_server.cfg"
+          }
+        },
+        {
+          "id": "librarianlib.cfg",
+          "name": "librarianlib.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1910,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/librarianlib.cfg",
+            "MD5": "0087e84431278929ab09cf993110747c",
+            "path": "config/librarianlib.cfg"
+          }
+        },
+        {
+          "id": "lunatriuscore.cfg",
+          "name": "lunatriuscore.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/lunatriuscore.cfg",
+            "MD5": "f12267ff6480bae77adc78bc1020532e",
+            "path": "config/lunatriuscore.cfg"
+          }
+        },
+        {
+          "id": "mobends.cfg",
+          "name": "mobends.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/mobends.cfg",
+            "MD5": "6b936fb805597caec56d9271cd2b3c7c",
+            "path": "config/mobends.cfg"
+          }
+        },
+        {
+          "id": "nomoreglowingpots.cfg",
+          "name": "nomoreglowingpots.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/nomoreglowingpots.cfg",
+            "MD5": "f35ae056c200a1002df5289b1498add1",
+            "path": "config/nomoreglowingpots.cfg"
+          }
+        },
+        {
+          "id": "scoreboardtweaks.cfg",
+          "name": "scoreboardtweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 110,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/scoreboardtweaks.cfg",
+            "MD5": "386b3ceeea57517ff412393bc0028bf0",
+            "path": "config/scoreboardtweaks.cfg"
+          }
+        },
+        {
+          "id": "scoreboardtweaks.json",
+          "name": "scoreboardtweaks.json",
+          "type": "File",
+          "artifact": {
+            "size": 100,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/scoreboardtweaks.json",
+            "MD5": "d4cf65382eb63dc3a57a62c24337b9e5",
+            "path": "config/scoreboardtweaks.json"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2456,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaerominimap.txt",
+            "MD5": "fc82fb73630c0d930252b8a7ea075dd9",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaeropatreon.txt",
+            "MD5": "c7c8d2ad1537497c0c372e71d8bfb33d",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "ship_bell.ogg",
+          "name": "ship_bell.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 19621,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/sounds/ship_bell.ogg",
+            "MD5": "5cff16042b3f832b49152aa2150e9004",
+            "path": "resources/annocraft/sounds/ship_bell.ogg"
+          }
+        },
+        {
+          "id": "1.jpg",
+          "name": "1.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 2535995,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/1.jpg",
+            "MD5": "939cdaea466f0212d24988328350b9f5",
+            "path": "resources/annocraft/textures/1.jpg"
+          }
+        },
+        {
+          "id": "10.jpg",
+          "name": "10.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 549620,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/10.jpg",
+            "MD5": "f7bc3f4e5d7fd7a412865f2021c3dedb",
+            "path": "resources/annocraft/textures/10.jpg"
+          }
+        },
+        {
+          "id": "11.jpg",
+          "name": "11.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 264859,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/11.jpg",
+            "MD5": "a5cda5e694f2632b41e7e669b9d74c04",
+            "path": "resources/annocraft/textures/11.jpg"
+          }
+        },
+        {
+          "id": "12.jpg",
+          "name": "12.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 325612,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/12.jpg",
+            "MD5": "63f1dd59292b3393b859c4eacb20a42f",
+            "path": "resources/annocraft/textures/12.jpg"
+          }
+        },
+        {
+          "id": "13.jpg",
+          "name": "13.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 398836,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/13.jpg",
+            "MD5": "6649b6e70faf0252fa50223d981c92d5",
+            "path": "resources/annocraft/textures/13.jpg"
+          }
+        },
+        {
+          "id": "14.jpg",
+          "name": "14.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 74926,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/14.jpg",
+            "MD5": "9924dd767a4a7b877c5d1c277efd8015",
+            "path": "resources/annocraft/textures/14.jpg"
+          }
+        },
+        {
+          "id": "15.jpg",
+          "name": "15.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 547355,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/15.jpg",
+            "MD5": "bbe934f073725afbc6be711d4f902b64",
+            "path": "resources/annocraft/textures/15.jpg"
+          }
+        },
+        {
+          "id": "16.jpg",
+          "name": "16.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 1505039,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/16.jpg",
+            "MD5": "bec066280be73c133b3167438f33e096",
+            "path": "resources/annocraft/textures/16.jpg"
+          }
+        },
+        {
+          "id": "17.jpg",
+          "name": "17.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 636721,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/17.jpg",
+            "MD5": "09966783225e105729bd452801003521",
+            "path": "resources/annocraft/textures/17.jpg"
+          }
+        },
+        {
+          "id": "18.jpg",
+          "name": "18.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 371132,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/18.jpg",
+            "MD5": "16c6e75d5070a4f2b91499f885640c9f",
+            "path": "resources/annocraft/textures/18.jpg"
+          }
+        },
+        {
+          "id": "19.jpg",
+          "name": "19.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 384120,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/19.jpg",
+            "MD5": "05d2c7e8128fb47d764d1bb49c0f9f09",
+            "path": "resources/annocraft/textures/19.jpg"
+          }
+        },
+        {
+          "id": "2.jpg",
+          "name": "2.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 144245,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/2.jpg",
+            "MD5": "c35ceef4eff0ec99004b75c9f5bedbfd",
+            "path": "resources/annocraft/textures/2.jpg"
+          }
+        },
+        {
+          "id": "20.jpg",
+          "name": "20.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 472706,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/20.jpg",
+            "MD5": "07b2f940c36e4295302b8c5cbea4b4d7",
+            "path": "resources/annocraft/textures/20.jpg"
+          }
+        },
+        {
+          "id": "21.jpg",
+          "name": "21.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 832127,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/21.jpg",
+            "MD5": "92f03e6254922e9ac1c22b49b558e0e3",
+            "path": "resources/annocraft/textures/21.jpg"
+          }
+        },
+        {
+          "id": "22.jpg",
+          "name": "22.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 493971,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/22.jpg",
+            "MD5": "dcfc6ecd79f00b552865b73a32f8ac13",
+            "path": "resources/annocraft/textures/22.jpg"
+          }
+        },
+        {
+          "id": "23.jpg",
+          "name": "23.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 818611,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/23.jpg",
+            "MD5": "466cd31bb8b35fee9915be485e66f24b",
+            "path": "resources/annocraft/textures/23.jpg"
+          }
+        },
+        {
+          "id": "24.jpg",
+          "name": "24.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 519788,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/24.jpg",
+            "MD5": "5687b1588c9a48335de1b318ad27d590",
+            "path": "resources/annocraft/textures/24.jpg"
+          }
+        },
+        {
+          "id": "25.png",
+          "name": "25.png",
+          "type": "File",
+          "artifact": {
+            "size": 1956625,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/25.png",
+            "MD5": "ea5f5244d7a21e99aa66341dc02c2814",
+            "path": "resources/annocraft/textures/25.png"
+          }
+        },
+        {
+          "id": "26.png",
+          "name": "26.png",
+          "type": "File",
+          "artifact": {
+            "size": 2123154,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/26.png",
+            "MD5": "45ddb1c19637802046bd85017d15075e",
+            "path": "resources/annocraft/textures/26.png"
+          }
+        },
+        {
+          "id": "27.jpg",
+          "name": "27.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 940919,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/27.jpg",
+            "MD5": "262ad55730fef2beaf70ed607d1c10f0",
+            "path": "resources/annocraft/textures/27.jpg"
+          }
+        },
+        {
+          "id": "28.png",
+          "name": "28.png",
+          "type": "File",
+          "artifact": {
+            "size": 4688077,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/28.png",
+            "MD5": "fa74e25ddea15f8dce73e336c94545f5",
+            "path": "resources/annocraft/textures/28.png"
+          }
+        },
+        {
+          "id": "3.jpg",
+          "name": "3.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 221280,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/3.jpg",
+            "MD5": "4a72fc930d0e4a5054d06db5f324145a",
+            "path": "resources/annocraft/textures/3.jpg"
+          }
+        },
+        {
+          "id": "4.jpg",
+          "name": "4.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 566766,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/4.jpg",
+            "MD5": "7f96030b52829e81cf37ada44a77c734",
+            "path": "resources/annocraft/textures/4.jpg"
+          }
+        },
+        {
+          "id": "5.jpg",
+          "name": "5.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 4806097,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/5.jpg",
+            "MD5": "844363027934e659f4db89b570a73f27",
+            "path": "resources/annocraft/textures/5.jpg"
+          }
+        },
+        {
+          "id": "6.jpg",
+          "name": "6.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 769422,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/6.jpg",
+            "MD5": "9fe29ee16a12bc22c7eb786f1bc2eaa8",
+            "path": "resources/annocraft/textures/6.jpg"
+          }
+        },
+        {
+          "id": "7.jpg",
+          "name": "7.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 461760,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/7.jpg",
+            "MD5": "896ff8ed20d5a0ee888ce3889ef044f3",
+            "path": "resources/annocraft/textures/7.jpg"
+          }
+        },
+        {
+          "id": "8.jpg",
+          "name": "8.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 490711,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/8.jpg",
+            "MD5": "d9a5b7ed066520b75f6534a81a0e12ea",
+            "path": "resources/annocraft/textures/8.jpg"
+          }
+        },
+        {
+          "id": "9.jpg",
+          "name": "9.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 413702,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/9.jpg",
+            "MD5": "7235d1704d0e98a5a27f8e61f3b86807",
+            "path": "resources/annocraft/textures/9.jpg"
+          }
+        },
+        {
+          "id": "annocraft1602online.png",
+          "name": "annocraft1602online.png",
+          "type": "File",
+          "artifact": {
+            "size": 19370,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/annocraft1602online.png",
+            "MD5": "c951a09a3cc19d58887117c072ae56db",
+            "path": "resources/annocraft/textures/annocraft1602online.png"
+          }
+        },
+        {
+          "id": "annocraft1602online.psd",
+          "name": "annocraft1602online.psd",
+          "type": "File",
+          "artifact": {
+            "size": 2232196,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/annocraft1602online.psd",
+            "MD5": "983776b1f96e2d2086848420d6887802",
+            "path": "resources/annocraft/textures/annocraft1602online.psd"
+          }
+        },
+        {
+          "id": "beta.png",
+          "name": "beta.png",
+          "type": "File",
+          "artifact": {
+            "size": 10630,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/beta.png",
+            "MD5": "06445ed2e753c48d933ea9a6f2d1c5f7",
+            "path": "resources/annocraft/textures/beta.png"
+          }
+        },
+        {
+          "id": "button.png",
+          "name": "button.png",
+          "type": "File",
+          "artifact": {
+            "size": 4119,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/button.png",
+            "MD5": "44f2ce37b6832991fc458a47f2b4d505",
+            "path": "resources/annocraft/textures/button.png"
+          }
+        },
+        {
+          "id": "discordbg.png",
+          "name": "discordbg.png",
+          "type": "File",
+          "artifact": {
+            "size": 9795,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/discordbg.png",
+            "MD5": "8a000ebf0feac2dc7032bb5c4c52e829",
+            "path": "resources/annocraft/textures/discordbg.png"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 8109,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/icon.png",
+            "MD5": "8a6111887409d31ebf8d37bc5400b2a0",
+            "path": "resources/annocraft/textures/icon.png"
+          }
+        },
+        {
+          "id": "klein_logo.png",
+          "name": "klein_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1212,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/klein_logo.png",
+            "MD5": "07204cce1238f424993b8ac1c001c36c",
+            "path": "resources/annocraft/textures/klein_logo.png"
+          }
+        },
+        {
+          "id": "langbg.png",
+          "name": "langbg.png",
+          "type": "File",
+          "artifact": {
+            "size": 8724,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/langbg.png",
+            "MD5": "aaf21a9e358df1bb370c385c917b95eb",
+            "path": "resources/annocraft/textures/langbg.png"
+          }
+        },
+        {
+          "id": "loadingbar.png",
+          "name": "loadingbar.png",
+          "type": "File",
+          "artifact": {
+            "size": 2274,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/loadingbar.png",
+            "MD5": "e3df49e6fff5aa8e4145b0ac1426511a",
+            "path": "resources/annocraft/textures/loadingbar.png"
+          }
+        },
+        {
+          "id": "map.png",
+          "name": "map.png",
+          "type": "File",
+          "artifact": {
+            "size": 7964,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/map.png",
+            "MD5": "e09a026c1dffc2c614a46159aac40d34",
+            "path": "resources/annocraft/textures/map.png"
+          }
+        },
+        {
+          "id": "modsbg.png",
+          "name": "modsbg.png",
+          "type": "File",
+          "artifact": {
+            "size": 7647,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/modsbg.png",
+            "MD5": "cd906249bef2503ff9e9476c7462a488",
+            "path": "resources/annocraft/textures/modsbg.png"
+          }
+        },
+        {
+          "id": "namebg.png",
+          "name": "namebg.png",
+          "type": "File",
+          "artifact": {
+            "size": 566,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/namebg.png",
+            "MD5": "5a13e599fc055d6f139bef90ea678837",
+            "path": "resources/annocraft/textures/namebg.png"
+          }
+        },
+        {
+          "id": "optionsbg.png",
+          "name": "optionsbg.png",
+          "type": "File",
+          "artifact": {
+            "size": 9598,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/optionsbg.png",
+            "MD5": "5b886bf60a6d30d2b8cc40ef1a126204",
+            "path": "resources/annocraft/textures/optionsbg.png"
+          }
+        },
+        {
+          "id": "panel.png",
+          "name": "panel.png",
+          "type": "File",
+          "artifact": {
+            "size": 347613,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/panel.png",
+            "MD5": "3d79ce79fee589c881ad25c25994a300",
+            "path": "resources/annocraft/textures/panel.png"
+          }
+        },
+        {
+          "id": "panel_bottom.png",
+          "name": "panel_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 269421,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/panel_bottom.png",
+            "MD5": "6c995fcd201e0ae2aa65f7f3954713fb",
+            "path": "resources/annocraft/textures/panel_bottom.png"
+          }
+        },
+        {
+          "id": "panel_top.png",
+          "name": "panel_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 184793,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/panel_top.png",
+            "MD5": "9df698420ed7b6ac28a1ad46b6042f58",
+            "path": "resources/annocraft/textures/panel_top.png"
+          }
+        },
+        {
+          "id": "panelh.png",
+          "name": "panelh.png",
+          "type": "File",
+          "artifact": {
+            "size": 808,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/panelh.png",
+            "MD5": "a3f8156b5ac679fc7786046da363528a",
+            "path": "resources/annocraft/textures/panelh.png"
+          }
+        },
+        {
+          "id": "panelhb.png",
+          "name": "panelhb.png",
+          "type": "File",
+          "artifact": {
+            "size": 858,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/panelhb.png",
+            "MD5": "08dc954ca3326cc297d225b6514c1ecc",
+            "path": "resources/annocraft/textures/panelhb.png"
+          }
+        },
+        {
+          "id": "title.png",
+          "name": "title.png",
+          "type": "File",
+          "artifact": {
+            "size": 76365,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/title.png",
+            "MD5": "ea00391905c7e4060575ab8603e80d86",
+            "path": "resources/annocraft/textures/title.png"
+          }
+        },
+        {
+          "id": "title_left.png",
+          "name": "title_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 146772,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/title_left.png",
+            "MD5": "1427908849a2af50eb629d7d20b97d38",
+            "path": "resources/annocraft/textures/title_left.png"
+          }
+        },
+        {
+          "id": "title_new.png",
+          "name": "title_new.png",
+          "type": "File",
+          "artifact": {
+            "size": 143824,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/title_new.png",
+            "MD5": "e2dea401c9adb2e1d553a373b392e582",
+            "path": "resources/annocraft/textures/title_new.png"
+          }
+        },
+        {
+          "id": "title_right.png",
+          "name": "title_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 146418,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/title_right.png",
+            "MD5": "61f9850b1c2614fb8d67d8a21b9ca1d6",
+            "path": "resources/annocraft/textures/title_right.png"
+          }
+        },
+        {
+          "id": "titletext.png",
+          "name": "titletext.png",
+          "type": "File",
+          "artifact": {
+            "size": 74863,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/annocraft/textures/titletext.png",
+            "MD5": "13d7a1979802180dacc7e824ea580666",
+            "path": "resources/annocraft/textures/titletext.png"
+          }
+        },
+        {
+          "id": "annocraft1602.json",
+          "name": "annocraft1602.json",
+          "type": "File",
+          "artifact": {
+            "size": 2289,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/config/annocraft1602.json",
+            "MD5": "36a7d33dcc39862c478276030a8773f2",
+            "path": "resources/customloadingscreen/config/annocraft1602.json"
+          }
+        },
+        {
+          "id": "sound_at_end.json",
+          "name": "sound_at_end.json",
+          "type": "File",
+          "artifact": {
+            "size": 140,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/action/sound_at_end.json",
+            "MD5": "d22616b5d0a50a0f3dde0d7c8550f206",
+            "path": "resources/customloadingscreen/sample/action/sound_at_end.json"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/default.json",
+            "MD5": "53f1ade93a8e3d88cd44e3583873b13a",
+            "path": "resources/customloadingscreen/sample/config/default.json"
+          }
+        },
+        {
+          "id": "forge_duplicate.json",
+          "name": "forge_duplicate.json",
+          "type": "File",
+          "artifact": {
+            "size": 1107,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/forge_duplicate.json",
+            "MD5": "d13f15c6316f3ccbe51511225a1abfdf",
+            "path": "resources/customloadingscreen/sample/config/forge_duplicate.json"
+          }
+        },
+        {
+          "id": "generic_error.json",
+          "name": "generic_error.json",
+          "type": "File",
+          "artifact": {
+            "size": 165,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/generic_error.json",
+            "MD5": "f8ffa177fd5486ca55de6257d8d1a814",
+            "path": "resources/customloadingscreen/sample/config/generic_error.json"
+          }
+        },
+        {
+          "id": "rotating_cakes.json",
+          "name": "rotating_cakes.json",
+          "type": "File",
+          "artifact": {
+            "size": 424,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/rotating_cakes.json",
+            "MD5": "2a6ba2078fbb7d80dca1fa16a9467bc2",
+            "path": "resources/customloadingscreen/sample/config/rotating_cakes.json"
+          }
+        },
+        {
+          "id": "scrolling.json",
+          "name": "scrolling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1763,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/scrolling.json",
+            "MD5": "56ddcd2ce5c277929ec4f4e1445a10f3",
+            "path": "resources/customloadingscreen/sample/config/scrolling.json"
+          }
+        },
+        {
+          "id": "scrolling_detailed.json",
+          "name": "scrolling_detailed.json",
+          "type": "File",
+          "artifact": {
+            "size": 2550,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/scrolling_detailed.json",
+            "MD5": "40137c12be86d520ca69eda2bc6cbe82",
+            "path": "resources/customloadingscreen/sample/config/scrolling_detailed.json"
+          }
+        },
+        {
+          "id": "white.json",
+          "name": "white.json",
+          "type": "File",
+          "artifact": {
+            "size": 294,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/white.json",
+            "MD5": "4796e3d9ced5dbc249f18f2b8505eb04",
+            "path": "resources/customloadingscreen/sample/config/white.json"
+          }
+        },
+        {
+          "id": "worldload.json",
+          "name": "worldload.json",
+          "type": "File",
+          "artifact": {
+            "size": 1402,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/config/worldload.json",
+            "MD5": "1a9abba262c0370bcad330eb18dadd53",
+            "path": "resources/customloadingscreen/sample/config/worldload.json"
+          }
+        },
+        {
+          "id": "interpolate.json",
+          "name": "interpolate.json",
+          "type": "File",
+          "artifact": {
+            "size": 272,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/function/interpolate.json",
+            "MD5": "94daa36685dc41f85c06c31a6fa0d934",
+            "path": "resources/customloadingscreen/sample/function/interpolate.json"
+          }
+        },
+        {
+          "id": "item_rotation.json",
+          "name": "item_rotation.json",
+          "type": "File",
+          "artifact": {
+            "size": 56,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/function/item_rotation.json",
+            "MD5": "b8afe22539d3308348134e0be8b03373",
+            "path": "resources/customloadingscreen/sample/function/item_rotation.json"
+          }
+        },
+        {
+          "id": "background.json",
+          "name": "background.json",
+          "type": "File",
+          "artifact": {
+            "size": 267,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/background.json",
+            "MD5": "2cc7951b2cae7207ab6aabaf80a7ef8a",
+            "path": "resources/customloadingscreen/sample/image/background.json"
+          }
+        },
+        {
+          "id": "block_4_wide.json",
+          "name": "block_4_wide.json",
+          "type": "File",
+          "artifact": {
+            "size": 260,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_4_wide.json",
+            "MD5": "31d09caf81dda9450c941e0705661bd0",
+            "path": "resources/customloadingscreen/sample/image/block_4_wide.json"
+          }
+        },
+        {
+          "id": "block_4_wide_percentage.json",
+          "name": "block_4_wide_percentage.json",
+          "type": "File",
+          "artifact": {
+            "size": 175,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_4_wide_percentage.json",
+            "MD5": "fef71fc1191b038cedfbabc306225d35",
+            "path": "resources/customloadingscreen/sample/image/block_4_wide_percentage.json"
+          }
+        },
+        {
+          "id": "block_cake_inner_4_wide.json",
+          "name": "block_cake_inner_4_wide.json",
+          "type": "File",
+          "artifact": {
+            "size": 91,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_cake_inner_4_wide.json",
+            "MD5": "9856dd0b35d0b843b3aa321ebc76f701",
+            "path": "resources/customloadingscreen/sample/image/block_cake_inner_4_wide.json"
+          }
+        },
+        {
+          "id": "block_cake_side_4_wide.json",
+          "name": "block_cake_side_4_wide.json",
+          "type": "File",
+          "artifact": {
+            "size": 79,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/block_cake_side_4_wide.json",
+            "MD5": "04be9ed05f33746081c39a5d8ce22f48",
+            "path": "resources/customloadingscreen/sample/image/block_cake_side_4_wide.json"
+          }
+        },
+        {
+          "id": "bottom_bar.json",
+          "name": "bottom_bar.json",
+          "type": "File",
+          "artifact": {
+            "size": 379,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/bottom_bar.json",
+            "MD5": "f1885435a26a4b29eefeb473891f3c7d",
+            "path": "resources/customloadingscreen/sample/image/bottom_bar.json"
+          }
+        },
+        {
+          "id": "cake.json",
+          "name": "cake.json",
+          "type": "File",
+          "artifact": {
+            "size": 158,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake.json",
+            "MD5": "88e0949498bc3a87a35efad5f84849e2",
+            "path": "resources/customloadingscreen/sample/image/cake.json"
+          }
+        },
+        {
+          "id": "cake_bottom_left.json",
+          "name": "cake_bottom_left.json",
+          "type": "File",
+          "artifact": {
+            "size": 86,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_bottom_left.json",
+            "MD5": "a80e19b93ccdb8327d381ba39d57b0fe",
+            "path": "resources/customloadingscreen/sample/image/cake_bottom_left.json"
+          }
+        },
+        {
+          "id": "cake_bottom_right.json",
+          "name": "cake_bottom_right.json",
+          "type": "File",
+          "artifact": {
+            "size": 87,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_bottom_right.json",
+            "MD5": "d639f8899e8c1aa2f161579596b8e882",
+            "path": "resources/customloadingscreen/sample/image/cake_bottom_right.json"
+          }
+        },
+        {
+          "id": "cake_top_left.json",
+          "name": "cake_top_left.json",
+          "type": "File",
+          "artifact": {
+            "size": 83,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_top_left.json",
+            "MD5": "4974163132292ac178525af899b8fdd4",
+            "path": "resources/customloadingscreen/sample/image/cake_top_left.json"
+          }
+        },
+        {
+          "id": "cake_top_right.json",
+          "name": "cake_top_right.json",
+          "type": "File",
+          "artifact": {
+            "size": 84,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/cake_top_right.json",
+            "MD5": "30542721064b27eb1c42e2a5237a39f5",
+            "path": "resources/customloadingscreen/sample/image/cake_top_right.json"
+          }
+        },
+        {
+          "id": "horizontal_stripe.json",
+          "name": "horizontal_stripe.json",
+          "type": "File",
+          "artifact": {
+            "size": 354,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/horizontal_stripe.json",
+            "MD5": "9d2293c7ad180f9c05ad8bb4a95f7b3e",
+            "path": "resources/customloadingscreen/sample/image/horizontal_stripe.json"
+          }
+        },
+        {
+          "id": "item.json",
+          "name": "item.json",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/item.json",
+            "MD5": "cbd3c43023150f76fbbcb553b9fc58a2",
+            "path": "resources/customloadingscreen/sample/image/item.json"
+          }
+        },
+        {
+          "id": "loading_bar_bevel.json",
+          "name": "loading_bar_bevel.json",
+          "type": "File",
+          "artifact": {
+            "size": 187,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_bevel.json",
+            "MD5": "bc6068bb848a68eef5eb05fbd58d0ad2",
+            "path": "resources/customloadingscreen/sample/image/loading_bar_bevel.json"
+          }
+        },
+        {
+          "id": "loading_bar_bevel_percentage.json",
+          "name": "loading_bar_bevel_percentage.json",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_bevel_percentage.json",
+            "MD5": "ddd89f430a3f5270acfeaf8f97d9e63a",
+            "path": "resources/customloadingscreen/sample/image/loading_bar_bevel_percentage.json"
+          }
+        },
+        {
+          "id": "loading_bar_boss.json",
+          "name": "loading_bar_boss.json",
+          "type": "File",
+          "artifact": {
+            "size": 87,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_boss.json",
+            "MD5": "e4eaeeb0955d0f83aca657e41b470a56",
+            "path": "resources/customloadingscreen/sample/image/loading_bar_boss.json"
+          }
+        },
+        {
+          "id": "loading_bar_boss_percentage.json",
+          "name": "loading_bar_boss_percentage.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_boss_percentage.json",
+            "MD5": "8b930f6eb013483c4596a2a80388922a",
+            "path": "resources/customloadingscreen/sample/image/loading_bar_boss_percentage.json"
+          }
+        },
+        {
+          "id": "loading_bar_standard.json",
+          "name": "loading_bar_standard.json",
+          "type": "File",
+          "artifact": {
+            "size": 337,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_standard.json",
+            "MD5": "ae674be36ab69db0223aae312c25dc0e",
+            "path": "resources/customloadingscreen/sample/image/loading_bar_standard.json"
+          }
+        },
+        {
+          "id": "loading_bar_standard_percentage.json",
+          "name": "loading_bar_standard_percentage.json",
+          "type": "File",
+          "artifact": {
+            "size": 392,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loading_bar_standard_percentage.json",
+            "MD5": "48693103d27b4a5ae3554f22a2403b87",
+            "path": "resources/customloadingscreen/sample/image/loading_bar_standard_percentage.json"
+          }
+        },
+        {
+          "id": "loadingbar.json",
+          "name": "loadingbar.json",
+          "type": "File",
+          "artifact": {
+            "size": 268,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loadingbar.json",
+            "MD5": "7b1b486dfe6aad812145b1e919cde1c9",
+            "path": "resources/customloadingscreen/sample/image/loadingbar.json"
+          }
+        },
+        {
+          "id": "loadingbarpercentage.json",
+          "name": "loadingbarpercentage.json",
+          "type": "File",
+          "artifact": {
+            "size": 372,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/loadingbarpercentage.json",
+            "MD5": "223b845f3182a5418a589257d6939e61",
+            "path": "resources/customloadingscreen/sample/image/loadingbarpercentage.json"
+          }
+        },
+        {
+          "id": "panel_bottom.json",
+          "name": "panel_bottom.json",
+          "type": "File",
+          "artifact": {
+            "size": 272,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panel_bottom.json",
+            "MD5": "06ef8218c4826ee2e32c2d84ea915864",
+            "path": "resources/customloadingscreen/sample/image/panel_bottom.json"
+          }
+        },
+        {
+          "id": "panel_top.json",
+          "name": "panel_top.json",
+          "type": "File",
+          "artifact": {
+            "size": 263,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panel_top.json",
+            "MD5": "b3bbae2c045b9a31978967a61178dd01",
+            "path": "resources/customloadingscreen/sample/image/panel_top.json"
+          }
+        },
+        {
+          "id": "panorama.json",
+          "name": "panorama.json",
+          "type": "File",
+          "artifact": {
+            "size": 93,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/panorama.json",
+            "MD5": "3de6680c7e6826eb0e3c58c229f42c6a",
+            "path": "resources/customloadingscreen/sample/image/panorama.json"
+          }
+        },
+        {
+          "id": "text_generic_error.json",
+          "name": "text_generic_error.json",
+          "type": "File",
+          "artifact": {
+            "size": 227,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_generic_error.json",
+            "MD5": "55ed08ff7cbc6c013fade4ad3346be54",
+            "path": "resources/customloadingscreen/sample/image/text_generic_error.json"
+          }
+        },
+        {
+          "id": "text_percentage.json",
+          "name": "text_percentage.json",
+          "type": "File",
+          "artifact": {
+            "size": 295,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage.json",
+            "MD5": "3cf305ba8fb2b241c59b5810632e2c7e",
+            "path": "resources/customloadingscreen/sample/image/text_percentage.json"
+          }
+        },
+        {
+          "id": "text_percentage_scrolling.json",
+          "name": "text_percentage_scrolling.json",
+          "type": "File",
+          "artifact": {
+            "size": 184,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage_scrolling.json",
+            "MD5": "a3163e1ba24633510f0b80104ec1690a",
+            "path": "resources/customloadingscreen/sample/image/text_percentage_scrolling.json"
+          }
+        },
+        {
+          "id": "text_percentage_white.json",
+          "name": "text_percentage_white.json",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_percentage_white.json",
+            "MD5": "ba469a81ddec09340145733674d21858",
+            "path": "resources/customloadingscreen/sample/image/text_percentage_white.json"
+          }
+        },
+        {
+          "id": "text_status.json",
+          "name": "text_status.json",
+          "type": "File",
+          "artifact": {
+            "size": 304,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_status.json",
+            "MD5": "12a4746847cc5ff89d7f7de1dcbaf2c9",
+            "path": "resources/customloadingscreen/sample/image/text_status.json"
+          }
+        },
+        {
+          "id": "text_status_white.json",
+          "name": "text_status_white.json",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_status_white.json",
+            "MD5": "876010a5feefccca6d0feb6e6d910216",
+            "path": "resources/customloadingscreen/sample/image/text_status_white.json"
+          }
+        },
+        {
+          "id": "text_sub_status.json",
+          "name": "text_sub_status.json",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_sub_status.json",
+            "MD5": "12baa591415b2aa8c032fe0d5af8bf62",
+            "path": "resources/customloadingscreen/sample/image/text_sub_status.json"
+          }
+        },
+        {
+          "id": "text_sub_status_white.json",
+          "name": "text_sub_status_white.json",
+          "type": "File",
+          "artifact": {
+            "size": 104,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/text_sub_status_white.json",
+            "MD5": "0195e76d943444183db67660100dde0a",
+            "path": "resources/customloadingscreen/sample/image/text_sub_status_white.json"
+          }
+        },
+        {
+          "id": "title.json",
+          "name": "title.json",
+          "type": "File",
+          "artifact": {
+            "size": 263,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/image/title.json",
+            "MD5": "39fcba8ccbc8ef5f6304d6de24df4596",
+            "path": "resources/customloadingscreen/sample/image/title.json"
+          }
+        },
+        {
+          "id": "rotating_cake_bottom_left.json",
+          "name": "rotating_cake_bottom_left.json",
+          "type": "File",
+          "artifact": {
+            "size": 100,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_left.json",
+            "MD5": "a80e1e84b05069af524957c0a814d6d9",
+            "path": "resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_left.json"
+          }
+        },
+        {
+          "id": "rotating_cake_bottom_right.json",
+          "name": "rotating_cake_bottom_right.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_right.json",
+            "MD5": "5b687bd447d69ba291f98d42ae90d593",
+            "path": "resources/customloadingscreen/sample/imagemeta/rotating_cake_bottom_right.json"
+          }
+        },
+        {
+          "id": "rotating_cake_top_left.json",
+          "name": "rotating_cake_top_left.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_left.json",
+            "MD5": "0cb916a81771db3c584ff404e3eca884",
+            "path": "resources/customloadingscreen/sample/imagemeta/rotating_cake_top_left.json"
+          }
+        },
+        {
+          "id": "rotating_cake_top_right.json",
+          "name": "rotating_cake_top_right.json",
+          "type": "File",
+          "artifact": {
+            "size": 103,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/imagemeta/rotating_cake_top_right.json",
+            "MD5": "5fb2462c0588f906e12ea3660cbd9f26",
+            "path": "resources/customloadingscreen/sample/imagemeta/rotating_cake_top_right.json"
+          }
+        },
+        {
+          "id": "item_rotate_anti_clockwise.json",
+          "name": "item_rotate_anti_clockwise.json",
+          "type": "File",
+          "artifact": {
+            "size": 91,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/instruction/item_rotate_anti_clockwise.json",
+            "MD5": "47428bbd3cbfeaf1c9b5bbd81690450c",
+            "path": "resources/customloadingscreen/sample/instruction/item_rotate_anti_clockwise.json"
+          }
+        },
+        {
+          "id": "item_rotate_clockwise.json",
+          "name": "item_rotate_clockwise.json",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json",
+            "MD5": "e23873efbdb8d75db2afab037702da52",
+            "path": "resources/customloadingscreen/sample/instruction/item_rotate_clockwise.json"
+          }
+        },
+        {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomMainMenu-MC1.12.2-2.0.9.1.jar?raw=true",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210423,
+            "url": "https://github.com/ph1338/BoardLaucher/blob/main/foamfix-0.10.11-1.12.2.jar?raw=true",
+            "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
+          }
+        },
+         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2769,
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
+            "MD5": "60413da5fa9569a33a9ed5b46a803cd6",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1437,
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
+            "MD5": "93baa10f640d7f6a01c0b842ae75b6e1",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 395,
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsshaders.txt",
+            "MD5": "c35a87ad1822e91b0ee53ab96709a197",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "Saved Client Servers",
+          "type": "File",
+          "artifact": {
+              "size": 14440,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/servers.dat",
+              "MD5": "a43c2e05d989dbae5ef2985d27e3af8a",
+              "path": "servers.dat"
+          }
+      }
+      ]
+    }
+  ]
+}
