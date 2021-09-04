@@ -1949,6 +1949,39 @@
             "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
           }
         },
+         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2769,
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
+            "MD5": "60413da5fa9569a33a9ed5b46a803cd6",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1437,
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
+            "MD5": "93baa10f640d7f6a01c0b842ae75b6e1",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 395,
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsshaders.txt",
+            "MD5": "c35a87ad1822e91b0ee53ab96709a197",
+            "path": "optionsshaders.txt"
+          }
+        },
         {
           "id": "servers.dat",
           "name": "Saved Client Servers",
