@@ -1,0 +1,19 @@
+#Mon Aug 23 20:53:51 BRT 2021
+shaderPack=Builder's QOL \! Board Edit.zip
+antialiasingLevel=2
+normalMapEnabled=true
+specularMapEnabled=false
+renderResMul=1.0
+shadowResMul=1.0
+handDepthMul=0.0625
+cloudShadow=false
+oldHandLight=default
+oldLighting=false
+tweakBlockDamage=false
+shadowClipFrustrum=true
+TexMinFilB=0
+TexMinFilN=0
+TexMinFilS=0
+TexMagFilB=0
+TexMagFilN=0
+TexMagFilS=0
