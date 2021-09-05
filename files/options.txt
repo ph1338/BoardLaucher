@@ -15,7 +15,7 @@ difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["RPG VER 108.zip","!Padrão_035.zip"]
+resourcePacks:["Board Network V13.7.zip"]
 incompatibleResourcePacks:[]
 lastServer:wyncraft.com
 lang:en_us
