@@ -1965,9 +1965,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2769,
-            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
-            "MD5": "60413da5fa9569a33a9ed5b46a803cd6",
+            "size": 2768,
+            "url": "https://github.com/ph1338/servers/Test1-1.12.2/files/options.txt",
+            "MD5": "e64e6a5cab9d55165aabc71b3daaf69d",
             "path": "options.txt"
           }
         },
