@@ -1,0 +1,6 @@
+#Fri Sep 03 09:33:49 BRT 2021
+BLOOM=false
+shadowDistance=512.0
+shadowMapResolution=4096
+SKY_VANILLA=true
+sunPathRotation=-60.0

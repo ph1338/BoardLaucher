@@ -1,0 +1,3 @@
+#Wed Sep 01 09:19:34 BRT 2021
+ATOM_LENS=false
+LENS_FLARE=false
