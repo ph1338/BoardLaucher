@@ -1019,17 +1019,17 @@
             "path": "optionsof.txt"
           }
         },
-          {
-            "id": "options.txt",
-            "name": "options.txt",
-            "type": "File",
-            "artifact": {
-              "size": 3382,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
-              "MD5": "e50bcf4af4633727ca93feccd3f3c96a",
-              "path": "options.txt"
-            }
-          },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3391,
+            "url": "https://github.com/ph1338/servers/Testa-1.12.2/files/options.txt",
+            "MD5": "aca06f1dcbcd43abd39a3b5616e27d44",
+            "path": "options.txt"
+          }
+        },
         {
           "id": "servers.dat",
           "name": "Saved Client Servers",
