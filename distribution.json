@@ -1008,17 +1008,17 @@
               "path": "optionsshaders.txt"
             }
           },
-          {
-            "id": "optionsof.txt",
-            "name": "optionsof.txt",
-            "type": "File",
-            "artifact": {
-              "size": 395,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
-              "MD5": "c35a87ad1822e91b0ee53ab96709a128",
-              "path": "optionsof.txt"
-            }
-          },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1435,
+            "url": "https://github.com/ph1338/servers/Testa-1.12.2/files/optionsof.txt",
+            "MD5": "784761b39fdc7cafb204ba9c2180cee8",
+            "path": "optionsof.txt"
+          }
+        },
           {
             "id": "options.txt",
             "name": "options.txt",
