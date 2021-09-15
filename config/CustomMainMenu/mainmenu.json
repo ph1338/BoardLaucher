@@ -1,0 +1,188 @@
+{
+    "images":
+    {
+    
+        "black":
+        {
+            "image" : "mainmenu:textures/bg_menu.png",
+            "posX" : 165,
+            "posY" : 0,
+            "width" : 155,
+            "height" : 800,
+            "alignment" : "top_left"
+        },
+        "logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : 165,
+            "posY" : 0,
+            "width" : 150,
+            "height" : 85,
+            "alignment" : "top_left"
+        }
+    
+    },
+    
+    "buttons":
+    {     
+        "singleplayer":
+        {
+            "text" : "Meus mundos",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 165,
+            "posY" : -40,
+            "width" : 153,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },      
+
+        "multiplayer":
+        {
+            "text" : "Jogar agora",         
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 165,
+            "posY" : 10,
+            "width" : 153,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type": "connectToServer",
+                "ip": "190.115.197.20:25566"
+            }
+        },
+               
+        "options":
+        {
+            "text" : "Configurações",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 165,
+            "posY" : -20,
+            "width" : 153,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "Sair do jogo",
+            "normalTextColor" : 16729156,
+            "hoverTextColor" : 14483456,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 165,
+            "posY" : 50,
+            "width" : 153,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "Não! não vá embora!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "Addons":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+            "normalTextColor" : 6710886,
+            "hoverTextColor" : 3125670,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 165,
+            "posY" : 80,
+            "width" : 153,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+        "packTxt":
+        {
+            "text" : "AAIII - 0.0.1a",
+            "posX" : 2,
+            "posY" : -25,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    
+    "alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+ 
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+    
+  "other": {
+    "background": {
+      "image": "",
+      "slideshow": {
+        "images": [
+          "boardnetwork:textures/1.png",
+          "boardnetwork:textures/2.png",
+          "boardnetwork:textures/3.png",
+          "boardnetwork:textures/4.png",
+          "boardnetwork:textures/5.png",
+          "boardnetwork:textures/6.png",
+          "boardnetwork:textures/7.png",
+          "boardnetwork:textures/8.jpg"
+        ],
+        "displayDuration": 350,
+        "fadeDuration": 50,
+        "mode": "fill"
+      }
+    }
+  }
+}
