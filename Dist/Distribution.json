@@ -610,7 +610,7 @@
             "name": "!Recursos_essenciais.zip",
             "type": "File",
             "artifact": {
-              "size": 401331839,
+              "size": 403006379,
               "url": "https://www.dropbox.com/s/43g5u874l8p7aay/%21Padr%C3%A3o.zip?dl=1",
               "MD5": "acacbf23d631de912aee192d8bd21734",
               "path": "resourcepacks/!Recursos_essenciais.zip"
@@ -705,14 +705,14 @@
             }
           },
           {
-            "id": "Versão Flat.zip",
-            "name": "Versão Flat.zip",
+            "id": "Versao_Flat.zip",
+            "name": "Versao_Flat.zip",
             "type": "File",
             "artifact": {
-              "size": 35496176,
+              "size": 35495943,
               "url": "https://cdn.discordapp.com/attachments/794786157359005748/887690499648016434/Versao_Flat.zip",
-              "MD5": "624916fddc11fe94da1f5ee44862c086",
-              "path": "resourcepacks/Versão Flat.zip"
+              "MD5": "9b0658ffb5b89d895b7b33e07744b92f",
+              "path": "resourcepacks/Versao_Flat.zip"
             }
           },
           {
