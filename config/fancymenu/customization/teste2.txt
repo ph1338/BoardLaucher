@@ -1,0 +1,76 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = minecraft_cave_animation_fancymenu_21938kf312
+  action = animatebackground
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = joinserver
+  x = -100
+  width = 200
+  actionid = 15e57e08-ac87-45b3-bba3-9323b6b539511631822871376
+  action = addbutton
+  y = 42
+  label = Jogar agora
+  value = boardmc.com.br
+  height = 18
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  path = resources/mainmenu/textures/logo.png
+  orientation = mid-centered
+  x = -67
+  width = 134
+  actionid = 2e5ea053-a827-4f45-9b2f-4bcf1e78ffc31631822822319
+  action = addtexture
+  y = -45
+  height = 75
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Configuracoes
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = Sair do jogo
+}
+
