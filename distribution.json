@@ -400,17 +400,6 @@
             }
           },
           {
-            "id": "custombackgrounds.cfg",
-            "name": "custombackgrounds.cfg",
-            "type": "File",
-            "artifact": {
-              "size": 269,
-              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/custombackgrounds.cfg",
-              "MD5": "9426c6c4018744dac50512d849dbc6aa",
-              "path": "config/custombackgrounds.cfg"
-            }
-          },
-          {
             "id": "foamfix.cfg",
             "name": "foamfix.cfg",
             "type": "File",
@@ -562,16 +551,6 @@
               "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaeropatreon.txt",
               "MD5": "c7c8d2ad1537497c0c372e71d8bfb33d",
               "path": "config/xaeropatreon.txt"
-            }
-          },
-          {
-            "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
-            "name": "Custom Main Menu",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 91121,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomMainMenu-MC1.12.2-2.0.9.1.jar?raw=true",
-              "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
             }
           },
           {
