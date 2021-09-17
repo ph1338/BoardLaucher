@@ -924,27 +924,27 @@
               }
             },
             {
-              "id": "optionsof.txt",
-              "name": "optionsof.txt",
-              "type": "File",
-              "artifact": {
-                "size": 395,
-                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
-                "MD5": "c35a87ad1822e91b0ee53ab96709a128",
-                "path": "optionsof.txt"
-              }            
-        },
-            {
-              "id": "options.txt",
-              "name": "options.txt",
-              "type": "File",
-              "artifact": {
-                "size": 3382,
-                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
-                "MD5": "e50bcf4af4633727ca93feccd3f3c96a",
-                "path": "options.txt"
-              }
-            },
+                "id": "options.txt",
+                "name": "options.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 3434,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
+                  "MD5": "465139ee4a75c112beaa713869d8c1d1",
+                  "path": "options.txt"
+                }
+              },
+              {
+                "id": "optionsof.txt",
+                "name": "optionsof.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 1437,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
+                  "MD5": "93baa10f640d7f6a01c0b842ae75b6e1",
+                  "path": "optionsof.txt"
+                }
+              },
           {
             "id": "servers.dat",
             "name": "Saved Client Servers",
