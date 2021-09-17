@@ -757,50 +757,6 @@
               }
             },
             {
-              "id": "mainmenu.json",
-              "name": "mainmenu.json",
-              "type": "File",
-              "artifact": {
-                "size": 4895,
-                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu.json",
-                "MD5": "cb195109fc9e44155486b25f481a86dd",
-                "path": "config/CustomMainMenu/mainmenu.json"
-              }
-            },
-            {
-              "id": "mainmenu_auto.json",
-              "name": "mainmenu_auto.json",
-              "type": "File",
-              "artifact": {
-                "size": 4895,
-                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu_auto.json",
-                "MD5": "cb195109fc9e44155486b25f481a86dd",
-                "path": "config/CustomMainMenu/mainmenu_auto.json"
-              }
-            },
-            {
-              "id": "mainmenu_large.json",
-              "name": "mainmenu_large.json",
-              "type": "File",
-              "artifact": {
-                "size": 4895,
-                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu_large.json",
-                "MD5": "cb195109fc9e44155486b25f481a86dd",
-                "path": "config/CustomMainMenu/mainmenu_large.json"
-              }
-            },
-            {
-              "id": "dark.json",
-              "name": "dark.json",
-              "type": "File",
-              "artifact": {
-                "size": 447,
-                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/customloadingscreen/dark.json",
-                "MD5": "ee836e05a70d694f49412568131fe5a4",
-                "path": "resources/customloadingscreen/dark.json"
-              }
-            },
-            {
               "id": "1.png",
               "name": "1.png",
               "type": "File",
