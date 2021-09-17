@@ -291,6 +291,16 @@
           }
         },
         {
+          "id": "lumien.custombackgrounds:custombackgrounds:1.1.1@jar",
+          "name": "Custom Backgrounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4140,
+            "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1",
+            "MD5": "b0f20b60bba201bbcf63a6d18cd191db"
+          }
+        },
+        {
           "id": "net.shadowfacts:forgelin:1.8.4@jar",
           "name": "Shadowfacts' Forgelin",
           "type": "ForgeMod",
@@ -397,6 +407,17 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "custombackgrounds.cfg",
+          "name": "custombackgrounds.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/custombackgrounds.cfg",
+            "MD5": "9426c6c4018744dac50512d849dbc6aa",
+            "path": "config/custombackgrounds.cfg"
           }
         },
         {
@@ -554,6 +575,16 @@
           }
         },
         {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomMainMenu-MC1.12.2-2.0.9.1.jar?raw=true",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
           "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -706,6 +737,16 @@
             }
           },
           {
+            "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.5.5@jar",
+            "name": "Custom Loading Screen",
+            "type": "ForgeMod",
+            "artifact": {
+              "size": 965925,
+              "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomLoadingScreen-1.12.2-1.5.5.jar?raw=true",
+              "MD5": "71ba3612669afe5ced11a2f097592fa9"
+        }
+          },
+          {
             "id": "software.bernie.example:geckolib3:3.0.0@jar",
             "name": "GeckoLib",
             "type": "ForgeMod",
@@ -723,6 +764,50 @@
               "size": 11260440,
               "url": "https://github.com/ph1338/BoardLaucher/blob/main/replaymod-1.12.2-2.6.1.jar?raw=true",
               "MD5": "fbbd251767124aa4ffa272d293e581cf"
+            }
+          },
+          {
+            "id": "mainmenu.json",
+            "name": "mainmenu.json",
+            "type": "File",
+            "artifact": {
+              "size": 4895,
+              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu.json",
+              "MD5": "cb195109fc9e44155486b25f481a86dd",
+              "path": "config/CustomMainMenu/mainmenu.json"
+            }
+          },
+          {
+            "id": "mainmenu_auto.json",
+            "name": "mainmenu_auto.json",
+            "type": "File",
+            "artifact": {
+              "size": 4895,
+              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu_auto.json",
+              "MD5": "cb195109fc9e44155486b25f481a86dd",
+              "path": "config/CustomMainMenu/mainmenu_auto.json"
+            }
+          },
+          {
+            "id": "mainmenu_large.json",
+            "name": "mainmenu_large.json",
+            "type": "File",
+            "artifact": {
+              "size": 4895,
+              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu_large.json",
+              "MD5": "cb195109fc9e44155486b25f481a86dd",
+              "path": "config/CustomMainMenu/mainmenu_large.json"
+            }
+          },
+          {
+            "id": "dark.json",
+            "name": "dark.json",
+            "type": "File",
+            "artifact": {
+              "size": 447,
+              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/customloadingscreen/dark.json",
+              "MD5": "ee836e05a70d694f49412568131fe5a4",
+              "path": "resources/customloadingscreen/dark.json"
             }
           },
           {
@@ -924,243 +1009,25 @@
             }
           },
           {
-            "id": "options.txt",
-            "name": "options.txt",
-            "type": "File",
-            "artifact": {
-              "size": 3434,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
-              "MD5": "465139ee4a75c112beaa713869d8c1d1",
-              "path": "options.txt"
-            }
-          },
-          {
             "id": "optionsof.txt",
             "name": "optionsof.txt",
             "type": "File",
             "artifact": {
-              "size": 1437,
+              "size": 395,
               "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
-              "MD5": "93baa10f640d7f6a01c0b842ae75b6e1",
+              "MD5": "c35a87ad1822e91b0ee53ab96709a128",
               "path": "optionsof.txt"
             }
-          }
-        {
-            "id": "de.keksuccino:fancymenu:1_MC_1.12-1.12.2@jar",
-            "name": "Fancymenu_2.2.2",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 521502,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/fancymenu_2.2.2-1_MC_1.12-1.12.2.jar?raw=true",
-              "MD5": "acff6c953dac41c16ceebc86096e8383"
-            }
           },
           {
-            "id": "de.keksuccino:konkrete:1.12.2@jar",
-            "name": "Konkrete_1.1.7_MC_1.12",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 198777,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/konkrete_1.1.7_MC_1.12-1.12.2.jar?raw=true",
-              "MD5": "30f9cb82b0cb6717275b8b0bb29af078"
-            }
-          },
-          {
-            "id": "animation.properties",
-            "name": "animation.properties",
+            "id": "options.txt",
+            "name": "options.txt",
             "type": "File",
             "artifact": {
-              "size": 4429,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/animation.properties",
-              "MD5": "d54c0309168248480fa21a704aed7346",
-              "path": "config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/animation.properties"
-            }
-          },
-          {
-            "id": "introaudio.wav",
-            "name": "introaudio.wav",
-            "type": "File",
-            "artifact": {
-              "size": 2124036,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/audio/introaudio.wav?raw=true",
-              "MD5": "cf4f0f181222c838591d96e3c36b71ea",
-              "path": "config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/audio/introaudio.wav"
-            }
-          },
-          {
-            "id": "config.txt",
-            "name": "config.txt",
-            "type": "File",
-            "artifact": {
-              "size": 1760,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/config.txt",
-              "MD5": "0ea35d6045364e021110fa1d8f86983f",
-              "path": "config/fancymenu/config.txt"
-            }
-          },
-          {
-            "id": "customizablemenus.txt",
-            "name": "customizablemenus.txt",
-            "type": "File",
-            "artifact": {
-              "size": 68,
-              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/fancymenu/customizablemenus.txt",
-              "MD5": "5aa808ff1fc4ed810d2a2fa03ff6f853",
-              "path": "config/fancymenu/customizablemenus.txt"
-            }
-          },
-          {
-            "id": "teste2.txt",
-            "name": "teste2.txt",
-            "type": "File",
-            "artifact": {
-              "size": 1301,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/customization/teste2.txt",
-              "MD5": "45a167d003c3b750947970af7f7242a3",
-              "path": "config/fancymenu/customization/teste2.txt"
-            }
-          },
-          {
-            "id": "16x16.png",
-            "name": "16x16.png",
-            "type": "File",
-            "artifact": {
-              "size": 1495,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/icons/16x16.png?raw=true",
-              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
-              "path": "config/fancymenu/icons/16x16.png"
-            }
-          },
-          {
-            "id": "32x32.png",
-            "name": "32x32.png",
-            "type": "File",
-            "artifact": {
-              "size": 2467,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/icons/32x32.png?raw=true",
-              "MD5": "bc6d9498cd7dc72fcf2aa26b4ef20ba3",
-              "path": "config/fancymenu/icons/32x32.png"
-            }
-          },
-          {
-            "id": "de_de.local",
-            "name": "de_de.local",
-            "type": "File",
-            "artifact": {
-              "size": 27782,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/de_de.local",
-              "MD5": "ea2b54cc1f94905344ed002c0167219b",
-              "path": "config/fancymenu/locals/de_de.local"
-            }
-          },
-          {
-            "id": "en_us.local",
-            "name": "en_us.local",
-            "type": "File",
-            "artifact": {
-              "size": 49139,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/en_us.local",
-              "MD5": "6e6b5e7568dac1ef42f317bd7fac69b4",
-              "path": "config/fancymenu/locals/en_us.local"
-            }
-          },
-          {
-            "id": "pl_pl.local",
-            "name": "pl_pl.local",
-            "type": "File",
-            "artifact": {
-              "size": 14266,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pl_pl.local",
-              "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
-              "path": "config/fancymenu/locals/pl_pl.local"
-            }
-          },
-          {
-            "id": "pt_br.local",
-            "name": "pt_br.local",
-            "type": "File",
-            "artifact": {
-              "size": 14666,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pt_br.local",
-              "MD5": "0b2998c110b2e58f6fe147b41c005d24",
-              "path": "config/fancymenu/locals/pt_br.local"
-            }
-          },
-          {
-            "id": "icon16x16.png",
-            "name": "icon16x16.png",
-            "type": "File",
-            "artifact": {
-              "size": 1495,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon16x16.png?raw=true",
-              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
-              "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
-            }
-          },
-          {
-            "id": "icon32x32.png",
-            "name": "icon32x32.png",
-            "type": "File",
-            "artifact": {
-              "size": 2467,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon32x32.png?raw=true",
-              "MD5": "bc6d9498cd7dc72fcf2aa26b4ef20ba3",
-              "path": "config/fancymenu/minecraftwindow/icons/icon32x32.png"
-            }
-          },
-          {
-            "id": "de_de.local",
-            "name": "de_de.local",
-            "type": "File",
-            "artifact": {
-              "size": 369,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/de_de.local",
-              "MD5": "3aac3df2519057d2305f894c37771e30",
-              "path": "config/konkrete/locals/de_de.local"
-            }
-          },
-          {
-            "id": "en_us.local",
-            "name": "en_us.local",
-            "type": "File",
-            "artifact": {
-              "size": 426,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/en_us.local",
-              "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
-              "path": "config/konkrete/locals/en_us.local"
-            }
-          },
-          {
-            "id": "pl_pl.local",
-            "name": "pl_pl.local",
-            "type": "File",
-            "artifact": {
-              "size": 313,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pl_pl.local",
-              "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
-              "path": "config/konkrete/locals/pl_pl.local"
-            }
-          },
-          {
-            "id": "pt_br.local",
-            "name": "pt_br.local",
-            "type": "File",
-            "artifact": {
-              "size": 322,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pt_br.local",
-              "MD5": "2d055da094c115b94f0e4373a2e06ebe",
-              "path": "config/konkrete/locals/pt_br.local"
-            }
-          },
-          {
-            "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-            "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-            "type": "File",
-            "artifact": {
-              "size": 106852751,
-              "url": "https://download1334.mediafire.com/dqgt04r67ahg/k1489zu2rwmd5uw/minecraft_cave_animation_fancymenu_21938kf312.zip",
-              "MD5": "16f107d639a2a9ac0e2d502ce6e81487",
-              "path": "resourcepacks/minecraft_cave_animation_fancymenu_21938kf312.zip"
+              "size": 3382,
+              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
+              "MD5": "e50bcf4af4633727ca93feccd3f3c96a",
+              "path": "options.txt"
             }
           },
         {
@@ -1178,3 +1045,4 @@
     }
   ]
 }
+
