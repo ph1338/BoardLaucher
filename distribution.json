@@ -291,16 +291,6 @@
           }
         },
         {
-          "id": "lumien.custombackgrounds:custombackgrounds:1.1.1@jar",
-          "name": "Custom Backgrounds",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4140,
-            "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1",
-            "MD5": "b0f20b60bba201bbcf63a6d18cd191db"
-          }
-        },
-        {
           "id": "net.shadowfacts:forgelin:1.8.4@jar",
           "name": "Shadowfacts' Forgelin",
           "type": "ForgeMod",
@@ -407,17 +397,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "custombackgrounds.cfg",
-          "name": "custombackgrounds.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 269,
-            "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/custombackgrounds.cfg",
-            "MD5": "9426c6c4018744dac50512d849dbc6aa",
-            "path": "config/custombackgrounds.cfg"
           }
         },
         {
@@ -575,16 +554,6 @@
           }
         },
         {
-          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
-          "name": "Custom Main Menu",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91121,
-            "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomMainMenu-MC1.12.2-2.0.9.1.jar?raw=true",
-            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
-          }
-        },
-        {
           "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -737,16 +706,6 @@
             }
           },
           {
-            "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.5.5@jar",
-            "name": "Custom Loading Screen",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 965925,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/CustomLoadingScreen-1.12.2-1.5.5.jar?raw=true",
-              "MD5": "71ba3612669afe5ced11a2f097592fa9"
-        }
-          },
-          {
             "id": "software.bernie.example:geckolib3:3.0.0@jar",
             "name": "GeckoLib",
             "type": "ForgeMod",
@@ -764,50 +723,6 @@
               "size": 11260440,
               "url": "https://github.com/ph1338/BoardLaucher/blob/main/replaymod-1.12.2-2.6.1.jar?raw=true",
               "MD5": "fbbd251767124aa4ffa272d293e581cf"
-            }
-          },
-          {
-            "id": "mainmenu.json",
-            "name": "mainmenu.json",
-            "type": "File",
-            "artifact": {
-              "size": 4895,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu.json",
-              "MD5": "cb195109fc9e44155486b25f481a86dd",
-              "path": "config/CustomMainMenu/mainmenu.json"
-            }
-          },
-          {
-            "id": "mainmenu_auto.json",
-            "name": "mainmenu_auto.json",
-            "type": "File",
-            "artifact": {
-              "size": 4895,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu_auto.json",
-              "MD5": "cb195109fc9e44155486b25f481a86dd",
-              "path": "config/CustomMainMenu/mainmenu_auto.json"
-            }
-          },
-          {
-            "id": "mainmenu_large.json",
-            "name": "mainmenu_large.json",
-            "type": "File",
-            "artifact": {
-              "size": 4895,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/CustomMainMenu/mainmenu_large.json",
-              "MD5": "cb195109fc9e44155486b25f481a86dd",
-              "path": "config/CustomMainMenu/mainmenu_large.json"
-            }
-          },
-          {
-            "id": "dark.json",
-            "name": "dark.json",
-            "type": "File",
-            "artifact": {
-              "size": 447,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/customloadingscreen/dark.json",
-              "MD5": "ee836e05a70d694f49412568131fe5a4",
-              "path": "resources/customloadingscreen/dark.json"
             }
           },
           {
