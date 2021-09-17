@@ -291,16 +291,6 @@
             }
           },
           {
-            "id": "lumien.custombackgrounds:custombackgrounds:1.1.1@jar",
-            "name": "Custom Backgrounds",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 4140,
-              "url": "https://www.dropbox.com/s/8dge4sgjycf618n/CustomBackgrounds-MC1.12-1.1.1.jar?dl=1",
-              "MD5": "b0f20b60bba201bbcf63a6d18cd191db"
-            }
-          },
-          {
             "id": "net.shadowfacts:forgelin:1.8.4@jar",
             "name": "Shadowfacts' Forgelin",
             "type": "ForgeMod",
