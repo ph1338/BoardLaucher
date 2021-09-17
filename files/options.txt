@@ -15,7 +15,7 @@ difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["FlatVERF100.zip","!Padrão_0073.zip"]
+resourcePacks:["minecraft_cave_animation_fancymenu_21938kf312.zip","FlatVERF100.zip","!Padrão_0073.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
