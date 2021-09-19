@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "rss": "teste",
+    "rss": "<LINK TO RSS FEED>",
     "discord": {
       "clientId": "522352533253",
       "smallImageText": ""
@@ -174,6 +174,17 @@
             }
           },
           {
+            "id": "icon16x16.png",
+            "name": "icon16x16.png",
+            "type": "File",
+            "artifact": {
+              "size": 1495,
+              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon16x16.png?raw=true",
+              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
+              "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+            }
+          },
+          {
             "id": "icon32x32.png",
             "name": "icon32x32.png",
             "type": "File",
@@ -215,6 +226,17 @@
               "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pl_pl.local",
               "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
               "path": "config/konkrete/locals/pl_pl.local"
+            }
+          },
+          {
+            "id": "pt_br.local",
+            "name": "pt_br.local",
+            "type": "File",
+            "artifact": {
+              "size": 322,
+              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pt_br.local",
+              "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+              "path": "config/konkrete/locals/pt_br.local"
             }
           },
           {
