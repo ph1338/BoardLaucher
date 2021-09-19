@@ -196,50 +196,6 @@
             }
           },
           {
-            "id": "de_de.local",
-            "name": "de_de.local",
-            "type": "File",
-            "artifact": {
-              "size": 369,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/de_de.local",
-              "MD5": "3aac3df2519057d2305f894c37771e30",
-              "path": "config/konkrete/locals/de_de.local"
-            }
-          },
-          {
-            "id": "en_us.local",
-            "name": "en_us.local",
-            "type": "File",
-            "artifact": {
-              "size": 426,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/en_us.local",
-              "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
-              "path": "config/konkrete/locals/en_us.local"
-            }
-          },
-          {
-            "id": "pl_pl.local",
-            "name": "pl_pl.local",
-            "type": "File",
-            "artifact": {
-              "size": 313,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pl_pl.local",
-              "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
-              "path": "config/konkrete/locals/pl_pl.local"
-            }
-          },
-          {
-            "id": "pt_br.local",
-            "name": "pt_br.local",
-            "type": "File",
-            "artifact": {
-              "size": 322,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pt_br.local",
-              "MD5": "2d055da094c115b94f0e4373a2e06ebe",
-              "path": "config/konkrete/locals/pt_br.local"
-            }
-          },
-          {
             "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
             "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
             "type": "File",
