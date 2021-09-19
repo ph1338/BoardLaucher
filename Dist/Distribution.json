@@ -174,17 +174,6 @@
             }
           },
           {
-            "id": "icon16x16.png",
-            "name": "icon16x16.png",
-            "type": "File",
-            "artifact": {
-              "size": 1495,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon16x16.png?raw=true",
-              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
-              "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
-            }
-          },
-          {
             "id": "icon32x32.png",
             "name": "icon32x32.png",
             "type": "File",
