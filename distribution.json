@@ -1,212 +1,1149 @@
 {
     "version": "1.0.0",
-    "rss": "<LINK TO RSS FEED>",
-    "discord": {
-      "clientId": "522352533253",
-      "smallImageText": ""
-    },
+    "rss": "https://rpgboard.com.br",
     "servers": [
       {
-        "id": "Testa-1.12.2",
-        "name": "Testa (Minecraft 1.12.2)",
-        "description": "Testa Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
-        "icon": null,
+        "id": "Board Network-1.12.2",
+        "name": "Board Network - 1.12.2",
+        "description": "Servidor RPG com texturas e mods.",
+        "icon": "https://i.ibb.co/RpRWGC4/logo.png",
         "version": "1.0.0",
-        "address": "localhost:25565",
+        "address": "boardmc.com.br:25565",
         "minecraftVersion": "1.12.2",
-        "discord": {
-          "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-          "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-          "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-        },
         "mainServer": false,
-        "autoconnect": false,
+        "autoconnect": true,
         "modules": [
           {
-            "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+            "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
             "name": "Minecraft Forge",
             "type": "ForgeHosted",
             "artifact": {
-              "size": 4464387,
-              "MD5": "02fcc447bb8938e5214292e4d36ec949",
-              "url": "https://github.com/ph1338/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
-            }
+              "size": 4464068,
+              "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+              "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar?raw=true"
+            },
+            "subModules": [
+              {
+                "id": "1.12.2-14.23.5.2854",
+                "name": "Minecraft Forge (version.json)",
+                "type": "VersionManifest",
+                "artifact": {
+                  "size": 10873,
+                  "MD5": "814f52398b6ebf70d22571307d2298eb",
+                  "url": "https://github.com/ph1338/BoardLaucher/raw/main/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+                }
+              },
+              {
+                "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+                "name": "Minecraft Forge (asm-debug-all)",
+                "type": "Library",
+                "artifact": {
+                  "size": 387903,
+                  "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar?raw=true"
+                }
+              },
+              {
+                "id": "net.minecraft:launchwrapper:1.12@jar",
+                "name": "Minecraft Forge (launchwrapper)",
+                "type": "Library",
+                "artifact": {
+                  "size": 32999,
+                  "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar?raw=true"
+                }
+              },
+              {
+                "id": "org.jline:jline:3.5.1@jar",
+                "name": "Minecraft Forge (jline)",
+                "type": "Library",
+                "artifact": {
+                  "size": 614590,
+                  "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar?raw=true"
+                }
+              },
+              {
+                "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+                "name": "Minecraft Forge (akka-actor_2.11)",
+                "type": "Library",
+                "artifact": {
+                  "size": 2514991,
+                  "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar?raw=true"
+                }
+              },
+              {
+                "id": "com.typesafe:config:1.2.1@jar",
+                "name": "Minecraft Forge (config)",
+                "type": "Library",
+                "artifact": {
+                  "size": 219554,
+                  "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar?raw=true"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                "name": "Minecraft Forge (scala-library)",
+                "type": "Library",
+                "artifact": {
+                  "size": 1474672,
+                  "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                "name": "Minecraft Forge (scala-compiler)",
+                "type": "Library",
+                "artifact": {
+                  "size": 3076920,
+                  "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                "name": "Minecraft Forge (scala-actors-migration)",
+                "type": "Library",
+                "artifact": {
+                  "size": 21324,
+                  "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                "name": "Minecraft Forge (scala-continuations-library)",
+                "type": "Library",
+                "artifact": {
+                  "size": 7956,
+                  "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                "name": "Minecraft Forge (scala-continuations-plugin)",
+                "type": "Library",
+                "artifact": {
+                  "size": 46140,
+                  "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                "name": "Minecraft Forge (scala-parser-combinators)",
+                "type": "Library",
+                "artifact": {
+                  "size": 85568,
+                  "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                "name": "Minecraft Forge (scala-reflect)",
+                "type": "Library",
+                "artifact": {
+                  "size": 1070312,
+                  "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+                "name": "Minecraft Forge (scala-swing)",
+                "type": "Library",
+                "artifact": {
+                  "size": 736795,
+                  "MD5": "1d360289e697022a3f57abaad344b28f",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
+                }
+              },
+              {
+                "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                "name": "Minecraft Forge (scala-xml)",
+                "type": "Library",
+                "artifact": {
+                  "size": 217812,
+                  "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                }
+              },
+              {
+                "id": "lzma:lzma:0.0.1@jar",
+                "name": "Minecraft Forge (lzma)",
+                "type": "Library",
+                "artifact": {
+                  "size": 5762,
+                  "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar?raw=true"
+                }
+              },
+              {
+                "id": "java3d:vecmath:1.5.2@jar",
+                "name": "Minecraft Forge (vecmath)",
+                "type": "Library",
+                "artifact": {
+                  "size": 318956,
+                  "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar?raw=true"
+                }
+              },
+              {
+                "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+                "name": "Minecraft Forge (trove4j)",
+                "type": "Library",
+                "artifact": {
+                  "size": 2523218,
+                  "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar?raw=true"
+                }
+              },
+              {
+                "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+                "name": "Minecraft Forge (maven-artifact)",
+                "type": "Library",
+                "artifact": {
+                  "size": 54961,
+                  "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar?raw=true"
+                }
+              },
+              {
+                "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+                "name": "Minecraft Forge (jopt-simple)",
+                "type": "Library",
+                "artifact": {
+                  "size": 78175,
+                  "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar?raw=true"
+                }
+              }
+            ]
           },
           {
-            "id": "de.keksuccino:fancymenu:1_MC_1.12-1.12.2@jar",
-            "name": "Fancymenu_2.2.2",
+            "id": "com.blamejared:ambientenvironment:1.0.2@jar",
+            "name": "Ambient Environment",
             "type": "ForgeMod",
             "artifact": {
-              "size": 521502,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/fancymenu_2.2.2-1_MC_1.12-1.12.2.jar?raw=true",
-              "MD5": "acff6c953dac41c16ceebc86096e8383"
+              "size": 25707,
+              "url": "https://www.dropbox.com/s/0h61xcdpc2gp4iq/AmbientEnvironment-1.0.2.jar?dl=1",
+              "MD5": "b4b80455cd51785cb551406c679763ac"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "de.keksuccino:konkrete:1.12.2@jar",
-            "name": "Konkrete_1.1.7_MC_1.12",
+            "id": "mods.betterfoliage:betterfoliage:2.3.1@jar",
+            "name": "Better Foliage",
             "type": "ForgeMod",
             "artifact": {
-              "size": 198777,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/konkrete_1.1.7_MC_1.12-1.12.2.jar?raw=true",
-              "MD5": "30f9cb82b0cb6717275b8b0bb29af078"
+              "size": 937680,
+              "url": "https://www.dropbox.com/s/sqq270nzihl26sy/BetterFoliage-MC1.12-2.3.1.jar?dl=1",
+              "MD5": "fe8b72e0045c06136ca64f736090ac7a"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "animation.properties",
-            "name": "animation.properties",
-            "type": "File",
+            "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+            "name": "BetterFps",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 4429,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/animation.properties",
-              "MD5": "d54c0309168248480fa21a704aed7346",
-              "path": "config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/animation.properties"
+              "size": 155196,
+              "url": "https://www.dropbox.com/s/r18dpj6rofk8zs9/BetterFps-1.4.8.jar?dl=1",
+              "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "introaudio.wav",
-            "name": "introaudio.wav",
-            "type": "File",
+            "id": "com.fuzs:consolehud:1.4.1@jar",
+            "name": "Console HUD",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 2124036,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/audio/introaudio.wav",
-              "MD5": "cf4f0f181222c838591d96e3c36b71ea",
-              "path": "config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/audio/introaudio.wav"
+              "size": 90859,
+              "url": "https://www.dropbox.com/s/dbm4n0ctukt3om6/ConsoleHUD-v1.4.1-1.12.2.jar?dl=1",
+              "MD5": "3c38a5386c1e4a31f0dbb29f7bbcb7f3"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "config.txt",
-            "name": "config.txt",
-            "type": "File",
+            "id": "us.getfluxed.controlsearch:controlling:3.0.9@jar",
+            "name": "Controlling",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 1760,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/config.txt",
-              "MD5": "0ea35d6045364e021110fa1d8f86983f",
-              "path": "config/fancymenu/config.txt"
+              "size": 29057,
+              "url": "https://www.dropbox.com/s/wqiva84bqpi5ocl/Controlling-3.0.9.jar?dl=1",
+              "MD5": "1ad468d60a3e7501e25ca7cb666c62bc"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "customizablemenus.txt",
-            "name": "customizablemenus.txt",
-            "type": "File",
+            "id": "net.shadowfacts:forgelin:1.8.4@jar",
+            "name": "Shadowfacts' Forgelin",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 68,
-              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/fancymenu/customizablemenus.txt",
-              "MD5": "5aa808ff1fc4ed810d2a2fa03ff6f853",
-              "path": "config/fancymenu/customizablemenus.txt"
+              "size": 6278399,
+              "url": "https://www.dropbox.com/s/095ve31r6ple5ot/Forgelin-1.8.4%20%281%29.jar?dl=1",
+              "MD5": "2da79fce72265eab0541e565636d389d"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "teste2.txt",
-            "name": "teste2.txt",
-            "type": "File",
+            "id": "com.creativemd.itemphysic:itemphysic:1.3@jar",
+            "name": "ItemPhysic",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 1301,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/customization/teste2.txt",
-              "MD5": "45a167d003c3b750947970af7f7242a3",
-              "path": "config/fancymenu/customization/teste2.txt"
+              "size": 471292,
+              "url": "https://www.dropbox.com/s/i21xjnz498rgoks/ItemPhysic%2BLite%2B1.3.7%2Bmc1.12.2.jar?dl=1",
+              "MD5": "1f4474187b22bc1112f2bd6b6fb6bc1e"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "16x16.png",
-            "name": "16x16.png",
-            "type": "File",
+            "id": "zabi.minecraft:nomoreglowingpots:1.1@jar",
+            "name": "NoMoreGlowingPots",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 1495,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/icons/16x16.png?raw=true",
-              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
-              "path": "config/fancymenu/icons/16x16.png"
+              "size": 12519,
+              "url": "https://www.dropbox.com/s/6kkght6am94p7og/nomoreglowingpots-1.1.jar?dl=1",
+              "MD5": "de78a7e32ba9ecfe4f9910cb1c94a6c2"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "32x32.png",
-            "name": "32x32.png",
-            "type": "File",
+            "id": "net.optifine:optifine:1.12.2_HD_U_G6_pre1@jar",
+            "name": "OptiFine 1.12.2_HD_U_G6_pre1",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 2467,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/icons/32x32.png?raw=true",
-              "MD5": "bc6d9498cd7dc72fcf2aa26b4ef20ba3",
-              "path": "config/fancymenu/icons/32x32.png"
+              "size": 2668221,
+              "url": "https://www.dropbox.com/s/0jqh9mqcbnq23oi/preview_OptiFine_1.12.2_HD_U_G6_pre1.jar?dl=1",
+              "MD5": "9ee4100b8d430f8c8aa82e6f3b13b87e"
             }
           },
           {
-            "id": "de_de.local",
-            "name": "de_de.local",
-            "type": "File",
+            "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+            "name": "Resource Loader",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 27782,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/de_de.local",
-              "MD5": "ea2b54cc1f94905344ed002c0167219b",
-              "path": "config/fancymenu/locals/de_de.local"
+              "size": 16612,
+              "url": "https://www.dropbox.com/s/uzzz13qco9ly59i/ResourceLoader-MC1.12.1-1.5.3.jar?dl=1",
+              "MD5": "51141e882f96ce756b9b3d25f2acdf57"
             }
           },
           {
-            "id": "en_us.local",
-            "name": "en_us.local",
-            "type": "File",
+            "id": "tfar.scoreboardtweaks:scoreboardtweaks:1.1@jar",
+            "name": "Scoreboard Tweaks",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 49139,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/en_us.local",
-              "MD5": "6e6b5e7568dac1ef42f317bd7fac69b4",
-              "path": "config/fancymenu/locals/en_us.local"
+              "size": 10728,
+              "url": "https://www.dropbox.com/s/wssedrcy315ob3z/scoreboardtweaks-1.1.jar?dl=1",
+              "MD5": "ed5c51189e23f3f65d96e08ef4365270"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "pl_pl.local",
-            "name": "pl_pl.local",
-            "type": "File",
+            "id": "com.tmtravlr:soundfilters:0.12_for_1.12@jar",
+            "name": "Sound Filters",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 14266,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pl_pl.local",
-              "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
-              "path": "config/fancymenu/locals/pl_pl.local"
+              "size": 43161,
+              "url": "https://www.dropbox.com/s/s5te8qubihxi5m6/SoundFilters-0.12_for_1.12.jar?dl=1",
+              "MD5": "afbdb448f432b5f7fff4967a1163d858"
+            },
+            "required": {
+              "value": false,
+              "def": false
             }
           },
           {
-            "id": "pt_br.local",
-            "name": "pt_br.local",
-            "type": "File",
+            "id": "org.dimdev:vanillafix:1.0.10-150@jar",
+            "name": "VanillaFix",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 14666,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pt_br.local",
-              "MD5": "0b2998c110b2e58f6fe147b41c005d24",
-              "path": "config/fancymenu/locals/pt_br.local"
+              "size": 1025896,
+              "url": "https://www.dropbox.com/s/dznfr53yyqxpnn8/VanillaFix-1.0.10-150.jar?dl=1",
+              "MD5": "c2ea7c94b8ffce9262d92f481ede660c"
             }
           },
           {
-            "id": "icon16x16.png",
-            "name": "icon16x16.png",
-            "type": "File",
+            "id": "xaero.minimap:xaerominimap:21.3.0@jar",
+            "name": "Xaero's Minimap",
+            "type": "ForgeMod",
             "artifact": {
-              "size": 1495,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon16x16.png?raw=true",
-              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
-              "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+              "size": 641242,
+              "url": "https://www.dropbox.com/s/j4hrsih33o9tt1r/Xaeros_Minimap_21.3.0.2_Forge_1.12.jar?dl=1",
+              "MD5": "f77e9d8516f530a20e941525da4f2613"
+            },
+            "required": {
+              "value": false
             }
           },
           {
-            "id": "icon32x32.png",
-            "name": "icon32x32.png",
+            "id": "foamfix.cfg",
+            "name": "foamfix.cfg",
             "type": "File",
             "artifact": {
-              "size": 2467,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon32x32.png?raw=true",
-              "MD5": "bc6d9498cd7dc72fcf2aa26b4ef20ba3",
-              "path": "config/fancymenu/minecraftwindow/icons/icon32x32.png"
+              "size": 6966,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/foamfix.cfg",
+              "MD5": "1be88420e24d1d9033ecbe0fee490195",
+              "path": "config/foamfix.cfg"
             }
           },
           {
-            "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-            "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
+            "id": "forge.cfg",
+            "name": "forge.cfg",
             "type": "File",
             "artifact": {
-              "size": 106925372,
-              "url": "https://download1506.mediafire.com/ma6bqnlubuqg/um0z1pbmmk7u3f4/minecraft_cave_animation_fancymenu_21938kf312.zip",
-              "MD5": "09623be112cf7711c0ee1c79acef336d",
-              "path": "minecraft_cave_animation_fancymenu_21938kf312.zip"
+              "size": 3955,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forge.cfg",
+              "MD5": "bee77d51b82699b95bf5c02788f654fb",
+              "path": "config/forge.cfg"
             }
-          }
+          },
+          {
+            "id": "forgeChunkLoading.cfg",
+            "name": "forgeChunkLoading.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 2206,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/forgeChunkLoading.cfg",
+              "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+              "path": "config/forgeChunkLoading.cfg"
+            }
+          },
+          {
+            "id": "itemphysic.cfg",
+            "name": "itemphysic.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 132,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/itemphysic.cfg",
+              "MD5": "547da0f55201cf3e8913e6fccea92c49",
+              "path": "config/itemphysic.cfg"
+            }
+          },
+          {
+            "id": "journeymap_ModInfo.cfg",
+            "name": "journeymap_ModInfo.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 371,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_ModInfo.cfg",
+              "MD5": "2ebcead283ff24369828bb69c9067075",
+              "path": "config/journeymap_ModInfo.cfg"
+            }
+          },
+          {
+            "id": "journeymap_server.cfg",
+            "name": "journeymap_server.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 633,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/journeymap_server.cfg",
+              "MD5": "ec1f450ddbf068d578328b97f5e50d1b",
+              "path": "config/journeymap_server.cfg"
+            }
+          },
+          {
+            "id": "librarianlib.cfg",
+            "name": "librarianlib.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 1910,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/librarianlib.cfg",
+              "MD5": "0087e84431278929ab09cf993110747c",
+              "path": "config/librarianlib.cfg"
+            }
+          },
+          {
+            "id": "lunatriuscore.cfg",
+            "name": "lunatriuscore.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 116,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/lunatriuscore.cfg",
+              "MD5": "f12267ff6480bae77adc78bc1020532e",
+              "path": "config/lunatriuscore.cfg"
+            }
+          },
+          {
+            "id": "mobends.cfg",
+            "name": "mobends.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 667,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/mobends.cfg",
+              "MD5": "6b936fb805597caec56d9271cd2b3c7c",
+              "path": "config/mobends.cfg"
+            }
+          },
+          {
+            "id": "nomoreglowingpots.cfg",
+            "name": "nomoreglowingpots.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 122,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/nomoreglowingpots.cfg",
+              "MD5": "f35ae056c200a1002df5289b1498add1",
+              "path": "config/nomoreglowingpots.cfg"
+            }
+          },
+          {
+            "id": "scoreboardtweaks.cfg",
+            "name": "scoreboardtweaks.cfg",
+            "type": "File",
+            "artifact": {
+              "size": 110,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/scoreboardtweaks.cfg",
+              "MD5": "386b3ceeea57517ff412393bc0028bf0",
+              "path": "config/scoreboardtweaks.cfg"
+            }
+          },
+          {
+            "id": "scoreboardtweaks.json",
+            "name": "scoreboardtweaks.json",
+            "type": "File",
+            "artifact": {
+              "size": 100,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/scoreboardtweaks.json",
+              "MD5": "d4cf65382eb63dc3a57a62c24337b9e5",
+              "path": "config/scoreboardtweaks.json"
+            }
+          },
+          {
+            "id": "xaerominimap.txt",
+            "name": "xaerominimap.txt",
+            "type": "File",
+            "artifact": {
+              "size": 2456,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaerominimap.txt",
+              "MD5": "fc82fb73630c0d930252b8a7ea075dd9",
+              "path": "config/xaerominimap.txt"
+            }
+          },
+          {
+            "id": "xaeropatreon.txt",
+            "name": "xaeropatreon.txt",
+            "type": "File",
+            "artifact": {
+              "size": 17,
+              "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/xaeropatreon.txt",
+              "MD5": "c7c8d2ad1537497c0c372e71d8bfb33d",
+              "path": "config/xaeropatreon.txt"
+            }
+          },
+          {
+            "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
+            "name": "FoamFix",
+            "type": "ForgeMod",
+            "artifact": {
+              "size": 210423,
+              "url": "https://github.com/ph1338/BoardLaucher/blob/main/foamfix-0.10.11-1.12.2.jar?raw=true",
+              "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
+            }
+          },
+          {
+              "id": "!BSL Emissive.zip.txt",
+              "name": "!BSL Emissive.zip.txt",
+              "type": "File",
+              "artifact": {
+                "size": 150,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/shaderpacks/!BSL%20Emissive.zip.txt",
+                "MD5": "7c9179b4496f2f806ac433f5f2c7c3a3",
+                "path": "shaderpacks/!BSL Emissive.zip.txt"
+              }
+            },
+            {
+              "id": "!Recursos_essenciais.zip",
+              "name": "!Recursos_essenciais.zip",
+              "type": "File",
+              "artifact": {
+                "size": 403006379,
+                "url": "https://www.dropbox.com/s/43g5u874l8p7aay/%21Padr%C3%A3o.zip?dl=1",
+                "MD5": "acacbf23d631de912aee192d8bd21734",
+                "path": "resourcepacks/!Recursos_essenciais.zip"
+              }
+            },
+            {
+              "id": "BSL ! Board Edit.zip",
+              "name": "BSL ! Board Edit.zip",
+              "type": "File",
+              "artifact": {
+                "size": 913178,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/shaderpacks/BSL%20!%20Board%20Edit.zip?raw=true",
+                "MD5": "a8642c23d633a235ebfa5af60a410948",
+                "path": "shaderpacks/BSL ! Board Edit.zip"
+              }
+            },
+            {
+              "id": "BSL ! Board Edit.zip.txt",
+              "name": "BSL ! Board Edit.zip.txt",
+              "type": "File",
+              "artifact": {
+                "size": 133,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/shaderpacks/BSL%20!%20Board%20Edit.zip.txt",
+                "MD5": "4a69cdbf4a80c4e7ae3ab0b222e70b14",
+                "path": "shaderpacks/BSL ! Board Edit.zip.txt"
+              }
+            },
+            {
+              "id": "Builder's QOL ! Board Edit.zip",
+              "name": "Builder's QOL ! Board Edit.zip",
+              "type": "File",
+              "artifact": {
+                "size": 1195604,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/shaderpacks/Builder's%20QOL%20!%20Board%20Edit.zip?raw=true",
+                "MD5": "6de46ce9ed88d34ee473917979b82026",
+                "path": "shaderpacks/Builder's QOL ! Board Edit.zip"
+              }
+            },
+            {
+              "id": "Builder's QOL ! Board Edit.zip.txt",
+              "name": "Builder's QOL ! Board Edit.zip.txt",
+              "type": "File",
+              "artifact": {
+                "size": 313,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/shaderpacks/Builder's%20QOL%20!%20Board%20Edit.zip.txt",
+                "MD5": "0850631cb29275f22778438a8812794a",
+                "path": "shaderpacks/Builder's QOL ! Board Edit.zip.txt"
+              }
+            },
+            {
+              "id": "Radioactive.txt",
+              "name": "Radioactive.txt",
+              "type": "File",
+              "artifact": {
+                "size": 66,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/shaderpacks/Radioactive.txt",
+                "MD5": "e17f7ac185c3e02f2aeea48d14987224",
+                "path": "shaderpacks/Radioactive.txt"
+              }
+            },
+            {
+              "id": "Radioactive.zip",
+              "name": "Radioactive.zip",
+              "type": "File",
+              "artifact": {
+                "size": 42225,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/shaderpacks/Radioactive.zip?raw=true",
+                "MD5": "c1c2c1cdd771561d161ed2b295470435",
+                "path": "shaderpacks/Radioactive.zip"
+              }
+            },
+            {
+              "id": "Sildurs Emissive ! Board Edit.zip",
+              "name": "Sildurs Emissive ! Board Edit.zip",
+              "type": "File",
+              "artifact": {
+                "size": 93260,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/shaderpacks/Sildurs%20Emissive%20!%20Board%20Edit.zip?raw=true",
+                "MD5": "b69116ec7524707c902d70bc803eeb14",
+                "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip"
+              }
+            },
+            {
+              "id": "Sildurs Emissive ! Board Edit.zip.txt",
+              "name": "Sildurs Emissive ! Board Edit.zip.txt",
+              "type": "File",
+              "artifact": {
+                "size": 230,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/shaderpacks/Sildurs%20Emissive%20!%20Board%20Edit.zip.txt",
+                "MD5": "003d332ca92421b57146a208e8e1fe17",
+                "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip.txt"
+              }
+            },
+            {
+              "id": "Versao_Flat.zip",
+              "name": "Versao_Flat.zip",
+              "type": "File",
+              "artifact": {
+                "size": 35495943,
+                "url": "https://cdn.discordapp.com/attachments/794786157359005748/887690499648016434/Versao_Flat.zip",
+                "MD5": "9b0658ffb5b89d895b7b33e07744b92f",
+                "path": "resourcepacks/Versao_Flat.zip"
+              }
+            },
+            {
+              "id": "Versão RPG.zip",
+              "name": "Versão RPG.zip",
+              "type": "File",
+              "artifact": {
+                "size": 146526939,
+                "url": "https://www.dropbox.com/s/2zgtppjkjs9kv4p/Vers%C3%A3o%20RPG.zip?dl=1",
+                "MD5": "1152dd6c7752933f048ba13eede390ed",
+                "path": "resourcepacks/Versão RPG.zip"
+              }
+            },
+            {
+              "id": "io.github.lukegrahamlandry.cosmetics:lukescosmetics:0.8@jar",
+              "name": "Luke's Cosmetics",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 1704919,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/cosmetics-0.15.jar?raw=true",
+                "MD5": "b76a673ab60ab0bd6acbb7aaa5564975"
+              }
+            },
+            {
+              "id": "software.bernie.example:geckolib3:3.0.0@jar",
+              "name": "GeckoLib",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 3680008,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/forge-1.12.2-geckolib-3.0.0-beta.7.jar?raw=true",
+                "MD5": "7f787fe1b332596f4c669228e63d504b"
+              }
+            },
+            {
+              "id": "com.replaymod.core:replaymod:1.12.2-2.6.1@jar",
+              "name": "Replay Mod",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 11260440,
+                "url": "https://github.com/ph1338/BoardLaucher/blob/main/replaymod-1.12.2-2.6.1.jar?raw=true",
+                "MD5": "fbbd251767124aa4ffa272d293e581cf"
+              }
+            },
+            {
+              "id": "1.png",
+              "name": "1.png",
+              "type": "File",
+              "artifact": {
+                "size": 386558,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/1.png",
+                "MD5": "c7cf68892d6f24a002e7cc67c0774d9d",
+                "path": "resources/boardnetwork/textures/1.png"
+              }
+            },
+            {
+              "id": "2.png",
+              "name": "2.png",
+              "type": "File",
+              "artifact": {
+                "size": 591495,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/2.png",
+                "MD5": "885ecf74f9f11f063d2876e08101d19a",
+                "path": "resources/boardnetwork/textures/2.png"
+              }
+            },
+            {
+              "id": "3.png",
+              "name": "3.png",
+              "type": "File",
+              "artifact": {
+                "size": 2685377,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/3.png",
+                "MD5": "4f51f8160962e342a949602f49f6a2f2",
+                "path": "resources/boardnetwork/textures/3.png"
+              }
+            },
+            {
+              "id": "4.png",
+              "name": "4.png",
+              "type": "File",
+              "artifact": {
+                "size": 1800842,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/4.png",
+                "MD5": "914a615b3ca981f36379594a21aacfb7",
+                "path": "resources/boardnetwork/textures/4.png"
+              }
+            },
+            {
+              "id": "5.png",
+              "name": "5.png",
+              "type": "File",
+              "artifact": {
+                "size": 1300467,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/5.png",
+                "MD5": "936c9a87c64cf3983dd5fb48f9ba013e",
+                "path": "resources/boardnetwork/textures/5.png"
+              }
+            },
+            {
+              "id": "6.png",
+              "name": "6.png",
+              "type": "File",
+              "artifact": {
+                "size": 1547561,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/6.png",
+                "MD5": "aa77df0640d15b4bdc98c5a0da448b6a",
+                "path": "resources/boardnetwork/textures/6.png"
+              }
+            },
+            {
+              "id": "7.png",
+              "name": "7.png",
+              "type": "File",
+              "artifact": {
+                "size": 1936076,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/7.png",
+                "MD5": "d3473946d5071acdeda2e050ff5e2438",
+                "path": "resources/boardnetwork/textures/7.png"
+              }
+            },
+            {
+              "id": "8.png",
+              "name": "8.png",
+              "type": "File",
+              "artifact": {
+                "size": 386558,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/8.png",
+                "MD5": "c7cf68892d6f24a002e7cc67c0774d9d",
+                "path": "resources/boardnetwork/textures/8.png"
+              }
+            },
+            {
+              "id": "annocraft1602online.png",
+              "name": "annocraft1602online.png",
+              "type": "File",
+              "artifact": {
+                "size": 19370,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/annocraft1602online.png",
+                "MD5": "c951a09a3cc19d58887117c072ae56db",
+                "path": "resources/boardnetwork/textures/annocraft1602online.png"
+              }
+            },
+            {
+              "id": "botao.png",
+              "name": "botao.png",
+              "type": "File",
+              "artifact": {
+                "size": 12868,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/botao.png",
+                "MD5": "54235e86bdda4021ade45e87f80eecc9",
+                "path": "resources/boardnetwork/textures/botao.png"
+              }
+            },
+            {
+              "id": "button.png",
+              "name": "button.png",
+              "type": "File",
+              "artifact": {
+                "size": 4119,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/button.png",
+                "MD5": "44f2ce37b6832991fc458a47f2b4d505",
+                "path": "resources/boardnetwork/textures/button.png"
+              }
+            },
+            {
+              "id": "discordbg.png",
+              "name": "discordbg.png",
+              "type": "File",
+              "artifact": {
+                "size": 9795,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/discordbg.png",
+                "MD5": "8a000ebf0feac2dc7032bb5c4c52e829",
+                "path": "resources/boardnetwork/textures/discordbg.png"
+              }
+            },
+            {
+              "id": "icon.png",
+              "name": "icon.png",
+              "type": "File",
+              "artifact": {
+                "size": 8109,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/icon.png",
+                "MD5": "8a6111887409d31ebf8d37bc5400b2a0",
+                "path": "resources/boardnetwork/textures/icon.png"
+              }
+            },
+            {
+              "id": "logo.png",
+              "name": "logo.png",
+              "type": "File",
+              "artifact": {
+                "size": 1718901,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/resources/boardnetwork/textures/logo.png",
+                "MD5": "45efe4ebd7a1ef68c7bceef667783e22",
+                "path": "resources/boardnetwork/textures/logo.png"
+              }
+            },
+            {
+              "id": "optionsshaders.txt",
+              "name": "optionsshaders.txt",
+              "type": "File",
+              "artifact": {
+                "size": 395,
+                "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsshaders.txt",
+                "MD5": "c35a87ad1822e91b0ee53ab96709a197",
+                "path": "optionsshaders.txt"
+              }
+            },
+            {
+                "id": "options.txt",
+                "name": "options.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 3434,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
+                  "MD5": "465139ee4a75c112beaa713869d8c1d1",
+                  "path": "options.txt"
+                }
+              },
+              {
+                "id": "optionsof.txt",
+                "name": "optionsof.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 1437,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/optionsof.txt",
+                  "MD5": "93baa10f640d7f6a01c0b842ae75b6e1",
+                  "path": "optionsof.txt"
+                }
+              },
+              {
+                "id": "de.keksuccino:fancymenu:1_MC_1.12-1.12.2@jar",
+                "name": "Fancymenu_2.2.2",
+                "type": "ForgeMod",
+                "artifact": {
+                  "size": 521502,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/fancymenu_2.2.2-1_MC_1.12-1.12.2.jar?raw=true",
+                  "MD5": "acff6c953dac41c16ceebc86096e8383"
+                }
+              },
+              {
+                "id": "de.keksuccino:konkrete:1.12.2@jar",
+                "name": "Konkrete_1.1.7_MC_1.12",
+                "type": "ForgeMod",
+                "artifact": {
+                  "size": 198777,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/konkrete_1.1.7_MC_1.12-1.12.2.jar?raw=true",
+                  "MD5": "30f9cb82b0cb6717275b8b0bb29af078"
+                }
+              },
+              {
+                "id": "animation.properties",
+                "name": "animation.properties",
+                "type": "File",
+                "artifact": {
+                  "size": 4429,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/animation.properties",
+                  "MD5": "d54c0309168248480fa21a704aed7346",
+                  "path": "config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/animation.properties"
+                }
+              },
+              {
+                "id": "introaudio.wav",
+                "name": "introaudio.wav",
+                "type": "File",
+                "artifact": {
+                  "size": 2124036,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/audio/introaudio.wav?raw=true",
+                  "MD5": "cf4f0f181222c838591d96e3c36b71ea",
+                  "path": "config/fancymenu/animations/minecraft_cave_animation_fancymenu_21938kf312/audio/introaudio.wav"
+                }
+              },
+              {
+                "id": "config.txt",
+                "name": "config.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 1760,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/config.txt",
+                  "MD5": "0ea35d6045364e021110fa1d8f86983f",
+                  "path": "config/fancymenu/config.txt"
+                }
+              },
+              {
+                "id": "customizablemenus.txt",
+                "name": "customizablemenus.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 68,
+                  "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/fancymenu/customizablemenus.txt",
+                  "MD5": "5aa808ff1fc4ed810d2a2fa03ff6f853",
+                  "path": "config/fancymenu/customizablemenus.txt"
+                }
+              },
+              {
+                "id": "teste2.txt",
+                "name": "teste2.txt",
+                "type": "File",
+                "artifact": {
+                  "size": 1301,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/customization/teste2.txt",
+                  "MD5": "45a167d003c3b750947970af7f7242a3",
+                  "path": "config/fancymenu/customization/teste2.txt"
+                }
+              },
+              {
+                "id": "16x16.png",
+                "name": "16x16.png",
+                "type": "File",
+                "artifact": {
+                  "size": 1495,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/icons/16x16.png?raw=true",
+                  "MD5": "ab659eaee847fa4e44bb620c2cee105f",
+                  "path": "config/fancymenu/icons/16x16.png"
+                }
+              },
+              {
+                "id": "32x32.png",
+                "name": "32x32.png",
+                "type": "File",
+                "artifact": {
+                  "size": 2467,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/icons/32x32.png?raw=true",
+                  "MD5": "bc6d9498cd7dc72fcf2aa26b4ef20ba3",
+                  "path": "config/fancymenu/icons/32x32.png"
+                }
+              },
+              {
+                "id": "de_de.local",
+                "name": "de_de.local",
+                "type": "File",
+                "artifact": {
+                  "size": 27782,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/de_de.local",
+                  "MD5": "ea2b54cc1f94905344ed002c0167219b",
+                  "path": "config/fancymenu/locals/de_de.local"
+                }
+              },
+              {
+                "id": "en_us.local",
+                "name": "en_us.local",
+                "type": "File",
+                "artifact": {
+                  "size": 49139,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/en_us.local",
+                  "MD5": "6e6b5e7568dac1ef42f317bd7fac69b4",
+                  "path": "config/fancymenu/locals/en_us.local"
+                }
+              },
+              {
+                "id": "pl_pl.local",
+                "name": "pl_pl.local",
+                "type": "File",
+                "artifact": {
+                  "size": 14266,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pl_pl.local",
+                  "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
+                  "path": "config/fancymenu/locals/pl_pl.local"
+                }
+              },
+              {
+                "id": "pt_br.local",
+                "name": "pt_br.local",
+                "type": "File",
+                "artifact": {
+                  "size": 14666,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pt_br.local",
+                  "MD5": "0b2998c110b2e58f6fe147b41c005d24",
+                  "path": "config/fancymenu/locals/pt_br.local"
+                }
+              },
+              {
+                "id": "icon16x16.png",
+                "name": "icon16x16.png",
+                "type": "File",
+                "artifact": {
+                  "size": 1495,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon16x16.png?raw=true",
+                  "MD5": "ab659eaee847fa4e44bb620c2cee105f",
+                  "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+                }
+              },
+              {
+                "id": "icon32x32.png",
+                "name": "icon32x32.png",
+                "type": "File",
+                "artifact": {
+                  "size": 2467,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon32x32.png?raw=true",
+                  "MD5": "bc6d9498cd7dc72fcf2aa26b4ef20ba3",
+                  "path": "config/fancymenu/minecraftwindow/icons/icon32x32.png"
+                }
+              },
+              {
+                "id": "de_de.local",
+                "name": "de_de.local",
+                "type": "File",
+                "artifact": {
+                  "size": 369,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/de_de.local",
+                  "MD5": "3aac3df2519057d2305f894c37771e30",
+                  "path": "config/konkrete/locals/de_de.local"
+                }
+              },
+              {
+                "id": "en_us.local",
+                "name": "en_us.local",
+                "type": "File",
+                "artifact": {
+                  "size": 426,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/en_us.local",
+                  "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+                  "path": "config/konkrete/locals/en_us.local"
+                }
+              },
+              {
+                "id": "pl_pl.local",
+                "name": "pl_pl.local",
+                "type": "File",
+                "artifact": {
+                  "size": 313,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pl_pl.local",
+                  "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+                  "path": "config/konkrete/locals/pl_pl.local"
+                }
+              },
+              {
+                "id": "pt_br.local",
+                "name": "pt_br.local",
+                "type": "File",
+                "artifact": {
+                  "size": 322,
+                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pt_br.local",
+                  "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+                  "path": "config/konkrete/locals/pt_br.local"
+                }
+              },
+              {
+                "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
+                "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
+                "type": "File",
+                "artifact": {
+                  "size": 106852751,
+                  "url": "https://download1506.mediafire.com/5f969q7ak32g/um0z1pbmmk7u3f4/minecraft_cave_animation_fancymenu_21938kf312.zip",
+                  "MD5": "16f107d639a2a9ac0e2d502ce6e81487",
+                  "path": "resourcepacks/minecraft_cave_animation_fancymenu_21938kf312.zip"
+                }
+              },
+          {
+            "id": "servers.dat",
+            "name": "Saved Client Servers",
+            "type": "File",
+            "artifact": {
+                "size": 14440,
+                "url": "https://github.com/ph1338/BoardLaucher/raw/main/config/servers.dat",
+                "MD5": "a43c2e05d989dbae5ef2985d27e3af8a",
+                "path": "servers.dat"
+            }
+        }
         ]
       }
     ]
   }
+  
+  
