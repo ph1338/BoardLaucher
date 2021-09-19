@@ -229,17 +229,6 @@
             }
           },
           {
-            "id": "pt_br.local",
-            "name": "pt_br.local",
-            "type": "File",
-            "artifact": {
-              "size": 322,
-              "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pt_br.local",
-              "MD5": "2d055da094c115b94f0e4373a2e06ebe",
-              "path": "config/konkrete/locals/pt_br.local"
-            }
-          },
-          {
             "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
             "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
             "type": "File",
