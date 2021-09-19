@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "teste",
     "discord": {
       "clientId": "522352533253",
       "smallImageText": ""
@@ -171,17 +171,6 @@
               "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/fancymenu/locals/pt_br.local",
               "MD5": "0b2998c110b2e58f6fe147b41c005d24",
               "path": "config/fancymenu/locals/pt_br.local"
-            }
-          },
-          {
-            "id": "icon16x16.png",
-            "name": "icon16x16.png",
-            "type": "File",
-            "artifact": {
-              "size": 1495,
-              "url": "https://github.com/ph1338/BoardLaucher/blob/main/config/fancymenu/minecraftwindow/icons/icon16x16.png?raw=true",
-              "MD5": "ab659eaee847fa4e44bb620c2cee105f",
-              "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
             }
           },
           {
