@@ -238,17 +238,6 @@
               "MD5": "2d055da094c115b94f0e4373a2e06ebe",
               "path": "config/konkrete/locals/pt_br.local"
             }
-          },
-          {
-            "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-            "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-            "type": "File",
-            "artifact": {
-              "size": 106925372,
-              "url": "https://download1506.mediafire.com/ma6bqnlubuqg/um0z1pbmmk7u3f4/minecraft_cave_animation_fancymenu_21938kf312.zip",
-              "MD5": "09623be112cf7711c0ee1c79acef336d",
-              "path": "minecraft_cave_animation_fancymenu_21938kf312.zip"
-            }
           }
         ]
       }
