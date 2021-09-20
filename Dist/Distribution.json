@@ -737,6 +737,39 @@
               }
             },
             {
+                "id": "bg_menu.png",
+                "name": "bg_menu.png",
+                "type": "File",
+                "artifact": {
+                  "size": 6327,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/mainmenu/textures/bg_menu.png?raw=true",
+                  "MD5": "f9e2ba50d757b56478561d5b10622125",
+                  "path": "resources/mainmenu/textures/bg_menu.png"
+                }
+              },
+              {
+                "id": "btn.png",
+                "name": "btn.png",
+                "type": "File",
+                "artifact": {
+                  "size": 1102,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/mainmenu/textures/btn.png?raw=true",
+                  "MD5": "8addf6aab15e5dcb4771177bc4c4b618",
+                  "path": "resources/mainmenu/textures/btn.png"
+                }
+              },
+              {
+                "id": "logo.png",
+                "name": "logo.png",
+                "type": "File",
+                "artifact": {
+                  "size": 2023269,
+                  "url": "https://github.com/ph1338/BoardLaucher/blob/main/resources/mainmenu/textures/logo.png?raw=true",
+                  "MD5": "18235aec02d1c9c2ec67247cc70a936f",
+                  "path": "resources/mainmenu/textures/logo.png"
+                }
+              },
+            {
               "id": "2.png",
               "name": "2.png",
               "type": "File",
@@ -896,7 +929,7 @@
           "type": "File",
           "artifact": {
             "size": 3389,
-            "url": "https://github.com/ph1338/servers/Board%20Network-1.12.2/files/options.txt",
+            "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
             "MD5": "f8800f1013075e2a8e3a5357839c77a4",
             "path": "options.txt"
           }
@@ -1117,17 +1150,6 @@
                   "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/config/konkrete/locals/pt_br.local",
                   "MD5": "2d055da094c115b94f0e4373a2e06ebe",
                   "path": "config/konkrete/locals/pt_br.local"
-                }
-              },
-              {
-                "id": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-                "name": "minecraft_cave_animation_fancymenu_21938kf312.zip",
-                "type": "File",
-                "artifact": {
-                  "size": 106852751,
-                  "url": "https://download1506.mediafire.com/5f969q7ak32g/um0z1pbmmk7u3f4/minecraft_cave_animation_fancymenu_21938kf312.zip",
-                  "MD5": "16f107d639a2a9ac0e2d502ce6e81487",
-                  "path": "resourcepacks/minecraft_cave_animation_fancymenu_21938kf312.zip"
                 }
               },
           {
