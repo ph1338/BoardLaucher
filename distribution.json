@@ -575,17 +575,6 @@
               }
             },
             {
-              "id": "!Recursos_essenciais.zip",
-              "name": "!Recursos_essenciais.zip",
-              "type": "File",
-              "artifact": {
-                "size": 403006379,
-                "url": "https://www.dropbox.com/s/43g5u874l8p7aay/%21Padr%C3%A3o.zip?dl=1",
-                "MD5": "acacbf23d631de912aee192d8bd21734",
-                "path": "resourcepacks/!Recursos_essenciais.zip"
-              }
-            },
-            {
               "id": "BSL ! Board Edit.zip",
               "name": "BSL ! Board Edit.zip",
               "type": "File",
@@ -673,28 +662,39 @@
                 "path": "shaderpacks/Sildurs Emissive ! Board Edit.zip.txt"
               }
             },
-            {
-              "id": "Versao_Flat.zip",
-              "name": "Versao_Flat.zip",
-              "type": "File",
-              "artifact": {
-                "size": 35495943,
-                "url": "https://cdn.discordapp.com/attachments/794786157359005748/887690499648016434/Versao_Flat.zip",
-                "MD5": "9b0658ffb5b89d895b7b33e07744b92f",
-                "path": "resourcepacks/Versao_Flat.zip"
-              }
-            },
-            {
-              "id": "Versão RPG.zip",
-              "name": "Versão RPG.zip",
-              "type": "File",
-              "artifact": {
-                "size": 146526939,
-                "url": "https://www.dropbox.com/s/2zgtppjkjs9kv4p/Vers%C3%A3o%20RPG.zip?dl=1",
-                "MD5": "1152dd6c7752933f048ba13eede390ed",
-                "path": "resourcepacks/Versão RPG.zip"
-              }
-            },
+        {
+          "id": "Recursos essenciais.zip",
+          "name": "Recursos essenciais.zip",
+          "type": "File",
+          "artifact": {
+            "size": 508584154,
+            "url": "https://www.dropbox.com/s/oiysmg5v3apt7xx/Recursos%20essenciais.zip?dl=1",
+            "MD5": "266363c3a359f2aafb00b977181ed23a",
+            "path": "resourcepacks/Recursos essenciais.zip"
+          }
+        },
+        {
+          "id": "Versão dark rpg.zip",
+          "name": "Versão dark rpg.zip",
+          "type": "File",
+          "artifact": {
+            "size": 100149993,
+            "url": "https://www.dropbox.com/s/7enk3yrqwwfte8j/Vers%C3%A3o%20dark%20rpg.zip?dl=1",
+            "MD5": "410715687700accd17c61923f224854f",
+            "path": "resourcepacks/Versão dark rpg.zip"
+          }
+        },
+        {
+          "id": "Versão flat.zip",
+          "name": "Versão flat.zip",
+          "type": "File",
+          "artifact": {
+            "size": 35511554,
+            "url": "https://www.dropbox.com/s/65epo2lv8paerm5/Vers%C3%A3o%20flat.zip?dl=1",
+            "MD5": "772bb2f61a9ca310f609434557af3807",
+            "path": "resourcepacks/Versão flat.zip"
+          }
+        },
             {
               "id": "io.github.lukegrahamlandry.cosmetics:lukescosmetics:0.8@jar",
               "name": "Luke's Cosmetics",
