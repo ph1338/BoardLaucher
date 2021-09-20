@@ -890,17 +890,17 @@
                 "path": "optionsshaders.txt"
               }
             },
-            {
-                "id": "options.txt",
-                "name": "options.txt",
-                "type": "File",
-                "artifact": {
-                  "size": 3434,
-                  "url": "https://raw.githubusercontent.com/ph1338/BoardLaucher/main/files/options.txt",
-                  "MD5": "465139ee4a75c112beaa713869d8c1d1",
-                  "path": "options.txt"
-                }
-              },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3389,
+            "url": "https://github.com/ph1338/servers/Board%20Network-1.12.2/files/options.txt",
+            "MD5": "f8800f1013075e2a8e3a5357839c77a4",
+            "path": "options.txt"
+          }
+        },
               {
                 "id": "optionsof.txt",
                 "name": "optionsof.txt",
