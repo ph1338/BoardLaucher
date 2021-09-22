@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "rss": "https://rpgboardadadwadw",
+    "rss": "https://rpgboard.com.br/",
     "servers": [
       {
         "id": "Board Network-1.12.2",
@@ -235,7 +235,8 @@
               "MD5": "b4b80455cd51785cb551406c679763ac"
             },
             "required": {
-              "value": false
+              "value": false,
+              "def": false
             }
           },
           {
@@ -248,7 +249,8 @@
               "MD5": "fe8b72e0045c06136ca64f736090ac7a"
             },
             "required": {
-              "value": false
+              "value": false,
+              "def": false
             }
           },
           {
@@ -396,7 +398,8 @@
               "MD5": "f77e9d8516f530a20e941525da4f2613"
             },
             "required": {
-              "value": false
+              "value": false,
+              "def": false
             }
           },
           {
