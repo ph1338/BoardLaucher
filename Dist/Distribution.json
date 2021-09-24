@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "rss": "https://rpgboard.com.br/",
+    "rss": "https://rpgboardadadwadw",
     "servers": [
       {
         "id": "Board Network-1.12.2",
@@ -261,19 +261,6 @@
               "size": 155196,
               "url": "https://www.dropbox.com/s/r18dpj6rofk8zs9/BetterFps-1.4.8.jar?dl=1",
               "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
-            },
-            "required": {
-              "value": false
-            }
-          },
-          {
-            "id": "com.fuzs:consolehud:1.4.1@jar",
-            "name": "Console HUD",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 90859,
-              "url": "https://www.dropbox.com/s/dbm4n0ctukt3om6/ConsoleHUD-v1.4.1-1.12.2.jar?dl=1",
-              "MD5": "3c38a5386c1e4a31f0dbb29f7bbcb7f3"
             },
             "required": {
               "value": false
@@ -716,16 +703,6 @@
                 "size": 3680008,
                 "url": "https://github.com/ph1338/BoardLaucher/blob/main/forge-1.12.2-geckolib-3.0.0-beta.7.jar?raw=true",
                 "MD5": "7f787fe1b332596f4c669228e63d504b"
-              }
-            },
-            {
-              "id": "com.replaymod.core:replaymod:1.12.2-2.6.1@jar",
-              "name": "Replay Mod",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 11260440,
-                "url": "https://github.com/ph1338/BoardLaucher/blob/main/replaymod-1.12.2-2.6.1.jar?raw=true",
-                "MD5": "fbbd251767124aa4ffa272d293e581cf"
               }
             },
             {
