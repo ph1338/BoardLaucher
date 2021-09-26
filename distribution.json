@@ -10,7 +10,7 @@
         "version": "1.0.0",
         "address": "boardmc.com.br:25565",
         "minecraftVersion": "1.12.2",
-        "mainServer": false,
+        "mainServer": true,
         "autoconnect": true,
         "modules": [
           {
